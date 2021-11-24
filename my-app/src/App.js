@@ -1,55 +1,59 @@
 
-// import './index.css';
+import './style.css';
 import React from 'react';
-//import { NavLink } from 'react-router-dom';
-import { Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { render } from "react-dom";
+// import { BrowserRouter } from 'react-router-dom'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
+
+import DesignAndWritting from './designAndWritting';
+
+
 
 
 function App() {
   return (
-    <div className="App">
-   <NavigationBar />
+    <div >
+      <NavigationBar />
+       <BrowserRouter>
+        <Routes>
+        <Route exact path="/"/>
+          <Route path="/uxwrittinganddesign" element={ <DesignAndWritting />} />
+          <Route path="/dataanalytics" />
+          <Route path="/aboutme" />
+        </Routes>
+    </BrowserRouter>
     </div>
   );
 }
 
-export function NavigationBar() {
+function NavigationBar() {
   return (
-<>
-  <Navbar bg="dark" variant="dark">
-    <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
+<div>
   <br />
-  <Navbar bg="primary" variant="dark">
-    <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
-
-  <br />
-  <Navbar bg="light" variant="light">
-    <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
-</>
+  <Navbar className="navbar" >
+  <Container>
+  <NavLink href="/">Precious Stowers</NavLink>
+      <Nav
+        className="me-auto my-2 my-lg-0"
+        style={{ maxHeight: '100px' }}
+      >
+          <NavDropdown.Divider />
+      </Nav>
+      <NavLink href="/uxwrittinganddesign">UX Design/UX Writting</NavLink>
+      <NavLink href="/dataanalytics">Data Analytics</NavLink>
+      <NavLink href="/aboutme">About me</NavLink>
+  </Container>
+</Navbar>
+</div>
   )
 }
 
