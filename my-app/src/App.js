@@ -1,10 +1,11 @@
-
 import './style.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { render } from "react-dom";
+import { render } from 'react-dom';
+import {Tutela} from "./tutela.js"
+
 // import { BrowserRouter } from 'react-router-dom'
 import {
   BrowserRouter,
@@ -13,7 +14,7 @@ import {
   Link
 } from "react-router-dom";
 
-
+import Homepage from './homepage';
 import DesignAndWritting from './designAndWritting';
 
 
@@ -25,10 +26,16 @@ function App() {
       <NavigationBar />
        <BrowserRouter>
         <Routes>
-        <Route exact path="/"/>
+        <Route exact path="/" element={ <Homepage />} />
           <Route path="/uxwrittinganddesign" element={ <DesignAndWritting />} />
           <Route path="/dataanalytics" />
           <Route path="/aboutme" />
+          <Route path="/resume" />
+          <Route path="Tutela" element={<Tutela />} />
+          <Route path="grid" />
+          <Route path="DiscoveryHub" />
+          <Route path="Humble" />
+
         </Routes>
     </BrowserRouter>
     </div>
@@ -38,7 +45,6 @@ function App() {
 function NavigationBar() {
   return (
 <div>
-  <br />
   <Navbar className="navbar" >
   <Container>
   <NavLink href="/">Precious Stowers</NavLink>
@@ -51,6 +57,7 @@ function NavigationBar() {
       <NavLink href="/uxwrittinganddesign">UX Design/UX Writting</NavLink>
       <NavLink href="/dataanalytics">Data Analytics</NavLink>
       <NavLink href="/aboutme">About me</NavLink>
+      <NavLink href="/resume">Resume</NavLink>
   </Container>
 </Navbar>
 </div>
