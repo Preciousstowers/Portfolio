@@ -8,8 +8,26 @@ import { render } from "react-dom";
 import {
     Link
   } from "react-router-dom";
+import SimpleReactFooter from "simple-react-footer";
+
 
 export function Homepage() {
+    const description = "Coded using HTML/CSS/Javascript and React";
+    const columns = [
+      {
+          title: "Visit",
+          resources: [
+              {
+                  name: "Locations",
+                  link: "/locations"
+              },
+              {
+                  name: "Culture",
+                  link: "/culture"
+              }
+          ]
+      }
+   ];
     return (
         <div>
             <div className="homepageContainer">
@@ -88,9 +106,6 @@ export function Homepage() {
                         </Card.Body>
                     </Card>
                 </section>
-                {/* </section> */}
-
-                {/* <section className="homepageRow"> */}
                 <div className="rowTitle"> 
                 <h4 className="rowTitle">Data Analytics</h4>
                 </div>
@@ -118,9 +133,15 @@ export function Homepage() {
                     {/* </section> */}
                 </section>
             </div>
-            <footer >
-                this is the footer
-            </footer>
+            <SimpleReactFooter 
+            description={description} 
+            columns={columns}
+            copyright="black"
+            iconColor="black"
+            backgroundColor="white"
+            fontColor="black"
+            copyrightColor="darkgrey"
+            />
         </div>
     )
 };

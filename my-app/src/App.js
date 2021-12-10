@@ -4,7 +4,9 @@ import Button from 'react-bootstrap/Button';
 import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
-import {Tutela} from "./tutela.js"
+import {Tutela} from "./tutela.js";
+import {Resume} from "./resume.js";
+
 
 // import { BrowserRouter } from 'react-router-dom'
 import {
@@ -30,7 +32,7 @@ function App() {
           <Route path="/uxwrittinganddesign" element={ <DesignAndWritting />} />
           <Route path="/dataanalytics" />
           <Route path="/aboutme" />
-          <Route path="/resume" />
+          <Route path="/Resume" element={<Resume />}/>
           <Route path="Tutela" element={<Tutela />} />
           <Route path="grid" />
           <Route path="DiscoveryHub" />
@@ -57,7 +59,7 @@ function NavigationBar() {
       <NavLink href="/uxwrittinganddesign">UX Design/UX Writting</NavLink>
       <NavLink href="/dataanalytics">Data Analytics</NavLink>
       <NavLink href="/aboutme">About me</NavLink>
-      <NavLink href="/resume">Resume</NavLink>
+      <NavLink href="/Resume">Resume</NavLink>
   </Container>
 </Navbar>
 </div>
