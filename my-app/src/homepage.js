@@ -12,22 +12,7 @@ import SimpleReactFooter from "simple-react-footer";
 
 
 export function Homepage() {
-    const description = "Coded using HTML/CSS/Javascript and React";
-    const columns = [
-      {
-          title: "Visit",
-          resources: [
-              {
-                  name: "Locations",
-                  link: "/locations"
-              },
-              {
-                  name: "Culture",
-                  link: "/culture"
-              }
-          ]
-      }
-   ];
+  
     return (
         <div>
             <div className="homepageContainer">
@@ -62,8 +47,8 @@ export function Homepage() {
             <section className="homepageDesignWork">
                 {/* <section className="homepageRow"> */}
                 <Link className="cardLink" to="/Tutela">
-                    <Card className="homepageCard" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="pablita-881.png" />
+                    <Card className="homepageCard" style={{ width: '18rem', height: '20rem'}}>
+                        <Card.Img  src="Screen Shot 2021-12-11 at 6.51.57 PM.png" />
                         <Card.Body>
                             <Card.Title>Meet Tutela</Card.Title>
                             <Card.Text>
@@ -107,7 +92,7 @@ export function Homepage() {
                     </Card>
                 </section>
                 <div className="rowTitle"> 
-                <h4 className="rowTitle">Data Analytics</h4>
+                <h4 className="rowTitle">Data Storytelling</h4>
                 </div>
                 <section className="homepageDataWork">
                 <Card className="homepageCard" style={{ width: '18rem' }}>
@@ -133,7 +118,16 @@ export function Homepage() {
                     {/* </section> */}
                 </section>
             </div>
-            <SimpleReactFooter 
+            <footer className="footer">
+                <p>Coded using HTML/CSS/Javascript and React framework</p>
+                <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
+                <p>Connect with me on LinkedIn</p>
+                </Link>
+                <p>View my Resume</p>
+
+
+            </footer>
+            {/* <SimpleReactFooter 
             description={description} 
             columns={columns}
             copyright="black"
@@ -141,7 +135,7 @@ export function Homepage() {
             backgroundColor="white"
             fontColor="black"
             copyrightColor="darkgrey"
-            />
+            /> */}
         </div>
     )
 };

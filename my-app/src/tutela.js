@@ -37,18 +37,23 @@ export function Tutela() {
              <h5 className="rowTitle">  Tools: Figma, Canva</h5>
              </div>
             </div>
-           
+            
+            <h3 className="rowTitle">Project Context</h3>
+
+            <h3 className="rowTitle">Problem Statement</h3>
+
+            <h3 className="rowTitle">Background</h3>
+
+            <h3 className="rowTitle">Research</h3>
+            
+            <br/>
+            <h3 className="rowTitle">Personas</h3>
             <div className="projectPersona">
             <img className="personaOne" src="/Hannah's User Persona.jpg" />
             <img className="personaTwo"src="/Jenna's User Persona.png" />
             </div>
-            Research
-            Persona
-            Project Context
-            Background
-            Problem Statement
-            Purpose
-            Award
+            <h3 className="rowTitle">Main Features</h3>
+            <h3 className="rowTitle">Award</h3>
             <img src="/WINFO9thHackathonWinningPoster.jpeg" />
         </div>
     )
