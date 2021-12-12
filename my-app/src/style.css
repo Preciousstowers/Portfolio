@@ -88,12 +88,27 @@ a.nav-link:first-of-type {
   margin-left: 4vw;
 }
 
+.rowDescriptionLong {
+  margin-left: 4vw;
+  margin-right: 9vw;
+}
+
 .homepageDataWork {
   margin-left: 2.5vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+}
+
+img.researchPicture {
+  margin-left: 20rem;
+  height: 30vw; 
+}
+
+.rowDescriptionShort {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .cardLink {

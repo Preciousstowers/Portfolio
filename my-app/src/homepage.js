@@ -47,13 +47,13 @@ export function Homepage() {
             <section className="homepageDesignWork">
                 {/* <section className="homepageRow"> */}
                 <Link className="cardLink" to="/Tutela">
-                    <Card className="homepageCard" style={{ width: '18rem', height: '20rem'}}>
-                        <Card.Img  src="Screen Shot 2021-12-11 at 6.51.57 PM.png" />
+                    <Card className="homepageCard" style={{ width: '18rem', height: '20.5rem'}}>
+                        <Card.Img  src="tutelaPhotos/Screen Shot 2021-12-11 at 6.51.57 PM.png" />
                         <Card.Body>
                             <Card.Title>Meet Tutela</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                The application that provides the partner when you are alone and 
+                                your saftey is compromised in rape-related or sex trafficing situations
                             </Card.Text>
                         </Card.Body>
                     </Card>
