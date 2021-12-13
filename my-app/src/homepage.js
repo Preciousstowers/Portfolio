@@ -22,17 +22,17 @@ export function Homepage() {
             </div>
             <div className="paragraphText">
             <p>
-                I'm glad you're here! I'm Precious, a third year at the University of Washington majoring in 
+                I'm glad you are here! I'm Precious, a third year at the University of Washington majoring in 
                 Informatics with a double concentration in Data Science and Human-Computer Interaction
-                with a minor in writting. I enjoy communicating intersections that lack the clear bridges that connect 
-                people to the solutions they need. 
+                with a minor in writing. I strive to communicate intersections that lack the clear bridges to the solutions 
+                people need and help empower others. 
             </p>
-            <p>
+            {/* <p>
                 Whether that be analyzing data to discover new insights, to designing solutions to help current day problems, 
                 or writting solutions to increase system transparency, I want to be contributing to the solution. 
-            </p>
+            </p> */}
             <p>
-               So take your time and look around. It's cold outside anyway. 
+               Take your time and look around. It's cold outside anyway. 
             </p>
             <p>
                Other Links:
@@ -47,55 +47,56 @@ export function Homepage() {
             <section className="homepageDesignWork">
                 {/* <section className="homepageRow"> */}
                 <Link className="cardLink" to="/Tutela">
-                    <Card className="homepageCard" style={{ width: '18rem', height: '20.5rem'}}>
+                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem'}}>
                         <Card.Img  src="tutelaPhotos/Screen Shot 2021-12-11 at 6.51.57 PM.png" />
                         <Card.Body>
                             <Card.Title>Meet Tutela</Card.Title>
                             <Card.Text>
-                                The application that provides the partner when you are alone and 
-                                your saftey is compromised in rape-related or sex trafficing situations
+                                the application that provides the partner when you are alone and 
+                                unable to contact anyone while your saftey is compromised in rape-related or sex trafficing situations
                             </Card.Text>
                         </Card.Body>
                     </Card>
                     </Link>
                     <Link className="cardLink" to="/Grid">
-                    <Card className="homepageCard" style={{ width: '18rem' }}>
+                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem' }}>
                         <Card.Img variant="top" src="pablita-881.png" />
                         <Card.Body>
                             <Card.Title>Meet Grid</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                an interactive map and accessability rating application design that 
+                                encourages awareness about accessbility options on campus and empowers 
+                                those who identify having a disability 
                             </Card.Text>
                         </Card.Body>
                     </Card>
                     </Link>
-                    <Card className="homepageCard" style={{ width: '18rem' }}>
+                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem' }}>
                         <Card.Img variant="top" src="pablita-881.png" />
                         <Card.Body>
                             <Card.Title>Meet DiscoveryHub</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                an interactive web application that bridges the gap between tutors/mentors and community
+                                organizations to help advocate information about after-school educational resources 
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="homepageCard" style={{ width: '18rem' }}>
+                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem' }}>
                         <Card.Img variant="top" src="pablita-881.png" />
                         <Card.Body>
                             <Card.Title>Meet Humble</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                the web design to help connect local organizations to each other to ship 
+                                overstocked items and decrease pollution
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </section>
-                <div className="rowTitle"> 
+                {/* <div className="rowTitle"> 
                 <h4 className="rowTitle">Data Storytelling</h4>
                 </div>
                 <section className="homepageDataWork">
-                <Card className="homepageCard" style={{ width: '18rem' }}>
+                <Card className="homepageCard" style={{ }}>
                         <Card.Img variant="top" src="pablita-881.png" />
                         <Card.Body>
                             <Card.Title>Meet Humble</Card.Title>
@@ -105,7 +106,7 @@ export function Homepage() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card className="homepageCard" style={{ width: '18rem' }}>
+                    <Card className="homepageCard" style={{  }}>
                         <Card.Img variant="top" src="pablita-881.png" />
                         <Card.Body>
                             <Card.Title>Meet Humble</Card.Title>
@@ -115,9 +116,9 @@ export function Homepage() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    {/* </section> */}
+                    
                 </section>
-            </div>
+            </div> */}
             <footer className="footer">
                 <p>Coded using HTML/CSS/Javascript and React framework</p>
                 <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
@@ -137,6 +138,7 @@ export function Homepage() {
             copyrightColor="darkgrey"
             /> */}
         </div>
+    </div>
     )
 };
 
