@@ -17,7 +17,7 @@ import {
 } from "react-router-dom";
 
 import Homepage from './homepage';
-import DesignAndWritting from './designAndWritting';
+// import DesignAndWritting from './designAndWritting';
 
 
 
@@ -29,8 +29,8 @@ function App() {
        <BrowserRouter>
         <Routes>
         <Route exact path="/" element={ <Homepage />} />
-          <Route path="/uxwrittinganddesign" element={ <DesignAndWritting />} />
-          <Route path="/dataanalytics" />
+          {/* <Route path="/uxwrittinganddesign" element={ <DesignAndWritting />} /> */}
+          {/* <Route path="/dataanalytics" /> */}
           <Route path="/aboutme" />
           <Route path="/Resume" element={<Resume />}/>
           <Route path="Tutela" element={<Tutela />} />
@@ -56,8 +56,8 @@ function NavigationBar() {
       >
           <NavDropdown.Divider />
       </Nav>
-      <NavLink href="/uxwrittinganddesign">UX Design/UX Writting</NavLink>
-      <NavLink href="/dataanalytics">Data Analytics</NavLink>
+      {/* <NavLink href="/uxwrittinganddesign">UX/UI Design and Writing</NavLink> */}
+      {/* <NavLink href="/dataanalytics">Data Analytics</NavLink> */}
       <NavLink href="/aboutme">About me</NavLink>
       <NavLink href="/Resume">Resume</NavLink>
   </Container>

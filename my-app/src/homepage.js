@@ -35,13 +35,16 @@ export function Homepage() {
                Take your time and look around. It's cold outside anyway. 
             </p>
             <p>
-               Other Links:
+               Connect with me on LinkedIn
+            </p>
+            <p>
+               Take a look at my resume
             </p>
             </div>
             </section>
 
             <div className="rowTitle"> 
-                <h4 className="rowTitle">UX Design and Writing</h4>
+                <h4 className="rowTitle">UX/UI Design</h4>
                 </div>
 
             <section className="homepageDesignWork">
@@ -92,24 +95,15 @@ export function Homepage() {
                         </Card.Body>
                     </Card>
                 </section>
-                {/* <div className="rowTitle"> 
-                <h4 className="rowTitle">Data Storytelling</h4>
+                <div className="rowTitle"> 
+                <h4 className="rowTitle">Writing</h4>
                 </div>
                 <section className="homepageDataWork">
                 <Card className="homepageCard" style={{ }}>
-                        <Card.Img variant="top" src="pablita-881.png" />
+                        <Card.Img variant="top" />
                         <Card.Body>
-                            <Card.Title>Meet Humble</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <Card className="homepageCard" style={{  }}>
-                        <Card.Img variant="top" src="pablita-881.png" />
-                        <Card.Body>
-                            <Card.Title>Meet Humble</Card.Title>
+                            <Card.Title>Timing Social Media - a rhetorical analysis
+                            </Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
@@ -118,7 +112,7 @@ export function Homepage() {
                     </Card>
                     
                 </section>
-            </div> */}
+            </div>
             <footer className="footer">
                 <p>Coded using HTML/CSS/Javascript and React framework</p>
                 <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
@@ -138,7 +132,7 @@ export function Homepage() {
             copyrightColor="darkgrey"
             /> */}
         </div>
-    </div>
+    // </div>
     )
 };
 
