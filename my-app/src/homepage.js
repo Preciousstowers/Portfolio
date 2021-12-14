@@ -50,8 +50,8 @@ export function Homepage() {
             <section className="homepageDesignWork">
                 {/* <section className="homepageRow"> */}
                 <Link className="cardLink" to="/Tutela">
-                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem'}}>
-                        <Card.Img  src="tutelaPhotos/Screen Shot 2021-12-11 at 6.51.57 PM.png" />
+                    <Card className="homepageCard" style={{ width: '18rem', height: '30rem'}}>
+                        <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" />
                         <Card.Body>
                             <Card.Title>Meet Tutela</Card.Title>
                             <Card.Text>

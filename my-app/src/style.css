@@ -1,7 +1,10 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
+  /* display: flex;
+  flex-direction: column; */
   font-weight: 300;
+  padding: 2rem;
  }
  
  a.nav-link, .homepageCard {
@@ -111,6 +114,10 @@ img.researchPicture {
 img.featuredImage {
   height: 25vw; 
 }
+.featureDescription {
+  /* margin-top: 7rem; */
+  margin: 5rem;
+}
 
 .rowDescriptionShort {
   margin-left: 10vw;
@@ -135,17 +142,18 @@ img.featuredImage {
 }
 
 .initialImageOne, .initialImageTwo, .initialImageThree {
-  width: 55vw;
-  margin-left: -15%;
-  margin-right: -15%;
+  width: 65vw;
+  margin-left: .25vw;
+  /* margin-right: -15%; */
   align-content: center;
   align-items: center;
 }
 
 .projectPersona {
   display: flex;
-  width: 55vw;
-  margin-left: 6rem;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -155,9 +163,7 @@ img.featuredImage {
 }
 
 .personaOne, .personaTwo{
-  display: flex;
-  width: 75%;
-  
+  width: 35vw;
 }
 
 .projectRowOne {

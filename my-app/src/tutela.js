@@ -9,14 +9,14 @@ import { render } from "react-dom";
 export function Tutela() {
     return (
         <div>
+            <body>
             <div className="projectTitle">
                 <h1 className="rowTitle">tutela</h1>
                 <p className="rowDescription">connecting together, safely</p>
             </div>
             <div className="initialImages">
-                <img className="initialImageOne" src="tutelaPhotos/tutelaOnboardOne.png" />
-                <img className="initialImageTwo" src="tutelaPhotos/tutelaMapTwo.png" />
-                <img className="initialImageThree" src="tutelaPhotos/tutelaDashboard.png" />
+                <img className="initialImageOne" src="/tutelaPhotos/initialPhoto.png" />
+                
             </div>
             <div className="projectRowOne">
                 <div className="projectOverview">
@@ -107,25 +107,27 @@ export function Tutela() {
             <h4 className="rowTitle">Easy Onboarding Process</h4>
             <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
             </section>
-            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+         
+            <p className="featureDescription">We wanted to create an application that would offer users a way to connect with family
                 and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
                 our app allows users to share their location with desired contacts and play audio or video
                 recordings to provide companionship when users feel alone.</p>
          </div>
          <div className="projectRowOne">
          <h4 className="rowTitle">Add a Phone/Voice Recording</h4>
-            <section className="leftHandSide">
-            <img className="initialImageOne" src="/tutelaPhotos/createACall.png" />
-            </section>
-            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+            <p className="leftHandSide">We wanted to create an application that would offer users a way to connect with family
                 and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
                 our app allows users to share their location with desired contacts and play audio or video
                 recordings to provide companionship when users feel alone.</p>
+                <section className="leftHandSide">
+            <img className="featuredImage" src="/tutelaPhotos/createACall.png" />
+            </section>
          </div>
          <div className="projectRowOne">
-            <h4 className="rowTitle">View Saved Recordings</h4>
             <section className="leftHandSide">
-            <img className="initialImageOne" src="/tutelaPhotos/addRecording.png" />
+            <h4 className="rowTitle">View Saved Recordings</h4>
+
+            <img className="featuredImage" src="/tutelaPhotos/addRecording.png" />
             </section>
             <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
                 and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
@@ -133,9 +135,10 @@ export function Tutela() {
                 recordings to provide companionship when users feel alone.</p>
          </div>
             <div className="projectRowOne">
-            <h4 className="rowTitle">Location Services</h4>
             <section className="leftHandSide">
-            <img className="initialImageOne" src="/tutelaPhotos/locationServices.png" />
+            <h4 className="rowTitle">Location Services</h4>
+
+            <img className="featuredImage" src="/tutelaPhotos/locationServices.png" />
             </section>
             <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
                 and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
@@ -143,20 +146,20 @@ export function Tutela() {
                 recordings to provide companionship when users feel alone.</p>
          </div>
          <div className="projectRowOne">
-         <h4 className="rowTitle">Pair with Alexa</h4>
-            <section className="leftHandSide">
-            <img className="initialImageOne" src="/tutelaPhotos/saveAlexa.png" />
-            </section>
             <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
                 and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
                 our app allows users to share their location with desired contacts and play audio or video
                 recordings to provide companionship when users feel alone.</p>
+        <section className="leftHandSide">
+            <h4 className="rowTitle">Pair with Alexa</h4>
+            <img className="featuredImage" src="/tutelaPhotos/saveAlexa.png" />
+            </section>
          </div>
 
             <h3 className="rowTitle">Application won "Best Overall in WINFO's 9th Annual WINFO Hackathon"</h3>
             <div className="projectRowOne">
             <section className="leftHandSide">
-            <img src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" />
+            <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" />
             </section>
             <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
                 and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
@@ -164,6 +167,7 @@ export function Tutela() {
                 recordings to provide companionship when users feel alone.</p>
                 <p className="rowDescriptionLong">View Featured iSchool News Article</p>
          </div>
+         </body>
         </div>
     )
 };
