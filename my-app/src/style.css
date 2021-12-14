@@ -47,6 +47,7 @@ a.nav-link:first-of-type {
   flex-wrap: wrap;
 }
 
+
 .homepagetextRow h2{
   display: flex;
   flex-direction: row;
@@ -102,8 +103,9 @@ a.nav-link:first-of-type {
 }
 
 img.researchPicture {
-  margin-left: 20rem;
-  height: 30vw; 
+  margin-left: 4vw;
+  margin-right: 25vw;
+  height: 25vw; 
 }
 
 .rowDescriptionShort {
@@ -141,6 +143,11 @@ img.researchPicture {
   width: 55vw;
   margin-left: 6rem;
 
+}
+
+.projectDetails {
+  margin-top: 6vw;
+  line-height: .5vw;
 }
 
 .personaOne, .personaTwo{
