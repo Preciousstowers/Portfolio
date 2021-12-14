@@ -97,15 +97,73 @@ export function Tutela() {
                     when/if a Human-Trafficking case/rape-related case happens</li>
                 <li>Maintains optional in-home security for domestic violence situations 
                     by implementing Connect to Alexa/Google Home feature </li></ol>
-                  
                 </p>  
 
             <h3 className="rowTitle">Main Features</h3>
-            <img className="initialImageOne" src="/tutelaPhotos/Rectangle-4.png" />
+            <br/>
+            <br/>
+            <div className="projectRowOne">
+            <section className="leftHandSide">
+            <h4 className="rowTitle">Easy Onboarding Process</h4>
+            <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
+            </section>
+            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+                and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
+                our app allows users to share their location with desired contacts and play audio or video
+                recordings to provide companionship when users feel alone.</p>
+         </div>
+         <div className="projectRowOne">
+         <h4 className="rowTitle">Add a Phone/Voice Recording</h4>
+            <section className="leftHandSide">
+            <img className="initialImageOne" src="/tutelaPhotos/createACall.png" />
+            </section>
+            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+                and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
+                our app allows users to share their location with desired contacts and play audio or video
+                recordings to provide companionship when users feel alone.</p>
+         </div>
+         <div className="projectRowOne">
+            <h4 className="rowTitle">View Saved Recordings</h4>
+            <section className="leftHandSide">
+            <img className="initialImageOne" src="/tutelaPhotos/addRecording.png" />
+            </section>
+            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+                and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
+                our app allows users to share their location with desired contacts and play audio or video
+                recordings to provide companionship when users feel alone.</p>
+         </div>
+            <div className="projectRowOne">
+            <h4 className="rowTitle">Location Services</h4>
+            <section className="leftHandSide">
+            <img className="initialImageOne" src="/tutelaPhotos/locationServices.png" />
+            </section>
+            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+                and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
+                our app allows users to share their location with desired contacts and play audio or video
+                recordings to provide companionship when users feel alone.</p>
+         </div>
+         <div className="projectRowOne">
+         <h4 className="rowTitle">Pair with Alexa</h4>
+            <section className="leftHandSide">
+            <img className="initialImageOne" src="/tutelaPhotos/saveAlexa.png" />
+            </section>
+            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+                and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
+                our app allows users to share their location with desired contacts and play audio or video
+                recordings to provide companionship when users feel alone.</p>
+         </div>
 
-
-            <h3 className="rowTitle">Award</h3>
+            <h3 className="rowTitle">Application won "Best Overall in WINFO's 9th Annual WINFO Hackathon"</h3>
+            <div className="projectRowOne">
+            <section className="leftHandSide">
             <img src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" />
+            </section>
+            <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+                and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
+                our app allows users to share their location with desired contacts and play audio or video
+                recordings to provide companionship when users feel alone.</p>
+                <p className="rowDescriptionLong">View Featured iSchool News Article</p>
+         </div>
         </div>
     )
 };

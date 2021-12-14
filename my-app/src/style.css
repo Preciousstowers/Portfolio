@@ -108,6 +108,10 @@ img.researchPicture {
   height: 25vw; 
 }
 
+img.featuredImage {
+  height: 25vw; 
+}
+
 .rowDescriptionShort {
   margin-left: 10vw;
   margin-right: 10vw;
