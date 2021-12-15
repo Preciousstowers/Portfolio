@@ -40,6 +40,11 @@ a.nav-link:first-of-type {
   font-weight: bold;
 }
 
+.box {
+  background-color: white;
+  border-radius: 3px;
+}
+
 .homepageContainer {
   display: flex;
   flex-direction: column;
@@ -94,6 +99,8 @@ a.nav-link:first-of-type {
 
 .rowDescription {
   margin-left: 4vw;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .rowDescriptionLong {
@@ -209,6 +216,9 @@ img.longImage {
 .projectOverview {
   width: 50%;
   margin-right: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2rem;
 }
 
 .footer {

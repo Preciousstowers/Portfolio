@@ -10,6 +10,7 @@ export function Tutela() {
     return (
         <div >
             <body className="tutela">
+                <div className="box">
                 <div className="projectTitle">
                     <h1 className="rowTitle">tutela</h1>
                     <p className="rowDescription">connecting together, safely</p>
@@ -18,8 +19,11 @@ export function Tutela() {
                     <img className="initialImageOne" src="/tutelaPhotos/initialPhoto.png" />
 
                 </div>
+                </div>
                 <div className="projectRowOne">
+              
                     <div className="projectOverview">
+                    <div className="box">
                         <h2 className="rowTitle">Overview</h2>
                         <p className="rowDescription">  Tutela is latin for protection and guardianship. </p>
 
@@ -38,7 +42,10 @@ export function Tutela() {
 
 
                     </div>
+                    </div>
+              
                     <div className="projectDetails">
+                    <div className="box">
                         <h5 className="rowTitle">Project Specifics</h5>
                         <p className="rowTitle">  My Role: Product Designer, Spokespearson  </p>
                         <p className="rowTitle">  Team size: 4 total people</p>
@@ -47,12 +54,13 @@ export function Tutela() {
                         <p className="rowTitle">  Teammates: Kaamna Rishi, Megha Jain and Raveena Rao</p>
                     </div>
                 </div>
-
+                </div>
                 <br />
                 <br />
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
+                    <div className="box">
                         <h3 className="rowTitle">Problem</h3>
                         <b><p className="rowDescriptionLong">Higher institutions lack the accountability that Human Trafficking and Rape
                             related cases are consistently making women (and others) feel unsafe in society,
@@ -68,8 +76,10 @@ export function Tutela() {
                                 <li>Thousands of U.S rape cases are recorded and there has yet to be accountability
                                     to the perpetrators and liability to these victims, specifically women.</li></ol>
                         </p>
+                        </div>
                     </section>
                     <section className="leftHandSide">
+                    <div className="box">
                         <h3 className="rowTitle">Research</h3>
                         <p className="rowDescriptionLong"> Women feel safer in the actual or potential
                             presence of others because they assume that offenders will be deterred by the possibility of bystander intervention.
@@ -80,7 +90,7 @@ export function Tutela() {
                         <div className="sidebyside">
                         <img className="researchPicture" src="tutelaPhotos/YouGov.jpeg" />
                         <img className="researchPicture"  src="/tutelaPhotos/Safety US - 3.jpeg" />
-
+                        </div>
                         </div>
                         {/* </div> */}
                     </section>

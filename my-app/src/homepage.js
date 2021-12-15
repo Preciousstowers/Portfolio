@@ -50,9 +50,10 @@ export function Homepage() {
             <section className="homepageDesignWork">
                 {/* <section className="homepageRow"> */}
                 <Link className="cardLink" to="/Tutela">
-                    <Card className="homepageCard" style={{ width: '18rem', height: '30rem'}}>
+                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem'}}>
                         <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" style={{backgroundColor:'#80CCD7'}} />
                         <Card.Body>
+                            <br/>
                             <Card.Title>Meet Tutela</Card.Title>
                             <Card.Text>
                                 the application that provides the partner when you are alone and 
@@ -62,8 +63,9 @@ export function Homepage() {
                     </Card>
                     </Link>
                     <Link className="cardLink" to="/Grid">
-                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem' }}>
-                        <Card.Img variant="top" src="pablita-881.png" />
+                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                        <Card.Img variant="top" src="/Frame 7 (9).png" style={{backgroundColor:'#454173', marginbottom:'.5vw'}}
+                        />
                         <Card.Body>
                             <Card.Title>Meet Grid</Card.Title>
                             <Card.Text>
