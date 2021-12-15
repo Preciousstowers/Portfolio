@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink} from 'react-bootstrap';
+import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink, Col, Row} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
 import {Tutela} from "./tutela.js";
@@ -39,12 +39,27 @@ function App() {
           <Route path="Humble" />
 
         </Routes>
+        <br />
         <footer className="footer">
-                <p>Coded using HTML/CSS/Javascript and React framework</p>
-                <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
-                <p>Connect with me on LinkedIn</p>
+        <br />
+          <Row>
+            <Col>
+            <p>Coded using HTML/CSS/Javascript and React framework</p>
+            </Col>
+
+            <Col>
+            <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
+            <p>
+               <img className="linkedIn" src="/LI-In-Bug.png"/>
+            </p>
                 </Link>
-                <p>View my Resume</p>
+            
+            </Col>
+
+            <Col>
+            <p>View my Resume</p>
+            </Col>  
+              </Row>
         </footer>
     </BrowserRouter>
    

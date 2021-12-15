@@ -1,10 +1,9 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  /* display: flex;
-  flex-direction: column; */
   font-weight: 300;
-  padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
  }
  
  a.nav-link, .homepageCard {
@@ -15,10 +14,7 @@ body {
   font-weight: 500;
   font-family: 'Quicksand', sans-serif;
  }
-  
-body {
-    background-color: white;
-}
+
 
 .linkedIn {
   color: black;
@@ -27,6 +23,8 @@ body {
 
 .tutela{
   background-color: #80CCD7;
+  border-radius: 5px;
+  width: 100%;
 }
 
 a.nav-link {
@@ -48,6 +46,10 @@ a.nav-link:first-of-type {
 .box {
   background-color: white;
   border-radius: 3px;
+  border-bottom: 3px solid gray;
+
+
+
 }
 
 .homepageContainer {
@@ -96,9 +98,10 @@ a.nav-link:first-of-type {
 }
 
 .rowTitle {
-  display: flex;
+
+  /* display: flex; */
   /* width: 75%; */
-  margin-left: 2.5vw;
+  /* margin-left: 2.5vw; */
   /* margin-right: auto; */
 }
 
@@ -111,6 +114,7 @@ a.nav-link:first-of-type {
 .rowDescriptionLong {
   margin-left: 4vw;
   margin-right: 9vw;
+  /* margin-bottom: 2vw; */
 }
 
 .homepageDataWork {
@@ -152,7 +156,7 @@ img.biggerfeaturedImage {
 }
 
 .rightfeatureDescription {
-  margin-top: 9.5rem;
+  margin-top: 5.5rem;
   margin-right: 3rem;
   margin-left: 3rem;
 }
@@ -179,8 +183,8 @@ img.biggerfeaturedImage {
 }
 
 .initialImages {
-  display: flex;
-  width: 68%;
+  /* display: flex; */
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
