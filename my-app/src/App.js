@@ -39,7 +39,15 @@ function App() {
           <Route path="Humble" />
 
         </Routes>
+        <footer className="footer">
+                <p>Coded using HTML/CSS/Javascript and React framework</p>
+                <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
+                <p>Connect with me on LinkedIn</p>
+                </Link>
+                <p>View my Resume</p>
+        </footer>
     </BrowserRouter>
+   
     </div>
   );
 }

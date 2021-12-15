@@ -51,7 +51,7 @@ export function Homepage() {
                 {/* <section className="homepageRow"> */}
                 <Link className="cardLink" to="/Tutela">
                     <Card className="homepageCard" style={{ width: '18rem', height: '30rem'}}>
-                        <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" />
+                        <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" style={{backgroundColor:'#80CCD7'}} />
                         <Card.Body>
                             <Card.Title>Meet Tutela</Card.Title>
                             <Card.Text>
@@ -113,15 +113,7 @@ export function Homepage() {
                     
                 </section>
             </div>
-            <footer className="footer">
-                <p>Coded using HTML/CSS/Javascript and React framework</p>
-                <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
-                <p>Connect with me on LinkedIn</p>
-                </Link>
-                <p>View my Resume</p>
-
-
-            </footer>
+           
             {/* <SimpleReactFooter 
             description={description} 
             columns={columns}

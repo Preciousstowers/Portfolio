@@ -20,6 +20,10 @@ body {
     background-color: white;
 }
 
+.tutela{
+  background-color: #80CCD7;
+}
+
 a.nav-link {
     color: black;
 }
@@ -106,22 +110,50 @@ a.nav-link:first-of-type {
 }
 
 img.researchPicture {
-  margin-left: 4vw;
-  margin-right: 25vw;
-  height: 25vw; 
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 4vw; */
+  /* margin-right: 25vw; */
+  height: 20vw; 
+  margin: .5vw;
 }
 
 img.featuredImage {
-  height: 25vw; 
+  height: 30vw; 
 }
+
+img.biggerfeaturedImage {
+  height: 35vw; 
+}
+
 .featureDescription {
-  /* margin-top: 7rem; */
-  margin: 5rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+  /* margin: 5rem; */
+}
+
+.sidebyside {
+  display: flex;
+  margin-left: 4vw;
+}
+
+.rightfeatureDescription {
+  margin-top: 9.5rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .rowDescriptionShort {
   margin-left: 10vw;
   margin-right: 10vw;
+}
+
+.centerTitle {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cardLink {
@@ -147,6 +179,10 @@ img.featuredImage {
   /* margin-right: -15%; */
   align-content: center;
   align-items: center;
+}
+
+img.longImage {
+  width: 45vw;
 }
 
 .projectPersona {
@@ -176,6 +212,8 @@ img.featuredImage {
 }
 
 .footer {
+  border-top: 2pt solid black ;
+
   display: flex;
   flex-direction: column;
   text-align: center;
