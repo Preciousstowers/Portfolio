@@ -35,11 +35,11 @@ export function Homepage() {
                Take your time and look around. It's cold outside anyway. 
             </p>
             <p>
-               Connect with me on LinkedIn
+               <img className="linkedIn" src="/LI-In-Bug.png"/>
             </p>
-            <p>
+            {/* <p>
                Take a look at my resume
-            </p>
+            </p> */}
             </div>
             </section>
 
@@ -61,10 +61,21 @@ export function Homepage() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                    
                     </Link>
+                    <Card className="homepageCard" style={{ width: '20rem', height:  '33rem' }}>
+                        <Card.Img variant="top" src="/Rectangle (5).png"  style={{backgroundColor:'#B2ACD5'}}/>
+                        <Card.Body>
+                            <Card.Title>Meet DiscoveryHub</Card.Title>
+                            <Card.Text>
+                                an interactive web application that bridges the gap between tutors/mentors and community
+                                organizations to help advocate information about after-school educational resources 
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                     <Link className="cardLink" to="/Grid">
                     <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
-                        <Card.Img variant="top" src="/Frame 7 (9).png" style={{backgroundColor:'#454173', marginbottom:'.5vw'}}
+                        <Card.Img variant="top" src="/Frame 7 (10).png" style={{backgroundColor:'#454173'}}
                         />
                         <Card.Body>
                             <Card.Title>Meet Grid</Card.Title>
@@ -76,35 +87,28 @@ export function Homepage() {
                         </Card.Body>
                     </Card>
                     </Link>
-                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem' }}>
-                        <Card.Img variant="top" src="pablita-881.png" />
-                        <Card.Body>
-                            <Card.Title>Meet DiscoveryHub</Card.Title>
-                            <Card.Text>
-                                an interactive web application that bridges the gap between tutors/mentors and community
-                                organizations to help advocate information about after-school educational resources 
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <Card className="homepageCard" style={{ width: '18rem', height: '25rem' }}>
-                        <Card.Img variant="top" src="pablita-881.png" />
-                        <Card.Body>
-                            <Card.Title>Meet Humble</Card.Title>
-                            <Card.Text>
-                                the web design to help connect local organizations to each other to ship 
-                                overstocked items and decrease pollution
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                    
                 </section>
                 <div className="rowTitle"> 
                 <h4 className="rowTitle">Writing</h4>
                 </div>
                 <section className="homepageDataWork">
-                <Card className="homepageCard" style={{ }}>
-                        <Card.Img variant="top" />
+                <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                        <Card.Img variant="top" src="/A4 Portrait.png"/>
                         <Card.Body>
                             <Card.Title>Timing Social Media - a rhetorical analysis
+                            </Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                        <Card.Img variant="top" src="/Frame 8 (2).png"/>
+                        <Card.Body>
+                            <Card.Title>Tutorial
                             </Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the bulk of
