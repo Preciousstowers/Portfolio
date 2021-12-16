@@ -45,7 +45,9 @@ a.nav-link {
 a.nav-link:first-of-type {
   font-weight: bold;
 }
-
+.detail {
+  line-height: 1rem;
+}
 .box {
   background-color: white;
   border-radius: 3px;
@@ -104,7 +106,7 @@ a.nav-link:first-of-type {
 
 .rowDescriptionLong {
   margin-left: 4vw;
-  margin-right: 9vw;
+  margin-right: 7vw;
   /* margin-bottom: 2vw; */
 }
 
@@ -212,7 +214,7 @@ img.longImage {
   line-height: .5vw;
 }
 
-.personaOne, .personaTwo{
+.personaOne {
   width: 40vw;
 }
 

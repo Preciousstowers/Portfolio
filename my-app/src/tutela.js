@@ -27,40 +27,54 @@ export function Tutela() {
                     {/* <div className="projectOverview"> */}
                     <div className="box">
                         <br />
+                        <br />
+                        <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col md lg={7}>
                         <h2 className="rowTitle">Overview</h2>
                         <p className="rowDescriptionLong">  Tutela is latin for protection and guardianship. </p>
 
                         <p className="rowDescriptionLong"> Our application was inspired by a tiktok trend that included users uploading
                             videos of fake video/phone conversations to mimic an active conversation when
                             other users have no one to call and are the passanger seat of a car and/or in a potentially
-                            threatening situation. In the WINFO 9th annual Hackathon, my team and I decided to take
+                            threatening situation.  </p>
+
+                            <p className="rowDescriptionLong"> 
+                            In the WINFO 9th annual Hackathon, my team and I decided to take
                             this trend and design an application because as women-identifying individuals,
                             myself and many others are oftentimes seen as potential targets for rape-related
                             and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
-                            help end these issues.
-                            <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
+                            help end these issues. </p>
+                      
+                            <p className="rowDescriptionLong">  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
                             <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
-                            <p>  view full interactive application here </p>
+                                <p className="rowDescriptionLong">  view full interactive application here </p>
                             </a>
 
                             <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
-                            <p>  view full slide deck here </p>
+                                <p className="rowDescriptionLong">  view full slide deck here </p>
                             </a>
-                        </p>
-
-                        <p className="rowDescriptionLong">
-                            <div className="projectDetails">
+                        </Col>
+                        <Col md lg={5}>
+                        <br />
+                              
+                        {/* <p className="rowDescriptionLong"> */}
+                            {/* <div className="projectDetails">  */}
+                                <h5 className="detail">Project Specifics  </h5>
+                                <p className="detail">  My Role: Lead Spokespearson,  Product Designer  </p>
+                                <p className="detail">  Team size: 4 total people</p>
+                                <p className="detail">  Time Frame: ~30 Hours </p>
+                                <p className="detail">  Tools: Figma, Canva</p>
+                                <p className="detail">  Teammates: Kaamna Rishi, Megha Jain and Raveena Rao</p>
+                                 
                                 {/* <div className="box"> */}
-                                <h5 className="rowTitle">Project Specifics - </h5>
-                                <p className="rowTitle">  My Role: Lead Spokespearson,  Product Designer  </p>
-                                <p className="rowTitle">  Team size: 4 total people</p>
-                                <p className="rowTitle">  Time Frame: ~30 Hours </p>
-                                <p className="rowTitle">  Tools: Figma, Canva</p>
-                                <p className="rowTitle">  Teammates: Kaamna Rishi, Megha Jain and Raveena Rao</p>
-                                <br />
-                                <br />
-                            </div>
-                        </p>
+                                {/* </p> */}
+                                
+                            {/* </div> */}
+                   
+                        </Col>
+                                </Row>
+                            </Container>
                     </div>
 
 
@@ -76,14 +90,24 @@ export function Tutela() {
                             both in home and in public spaces. </p></b>
                         <p className="rowDescriptionLong">
                             <ol>
-                                <li>Human trafficking cases lack equitable data recordings in comparison
-                                    to other criminal cases, such as burglary.</li>
-
-                                <li>The criminal justice system also lacks equal investigation qualities and
-                                    motivation when crimes involve female-dominated victims.</li>
-
-                                <li>Thousands of U.S rape cases are recorded and there has yet to be accountability
-                                    to the perpetrators and liability to these victims, specifically women.</li></ol>
+                                <Container>
+                                    <Row className="justify-content-md-center">
+                                        <Col md lg={4}>
+                                            <li>Human trafficking cases lack equitable data recordings in comparison
+                                                to other criminal cases, such as burglary.</li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <li>The criminal justice system lacks equal investigation
+                                                qualities and
+                                                motivation when crimes involve female-dominated victims.</li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <li>Thousands of U.S rape cases are recorded and there has yet to be accountability
+                                                to the perpetrators and liability to these victims, specifically women.</li>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </ol>
                         </p>
                     </div>
                 </div>
@@ -100,12 +124,17 @@ export function Tutela() {
 
                         {/* <div className="researchImages"> */}
                         <div className="sidebyside">
-                            <Col md={6}>
-                                <img className="researchPicture" src="tutelaPhotos/YouGov.jpeg" />
-                            </Col>
-                            <Col md={6}>
-                                <img className="researchPicture" src="/tutelaPhotos/Safety US - 3.jpeg" />
-                            </Col>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col md lg={6}>
+
+                                        <img className="researchPicture" src="tutelaPhotos/YouGov.jpeg" />
+                                    </Col>
+                                    <Col md lg={6}>
+                                        <img className="researchPicture" src="/tutelaPhotos/Safety US - 3.jpeg" />
+                                    </Col>
+                                </Row>
+                            </Container>
                         </div>
                         <br />
                     </div>
@@ -119,20 +148,25 @@ export function Tutela() {
                         <h3 className="rowTitle">Personas</h3>
                         <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
                             need bystander intervention.</p>
-                            <br/>
-                        <div className="projectPersona">
-                            <Col md={6}>
-                            <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
-                                    support system and oftentimes find herself walking alone.</p>
-                                <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
-                            </Col>
+                        <br />
+                        {/* <div className="projectPersona"> */}
+                        <Container>
+                            <Row className="justify-content-md-center">
 
-                            <Col md={6} >
-                            <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
-                                who wants to be more self sufficent and finds herself walking alone thoughout her daily errands. </p>
-                                <img className="personaTwo" src="tutelaPhotos/Jenna's User Persona.png" />
-                            </Col>
-                        </div>
+                                <Col md lg={6}>
+                                    <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
+                                        support system and oftentimes find herself walking alone.</p>
+                                    <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
+                                </Col>
+
+                                <Col md lg={6} >
+                                    <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
+                                        who finds herself walking alone thoughout her daily errands. </p>
+                                    <img className="personaOne" src="tutelaPhotos/Jenna's User Persona.png" />
+                                </Col>
+                            </Row>
+                        </Container>
+                        {/* </div> */}
                     </div>
                 </div>
 
@@ -148,12 +182,23 @@ export function Tutela() {
 
                         <p className="rowDescriptionLong">
                             <ol>
-                                <li>Reassures users, primarily women-idenifiying that they are never alone </li>
-                                <li>Provides more holistic information for institutions
-                                    when/if a Human-Trafficking case/rape-related case happens</li>
-                                <li>Maintains optional in-home security for domestic violence situations
-                                    by implementing Connect to Alexa/Google Home feature </li>
+                                <Container>
+                                    <Row className="justify-content-md-center">
+                                        <Col md lg={4}>
+                                            <li>Reassures users that they are never alone </li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <li>Provides more detailed and holistic information for institutions
+                                                when/if a Human-Trafficking case/rape-related case happens</li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <li>Maintains optional in-home security for domestic violence situations
+                                                by implementing Connect to Alexa/Google Home feature </li>
+                                        </Col>
+                                    </Row>
+                                </Container>
                             </ol>
+
                         </p>
                         <br />
                     </div>
@@ -176,9 +221,17 @@ export function Tutela() {
 
                             </p>
                         </Col>
-       
-                        <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
-                      
+
+
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="8">
+                                    <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
+                                </Col>
+                            </Row>
+                        </Container>
+
+
                     </section>
                 </div>
                 <br />
@@ -194,7 +247,14 @@ export function Tutela() {
                                 <br />
                             </p>
                         </Col>
-                        <img className="longImage" src="/tutelaPhotos/createACall.png" />
+
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="8">
+                                    <img className="longImage" src="/tutelaPhotos/createACall.png" />
+                                </Col>
+                            </Row>
+                        </Container>
                     </section>
                 </div>
 
@@ -206,7 +266,14 @@ export function Tutela() {
                                 most popular public recordings that other users are currenly using.
                             </p>
                         </Col>
-                        <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 3 (2).png" />
+
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="12">
+                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 3 (2).png" />
+                                </Col>
+                            </Row>
+                        </Container>
                     </section>
                 </div>
 
@@ -219,7 +286,14 @@ export function Tutela() {
                                 via application.
                             </p>
                         </Col>
-                        <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
+
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="9">
+                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
+                                </Col>
+                            </Row>
+                        </Container>
                     </section>
                 </div>
 
@@ -233,27 +307,40 @@ export function Tutela() {
                                 will call a friend or 911.
                             </p>
                         </Col>
-                        <img className="biggerfeaturedImage" src="/tutelaPhotos/saveAlexa.png" />
+
+
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="7">
+                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/saveAlexa.png" />
+                                </Col>
+                            </Row>
+                        </Container>
                     </section>
                 </div>
 
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
-                <Row>
-                    <Col md={6}>
-                    <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
+                {/* <Row> */}
+                <Container>
+                        <Row className="justify-content-md-center">
+                    <Col md lg={6}>
+                        <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
                             need bystander intervention.</p>
                     </Col>
-                    <Col md={6}>
-                    <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" /> 
-                    </Col>
-                </Row>
+
+                  
+                            <Col xs lg={6}> <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" /></Col>
+                        </Row>
+                    </Container>
+
+                {/* </Row> */}
                 <br />
 
-       <center> 
-           <Button>Back to Homepage</Button></center>
-       <br />
-             
+                <center>
+                    <Button>Back to Homepage</Button></center>
+                <br />
+
             </body>
         </div>
     )

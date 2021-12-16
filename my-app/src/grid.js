@@ -12,6 +12,7 @@ export function Grid() {
             <body >
                 {/* <div className="box"> */}
                 {/* <div className="projectTitle"> */}
+
                 <h1 className="rowTitle">Grid</h1>
                 <p className="rowDescription"> Increasing travel accessibility one direction at a time </p>
                 {/* </div> */}
@@ -19,52 +20,53 @@ export function Grid() {
                     <img className="initialImageOne" src="/gridPhotos/initialPhotoGrid.png" />
 
                 </div>
-                {/* </div> */}
                 <br />
+                    <div className="projectRowOne">
 
-                <div className="projectRowOne">
+                        {/* <div className="projectOverview"> */}
+                        <div className="box">
+                            <br />
 
-                    {/* <div className="projectOverview"> */}
-                    <div className="box">
-                        <br />
-                        <h2 className="rowTitle">Overview</h2>
-                        <p className="rowDescriptionLong">  Tutela is latin for protection and guardianship. </p>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col md lg={7}>
+                                        <h2 className="rowTitle">Overview</h2>
+                                        <p className="rowDescriptionLong">  Tutela is latin for protection and guardianship. </p>
 
-                        <p className="rowDescriptionLong"> Our application was inspired by a tiktok trend that included users uploading
-                            videos of fake video/phone conversations to mimic an active conversation when
-                            other users have no one to call and are the passanger seat of a car and/or in a potentially
-                            threatening situation. In the WINFO 9th annual Hackathon, my team and I decided to take
-                            this trend and design an application because as women-identifying individuals,
-                            myself and many others are oftentimes seen as potential targets for rape-related
-                            and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
-                            help end these issues.
-                            <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
-                            <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=311%3A8754&scaling=scale-down&page-id=16%3A158&starting-point-node-id=311%3A8754" target="_blank" >
-                            <p>  view full interactive application here </p>
-                            </a>
+                                        <p className="rowDescriptionLong"> Our application was inspired by a tiktok trend that included users uploading
+                                            videos of fake video/phone conversations to mimic an active conversation when
+                                            other users have no one to call and are the passanger seat of a car and/or in a potentially
+                                            threatening situation. In the WINFO 9th annual Hackathon, my team and I decided to take
+                                            this trend and design an application because as women-identifying individuals,
+                                            myself and many others are oftentimes seen as potential targets for rape-related
+                                            and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
+                                            help end these issues.
+                                            <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
+                                            <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
+                                                <p>  view full interactive application here </p>
+                                            </a>
 
-                            <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=359%3A10285&scaling=scale-down&page-id=359%3A8889&starting-point-node-id=359%3A10285" target="_blank" >
-                            <p>  view full slide deck here </p>
-                            </a>
-                        </p>
-
-                        <p className="rowDescriptionLong">
-                            <div className="projectDetails">
-                                {/* <div className="box"> */}
-                                <h5 className="rowTitle">Project Specifics - </h5>
-                                <p className="rowTitle">  My Role: Lead Spokespearson,  Product Designer  </p>
-                                <p className="rowTitle">  Team size: 4 total people</p>
-                                <p className="rowTitle">  Time Frame: ~30 Hours </p>
-                                <p className="rowTitle">  Tools: Figma, Canva</p>
-                                <p className="rowTitle">  Teammates: Kaamna Rishi, Megha Jain and Raveena Rao</p>
-                                <br />
-                                <br />
-                            </div>
-                        </p>
-                    </div>
-
-
+                                            <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
+                                                <p>  view full slide deck here </p>
+                                            </a>
+                                        </p>
+                                    </Col>
+                                    <Col md lg={5}>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <h5 className="detail">Project Specifics  </h5>
+                                        <p className="detail">  My Role: Lead Spokespearson,  Product Designer  </p>
+                                        <p className="detail">  Team size: 4 total people</p>
+                                        <p className="detail">  Time Frame: ~30 Hours </p>
+                                        <p className="detail">  Tools: Figma, Canva</p>
+                                        <p className="detail">  Teammates: Kaamna Rishi, Megha Jain and Raveena Rao</p>
+                                    </Col>
+                                </Row>
+                            </Container>
+         </div>
                 </div>
+
                 <br />
 
 
@@ -76,14 +78,26 @@ export function Grid() {
                             both in home and in public spaces. </p></b>
                         <p className="rowDescriptionLong">
                             <ol>
-                                <li>Human trafficking cases lack equitable data recordings in comparison
-                                    to other criminal cases, such as burglary.</li>
+                                <Container>
+                                    <Row className="justify-content-md-center">
+                                        <Col lg={4}>
+                                            <li>Human trafficking cases lack equitable data recordings in comparison
+                                                to other criminal cases, such as burglary.</li>
+                                        </Col>
+                                        <Col lg={4}>
 
-                                <li>The criminal justice system also lacks equal investigation qualities and
-                                    motivation when crimes involve female-dominated victims.</li>
+                                            <li>The criminal justice system also lacks equal investigation qualities and
+                                                motivation when crimes involve female-dominated victims.</li>
+                                        </Col>
+                                        <Col lg={4}>
 
-                                <li>Thousands of U.S rape cases are recorded and there has yet to be accountability
-                                    to the perpetrators and liability to these victims, specifically women.</li></ol>
+                                            <li>Thousands of U.S rape cases are recorded and there has yet to be accountability
+                                                to the perpetrators and liability to these victims, specifically women.</li>
+                                        </Col>
+                                    </Row>
+                                </Container>
+
+                            </ol>
                         </p>
                     </div>
                 </div>
@@ -100,44 +114,50 @@ export function Grid() {
 
                         {/* <div className="researchImages"> */}
                         <div className="sidebyside">
-                      
-                        <Container>
-                        <Row className="justify-content-md-center">
-                        <Col  lg={4}>
-                            This is text
-                        </Col>
-                            <Col  lg={8}>
-                                <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
-                            </Col>
-                            <Col  lg={4}>
-                            This is text
-                            </Col>
-                            <Col lg={8}>
-                                <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
-                            </Col>
-                        </Row>
-                        </Container>
+
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col lg={4}>
+                                        This is text
+                                    </Col>
+                                    <Col lg={8}>
+                                        <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
+                                    </Col>
+                                    <Col lg={4}>
+                                        This is text
+                                    </Col>
+                                    <Col lg={8}>
+                                        <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
+                                    </Col>
+                                </Row>
+                            </Container>
                         </div>
                         <br />
                     </div>
                 </div>
+                <div className="box">
+                    <div className="projectRowOne">
 
-                <div className="projectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">Market Analysis</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
-                                through their first recording. She can also add an shortcut widget to her dashboard at anytime
-                                through the add a shortcut feature.
+                        <section className="leftHandSide">
+                            <br />
+                            <h4 className="rowTitle">Market Analysis</h4>
 
-                            </p>
-                            </Col>
-                        <Container>
-                        <Row className="justify-content-md-center">
-                        <Col xs lg="6"> <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" /> </Col>
-                        </Row>
-                        </Container>
-                    </section>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col>
+                                        <Col xs md lg="6"> <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" /> </Col>
+                                    </Col>
+                                    <Col xs md lg="6">  <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
+                                        through their first recording. She can also add an shortcut widget to her dashboard at anytime
+                                        through the add a shortcut feature.
+
+                                    </p>  </Col>
+
+                                </Row>
+                            </Container>
+                            <br />
+                        </section>
+                    </div>
                 </div>
 
                 {/* </div> */}
@@ -148,19 +168,31 @@ export function Grid() {
                         <h3 className="rowTitle">Personas</h3>
                         <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
                             need bystander intervention.</p>
-                            <br/>
+                        <br />
                         <div className="projectPersona">
-                            <Col md={6}>
-                            <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
-                                    support system and oftentimes find herself walking alone.</p>
-                                <img className="personaOne" src="/gridPhotos/NatashaPersona.png" />
-                            </Col>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col lg={4}>
+                                        <br />
+                                        <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
+                                            support system and oftentimes find herself walking alone.</p>
+                                    </Col>
+                                    <Col md lg={8}>
 
-                            <Col md={6} >
-                            <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
-                                who wants to be more self sufficent and finds herself walking alone thoughout her daily errands. </p>
-                                <img className="personaTwo" src="/gridPhotos/SamPersona.png" />
-                            </Col>
+                                        <img className="personaOne" src="/gridPhotos/NatashaPersona.png" />
+                                    </Col>
+                                    <Col md lg={4}>
+                                        <br />
+                                        <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
+                                            who wants to be more self sufficent and finds herself walking alone thoughout her daily errands. </p>
+                                    </Col>
+                                    <Col md lg={8}>
+
+                                        <img className="personaOne" src="/gridPhotos/SamPersona.png" />
+                                    </Col>
+                                </Row>
+                            </Container>
+
                         </div>
                     </div>
                 </div>
@@ -210,7 +242,7 @@ export function Grid() {
                         </p>
                         <br />
                     </div>
-                    </div>
+                </div>
                 <br />
                 <br />
 
@@ -227,15 +259,15 @@ export function Grid() {
                                 through the add a shortcut feature.
 
                             </p>
-                      
+
                         </Col>
                         <Container>
-                        <Row className="justify-content-md-center">
-                        <Col xs lg="7"><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
-                        </Row>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="7"><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
+                            </Row>
                         </Container>
                     </section>
-                    
+
                 </div>
                 <br />
                 <br />
@@ -249,11 +281,11 @@ export function Grid() {
                                 and an automated call will be created and added to her saved recordings.
                                 <br />
                             </p>
-                            </Col>
+                        </Col>
                         <Container>
-                        <Row className="justify-content-md-center">
-                        <Col xs lg="8"> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
-                        </Row>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="8"> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
+                            </Row>
                         </Container>
                     </section>
                 </div>
@@ -265,11 +297,11 @@ export function Grid() {
                             <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
                                 most popular public recordings that other users are currenly using.
                             </p>
-                            </Col>
+                        </Col>
                         <Container>
-                        <Row className="justify-content-md-center">
-                        <Col xs lg="7"> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
-                        </Row>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="7"> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
+                            </Row>
                         </Container>
                     </section>
                 </div>
@@ -282,11 +314,11 @@ export function Grid() {
                                 All location information will be submitted to emergency services if the user dials 911
                                 via application.
                             </p>
-                            </Col>
+                        </Col>
                         <Container>
-                        <Row className="justify-content-md-center">
-                        <Col xs lg="7"> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
-                        </Row>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="7"> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
+                            </Row>
                         </Container>
                     </section>
                 </div>
@@ -300,31 +332,31 @@ export function Grid() {
                                 by accessing the connect to Alexa feature is added by saying a key word/sentence and the application
                                 will call a friend or 911.
                             </p>
-                            </Col>
+                        </Col>
                         <Container>
-                        <Row className="justify-content-md-center">
+                            <Row className="justify-content-md-center">
 
-                        <Col xs lg="10"> <img className="biggerfeaturedImage" src="/gridPhotos/handsFree.png" /></Col>
-                        </Row>
+                                <Col xs lg="10"> <img className="biggerfeaturedImage" src="/gridPhotos/handsFree.png" /></Col>
+                            </Row>
                         </Container>
-                    
+
                     </section>
                 </div>
 
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
                 <Row>
-  
+
                     <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
-                            need bystander intervention.</p>
-                
+                        need bystander intervention.</p>
+
                 </Row>
                 <br />
 
-       <center> 
-           <Button>Back to Homepage</Button></center>
-       <br />
-             
+                <center>
+                    <Button>Back to Homepage</Button></center>
+                <br />
+
             </body>
         </div>
     )
