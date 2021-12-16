@@ -2,103 +2,107 @@
 import './style.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink, Card } from 'react-bootstrap';
+import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink, Card, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from "react-dom";
 import {
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
 import SimpleReactFooter from "simple-react-footer";
 
 
 export function Homepage() {
-  
+
     return (
         <div>
             <div className="homepageContainer">
-            <section className="homepageMe">
-            <div className="rowTitle"> 
-            <h4 className="rowTitle">Welcome, make yourself at home</h4>
-            </div>
-            <div className="paragraphText">
-            <p>
-                I'm glad you are here! I'm Precious, a third year at the University of Washington majoring in 
-                Informatics with a double concentration in Data Science and Human-Computer Interaction
-                with a minor in writing. I strive to communicate intersections that lack the clear bridges to the solutions 
-                people need and help empower others. 
-            </p>
-            {/* <p>
-                Whether that be analyzing data to discover new insights, to designing solutions to help current day problems, 
-                or writting solutions to increase system transparency, I want to be contributing to the solution. 
-            </p> */}
-            <p>
-               Take your time and look around. It's cold outside anyway. 
-            </p>
-            <p>
-            <a href="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank" className="LinkedInButton" >
-               <img className="linkedIn" src="/LI-In-Bug.png"/></a>
-            </p>
-            {/* <p>
-               Take a look at my resume
-            </p> */}
-            </div>
-            </section>
+                <section className="homepageMe">
+                    <Container>
+                        <Row>
+                            <Col >
+                            <div className="rowTitle">
+                                <h4 className="rowTitle">Welcome, make yourself at home</h4>
+                            </div>
+                            <div className="paragraphText">
+                                <p>
+                                    I'm glad you are here! I'm Precious, a third year at the University of Washington majoring in
+                                    Informatics with a double concentration in Data Science and Human-Computer Interaction
+                                    with a minor in writing. I strive to communicate intersections that lack the clear bridges to the solutions
+                                    people need and help empower others.
+                                </p>
+                             
+                                <p>
+                                    Take your time and look around. It's cold outside anyway.
+                                </p>
+                                <p>
+                                    <a href="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank" className="LinkedInButton" >
+                                        <img className="linkedIn" src="/LI-In-Bug.png" /></a>
+                                </p>
+                            </div>
+                            <Col  >
+                            </Col>
+                            <img className="personalPhoto" src="/IMG_9570_Original.jpg" />
+                              </Col> 
+                             
+                        </Row>
+                    </Container>
+                </section>
 
-            <div className="rowTitle"> 
-                <h4 className="rowTitle">UX/UI Design</h4>
+                <div className="rowTitle">
+                    <h4 className="rowTitle">UX/UI Design</h4>
                 </div>
 
-            <section className="homepageDesignWork">
-                {/* <section className="homepageRow"> */}
-                <Link className="cardLink" to="/Grid">
-                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
-                        <Card.Img variant="top" src="/Frame 7 (10).png" style={{backgroundColor:'#454173'}}
-                        />
-                        <Card.Body>
-                            <Card.Title>Meet Grid</Card.Title>
-                            <Card.Text>
-                                an interactive map and accessability rating application design that 
-                                encourages awareness about accessbility options on campus and empowers 
-                                those who identify having a disability 
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                <section className="homepageDesignWork">
+                    {/* <section className="homepageRow"> */}
+                    <Link className="cardLink" to="/Grid">
+                        <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                            <Card.Img variant="top" src="/Frame 7 (10).png" style={{ backgroundColor: '#454173' }}
+                            />
+                            <Card.Body>
+                                <Card.Title>Meet Grid</Card.Title>
+                                <Card.Text>
+                                    an interactive map and accessability rating application design that
+                                    encourages awareness about accessbility options on campus and empowers
+                                    those who identify having a disability
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                     </Link>
-                    
-              
-                    <Card className="homepageCard" style={{ width: '20rem', height:  '33rem' }}>
-                        <Card.Img variant="top" src="/Rectangle (5).png"  style={{backgroundColor:'#B2ACD5'}}/>
+
+
+                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                        <Card.Img variant="top" src="/Rectangle (5).png" style={{ backgroundColor: '#B2ACD5' }} />
                         <Card.Body>
                             <Card.Title>Meet DiscoveryHub</Card.Title>
                             <Card.Text>
                                 an interactive web application that bridges the gap between tutors/mentors and community
-                                organizations to help advocate information about after-school educational resources 
+                                organizations to help advocate information about after-school educational resources
                             </Card.Text>
                         </Card.Body>
                     </Card>
 
                     <Link className="cardLink" to="/Tutela">
-                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem'}}>
-                        <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" style={{backgroundColor:'#80CCD7'}} />
-                        <Card.Body>
-                       
-                            <Card.Title>Meet Tutela</Card.Title>
-                            <Card.Text>
-                                the application that provides the partner when you are alone and 
-                                unable to contact anyone while your saftey is compromised in rape-related or sex trafficing situations
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>  
+                        <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                            <Card.Img src="/tutelaPhotos/Frame 6 (1).png" style={{ backgroundColor: '#80CCD7' }} />
+                            <Card.Body>
+
+                                <Card.Title>Meet Tutela</Card.Title>
+                                <Card.Text>
+                                    the application that provides the partner when you are alone and
+                                    unable to contact anyone while your saftey is compromised in rape-related or sex trafficing situations
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                     </Link>
-                   
-                    
+
+
                 </section>
-                <div className="rowTitle"> 
-                <h4 className="rowTitle">Writing</h4>
+                <div className="rowTitle">
+                    <h4 className="rowTitle">Writing</h4>
                 </div>
                 <section className="homepageDataWork">
-                <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
-                        <Card.Img variant="top" src="/A4 Portrait.png"/>
+                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                        <Card.Img variant="top" src="/A4 Portrait.png" />
                         <Card.Body>
                             <Card.Title>Timing Social Media - a rhetorical analysis
                             </Card.Title>
@@ -110,7 +114,7 @@ export function Homepage() {
                     </Card>
 
                     <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
-                        <Card.Img variant="top" src="/Frame 8 (2).png"/>
+                        <Card.Img variant="top" src="/Frame 8 (2).png" />
                         <Card.Body>
                             <Card.Title>Tutorial
                             </Card.Title>
@@ -120,10 +124,10 @@ export function Homepage() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-                    
+
                 </section>
             </div>
-           
+
             {/* <SimpleReactFooter 
             description={description} 
             columns={columns}
@@ -134,7 +138,7 @@ export function Homepage() {
             copyrightColor="darkgrey"
             /> */}
         </div>
-    // </div>
+        // </div>
     )
 };
 

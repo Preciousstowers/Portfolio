@@ -110,6 +110,10 @@ a.nav-link:first-of-type {
   /* margin-bottom: 2vw; */
 }
 
+.personalPhoto {
+  height: 30vw;
+}
+
 .homepageDataWork {
   margin-left: 2.5vw;
   display: flex;
