@@ -50,9 +50,6 @@ a.nav-link:first-of-type {
   background-color: white;
   border-radius: 3px;
   border-bottom: 3px solid gray;
-
-
-
 }
 
 .homepageContainer {
@@ -134,7 +131,6 @@ img.featuredImage {
 
 img.lastCenterImage {
   height: 30vw; 
-
   margin-left: 45vw;
   margin-right: auto;
 }
@@ -143,11 +139,18 @@ img.biggerfeaturedImage {
   height: 35vw; 
 }
 
+img.gridFeaturedImage {
+  height: 53vw;
+}
+
+img.gridFeaturedImageTwo {
+  height: 47vw;
+}
+
 .featureDescription {
   margin-top: 3rem;
   margin-left: 5rem;
   margin-right: 5rem;
-
   /* margin: 5rem; */
 }
 
@@ -211,6 +214,10 @@ img.longImage {
 
 .personaOne, .personaTwo{
   width: 40vw;
+}
+
+.miroBoard {
+  width: 50vw;
 }
 
 .projectRowOne {

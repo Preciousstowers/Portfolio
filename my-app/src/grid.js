@@ -100,12 +100,23 @@ export function Grid() {
 
                         {/* <div className="researchImages"> */}
                         <div className="sidebyside">
-                            <Col md={6}>
-                                <img className="personaOne" src="/gridPhotos/LindseyMiro.png" />
+                      
+                        <Container>
+                        <Row className="justify-content-md-center">
+                        <Col  lg={4}>
+                            This is text
+                        </Col>
+                            <Col  lg={8}>
+                                <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
                             </Col>
-                            <Col md={6}>
-                                <img className="personaTwo" src="/gridPhotos/AnnuskaMiro.png" />
+                            <Col  lg={4}>
+                            This is text
                             </Col>
+                            <Col lg={8}>
+                                <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
+                            </Col>
+                        </Row>
+                        </Container>
                         </div>
                         <br />
                     </div>
@@ -120,10 +131,12 @@ export function Grid() {
                                 through the add a shortcut feature.
 
                             </p>
-                        </Col>
-       
-                        <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" />
-                      
+                            </Col>
+                        <Container>
+                        <Row className="justify-content-md-center">
+                        <Col xs lg="6"> <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" /> </Col>
+                        </Row>
+                        </Container>
                     </section>
                 </div>
 
@@ -214,11 +227,15 @@ export function Grid() {
                                 through the add a shortcut feature.
 
                             </p>
-                        </Col>
-       
-                        <img className="featuredImage" src="/gridPhotos/contribution.png" />
                       
+                        </Col>
+                        <Container>
+                        <Row className="justify-content-md-center">
+                        <Col xs lg="7"><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
+                        </Row>
+                        </Container>
                     </section>
+                    
                 </div>
                 <br />
                 <br />
@@ -232,8 +249,12 @@ export function Grid() {
                                 and an automated call will be created and added to her saved recordings.
                                 <br />
                             </p>
-                        </Col>
-                        <img className="longImage" src="/gridPhotos/incentivized.png" />
+                            </Col>
+                        <Container>
+                        <Row className="justify-content-md-center">
+                        <Col xs lg="8"> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
+                        </Row>
+                        </Container>
                     </section>
                 </div>
 
@@ -244,48 +265,59 @@ export function Grid() {
                             <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
                                 most popular public recordings that other users are currenly using.
                             </p>
-                        </Col>
-                        <img className="biggerfeaturedImage" src="/gridPhotos/indoorRating.png" />
+                            </Col>
+                        <Container>
+                        <Row className="justify-content-md-center">
+                        <Col xs lg="7"> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
+                        </Row>
+                        </Container>
                     </section>
                 </div>
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">an on-the-go partner</h4>
+                        <h4 className="rowTitle">consistent accesibility alerts</h4>
                         <Col>
                             <p className="rowDescriptionLong">Jenna feels safe as she can access her tutela partner at any time and any location.
                                 All location information will be submitted to emergency services if the user dials 911
                                 via application.
                             </p>
-                        </Col>
-                        <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
+                            </Col>
+                        <Container>
+                        <Row className="justify-content-md-center">
+                        <Col xs lg="7"> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
+                        </Row>
+                        </Container>
                     </section>
                 </div>
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">pair with alexa</h4>
+                        <h4 className="rowTitle">hands-free interaction</h4>
 
                         <Col>
                             <p className="rowDescriptionLong"> Jenna sometimes feels unsafe at home. She can address potential at-home saftey
                                 by accessing the connect to Alexa feature is added by saying a key word/sentence and the application
                                 will call a friend or 911.
                             </p>
-                        </Col>
-                        <img className="biggerfeaturedImage" src="/tutelaPhotos/saveAlexa.png" />
+                            </Col>
+                        <Container>
+                        <Row className="justify-content-md-center">
+
+                        <Col xs lg="10"> <img className="biggerfeaturedImage" src="/gridPhotos/handsFree.png" /></Col>
+                        </Row>
+                        </Container>
+                    
                     </section>
                 </div>
 
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
                 <Row>
-                    <Col md={6}>
+  
                     <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
                             need bystander intervention.</p>
-                    </Col>
-                    <Col md={6}>
-                    <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" /> 
-                    </Col>
+                
                 </Row>
                 <br />
 
