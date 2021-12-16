@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
 import {Tutela} from "./tutela.js";
 import {Resume} from "./resume.js";
+import {Grid} from "./grid.js";
 
 
 // import { BrowserRouter } from 'react-router-dom'
@@ -34,7 +35,7 @@ function App() {
           <Route path="/aboutme" />
           <Route path="/Resume" element={<Resume />}/>
           <Route path="Tutela" element={<Tutela />} />
-          <Route path="grid" />
+          <Route path="grid" element={<Grid />} />
           <Route path="DiscoveryHub" />
           <Route path="Humble" />
 
@@ -44,16 +45,13 @@ function App() {
         <br />
           <Row>
             <Col>
-            <p>Coded using HTML/CSS/Javascript and React framework</p>
+            <p>I coded this using HTML/CSS/Javascript and React framework</p>
             </Col>
 
             <Col>
-            <Link to="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank">
-            <p>
+            <a href="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank" className="LinkedInButton" >
                <img className="linkedIn" src="/LI-In-Bug.png"/>
-            </p>
-                </Link>
-            
+               </a>
             </Col>
 
             <Col>

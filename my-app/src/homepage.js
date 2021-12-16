@@ -35,7 +35,8 @@ export function Homepage() {
                Take your time and look around. It's cold outside anyway. 
             </p>
             <p>
-               <img className="linkedIn" src="/LI-In-Bug.png"/>
+            <a href="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank" className="LinkedInButton" >
+               <img className="linkedIn" src="/LI-In-Bug.png"/></a>
             </p>
             {/* <p>
                Take a look at my resume
@@ -49,31 +50,7 @@ export function Homepage() {
 
             <section className="homepageDesignWork">
                 {/* <section className="homepageRow"> */}
-                <Link className="cardLink" to="/Tutela">
-                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem'}}>
-                        <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" style={{backgroundColor:'#80CCD7'}} />
-                        <Card.Body>
-                       
-                            <Card.Title>Meet Tutela</Card.Title>
-                            <Card.Text>
-                                the application that provides the partner when you are alone and 
-                                unable to contact anyone while your saftey is compromised in rape-related or sex trafficing situations
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    
-                    </Link>
-                    <Card className="homepageCard" style={{ width: '20rem', height:  '33rem' }}>
-                        <Card.Img variant="top" src="/Rectangle (5).png"  style={{backgroundColor:'#B2ACD5'}}/>
-                        <Card.Body>
-                            <Card.Title>Meet DiscoveryHub</Card.Title>
-                            <Card.Text>
-                                an interactive web application that bridges the gap between tutors/mentors and community
-                                organizations to help advocate information about after-school educational resources 
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                    <Link className="cardLink" to="/Grid">
+                <Link className="cardLink" to="/Grid">
                     <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
                         <Card.Img variant="top" src="/Frame 7 (10).png" style={{backgroundColor:'#454173'}}
                         />
@@ -87,6 +64,33 @@ export function Homepage() {
                         </Card.Body>
                     </Card>
                     </Link>
+                    
+              
+                    <Card className="homepageCard" style={{ width: '20rem', height:  '33rem' }}>
+                        <Card.Img variant="top" src="/Rectangle (5).png"  style={{backgroundColor:'#B2ACD5'}}/>
+                        <Card.Body>
+                            <Card.Title>Meet DiscoveryHub</Card.Title>
+                            <Card.Text>
+                                an interactive web application that bridges the gap between tutors/mentors and community
+                                organizations to help advocate information about after-school educational resources 
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Link className="cardLink" to="/Tutela">
+                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem'}}>
+                        <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" style={{backgroundColor:'#80CCD7'}} />
+                        <Card.Body>
+                       
+                            <Card.Title>Meet Tutela</Card.Title>
+                            <Card.Text>
+                                the application that provides the partner when you are alone and 
+                                unable to contact anyone while your saftey is compromised in rape-related or sex trafficing situations
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>  
+                    </Link>
+                   
                     
                 </section>
                 <div className="rowTitle"> 

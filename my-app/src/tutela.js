@@ -38,8 +38,14 @@ export function Tutela() {
                             myself and many others are oftentimes seen as potential targets for rape-related
                             and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
                             help end these issues.
-                            <p >  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
-                            <p >  View interactive application here </p>
+                            <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
+                            <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
+                            <p>  view full interactive application here </p>
+                            </a>
+
+                            <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
+                            <p>  view full slide deck here </p>
+                            </a>
                         </p>
 
                         <p className="rowDescriptionLong">
@@ -51,8 +57,6 @@ export function Tutela() {
                                 <p className="rowTitle">  Time Frame: ~30 Hours </p>
                                 <p className="rowTitle">  Tools: Figma, Canva</p>
                                 <p className="rowTitle">  Teammates: Kaamna Rishi, Megha Jain and Raveena Rao</p>
-
-
                                 <br />
                                 <br />
                             </div>
@@ -244,9 +248,10 @@ export function Tutela() {
                     <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" /> 
                     </Col>
                 </Row>
-
                 <br />
-       <center> <Button>Back to Homepage</Button></center>
+
+       <center> 
+           <Button>Back to Homepage</Button></center>
        <br />
              
             </body>
