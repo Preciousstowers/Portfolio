@@ -4,6 +4,8 @@ body {
   font-weight: 300;
   padding-left: 5rem;
   padding-right: 5rem;
+  font-weight: normal;
+
   /* background-image: url('/my-app/public/Untitled\ design.png'); */
  }
  
