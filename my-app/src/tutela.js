@@ -243,6 +243,10 @@ export function Tutela() {
                     <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" /> 
                     </Col>
                 </Row>
+
+                <br />
+       <center> <Button>Back to Homepage</Button></center>
+       <br />
              
             </body>
         </div>

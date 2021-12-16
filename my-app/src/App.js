@@ -39,9 +39,7 @@ function App() {
           <Route path="Humble" />
 
         </Routes>
-        <br />
-       <center> <Button>Back to Homepage</Button></center>
-       <br />
+        
         <footer className="footer">
         <br />
           <Row>
