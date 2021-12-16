@@ -115,16 +115,17 @@ export function Tutela() {
                         <h3 className="rowTitle">Personas</h3>
                         <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
                             need bystander intervention.</p>
+                            <br/>
                         <div className="projectPersona">
                             <Col md={6}>
-                                <p>Meet Hannah, a 21 year old college student who does not have a reliable
+                            <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
                                     support system and oftentimes find herself walking alone.</p>
                                 <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                             </Col>
 
-                            <Col md={6}>
-                                Meet Jenna, a 25 year old transgender woman
-                                who wants to be more self sufficent and finds herself walking alone thoughout her daily errands.
+                            <Col md={6} >
+                            <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
+                                who wants to be more self sufficent and finds herself walking alone thoughout her daily errands. </p>
                                 <img className="personaTwo" src="tutelaPhotos/Jenna's User Persona.png" />
                             </Col>
                         </div>
