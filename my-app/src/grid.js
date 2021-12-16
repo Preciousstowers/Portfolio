@@ -16,7 +16,7 @@ export function Grid() {
                 <p className="rowDescription"> Increasing travel accessibility one direction at a time </p>
                 {/* </div> */}
                 <div className="initialImages">
-                    <img className="initialImageOne" src="/tutelaPhotos/initialPhoto.png" />
+                    <img className="initialImageOne" src="/gridPhotos/initialPhotoGrid.png" />
 
                 </div>
                 {/* </div> */}
@@ -39,11 +39,11 @@ export function Grid() {
                             and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
                             help end these issues.
                             <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
-                            <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
+                            <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=311%3A8754&scaling=scale-down&page-id=16%3A158&starting-point-node-id=311%3A8754" target="_blank" >
                             <p>  view full interactive application here </p>
                             </a>
 
-                            <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
+                            <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=359%3A10285&scaling=scale-down&page-id=359%3A8889&starting-point-node-id=359%3A10285" target="_blank" >
                             <p>  view full slide deck here </p>
                             </a>
                         </p>
@@ -101,10 +101,10 @@ export function Grid() {
                         {/* <div className="researchImages"> */}
                         <div className="sidebyside">
                             <Col md={6}>
-                                <img className="researchPicture" src="tutelaPhotos/YouGov.jpeg" />
+                                <img className="personaOne" src="/gridPhotos/LindseyMiro.png" />
                             </Col>
                             <Col md={6}>
-                                <img className="researchPicture" src="/tutelaPhotos/Safety US - 3.jpeg" />
+                                <img className="personaTwo" src="/gridPhotos/AnnuskaMiro.png" />
                             </Col>
                         </div>
                         <br />
@@ -124,13 +124,13 @@ export function Grid() {
                             <Col md={6}>
                             <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
                                     support system and oftentimes find herself walking alone.</p>
-                                <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
+                                <img className="personaOne" src="/gridPhotos/NatashaPersona.png" />
                             </Col>
 
                             <Col md={6} >
                             <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
                                 who wants to be more self sufficent and finds herself walking alone thoughout her daily errands. </p>
-                                <img className="personaTwo" src="tutelaPhotos/Jenna's User Persona.png" />
+                                <img className="personaTwo" src="/gridPhotos/SamPersona.png" />
                             </Col>
                         </div>
                     </div>
