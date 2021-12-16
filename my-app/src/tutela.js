@@ -96,11 +96,11 @@ export function Tutela() {
 
                         {/* <div className="researchImages"> */}
                         <div className="sidebyside">
-                        <Col md={6}>
-                            <img className="researchPicture" src="tutelaPhotos/YouGov.jpeg" />
+                            <Col md={6}>
+                                <img className="researchPicture" src="tutelaPhotos/YouGov.jpeg" />
                             </Col>
                             <Col md={6}>
-                            <img className="researchPicture" src="/tutelaPhotos/Safety US - 3.jpeg" />
+                                <img className="researchPicture" src="/tutelaPhotos/Safety US - 3.jpeg" />
                             </Col>
                         </div>
                         <br />
@@ -121,9 +121,9 @@ export function Tutela() {
                                     support system and oftentimes find herself walking alone.</p>
                                 <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                             </Col>
-                  
+
                             <Col md={6}>
-                                Meet Jennah, a 25 year old transgender woman
+                                Meet Jenna, a 25 year old transgender woman
                                 who wants to be more self sufficent and finds herself walking alone thoughout her daily errands.
                                 <img className="personaTwo" src="tutelaPhotos/Jenna's User Persona.png" />
                             </Col>
@@ -148,7 +148,7 @@ export function Tutela() {
                                     when/if a Human-Trafficking case/rape-related case happens</li>
                                 <li>Maintains optional in-home security for domestic violence situations
                                     by implementing Connect to Alexa/Google Home feature </li>
-                                    </ol>
+                            </ol>
                         </p>
                         <br />
                     </div>
@@ -157,98 +157,93 @@ export function Tutela() {
                 <br />
                 <br />
 
-                <h3 className="rowTitle">Main Features</h3>
+                <h3 className="rowTitle">Jenna's Favorite Application Features</h3>
                 <br />
                 <br />
+
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">Easy Onboarding Process</h4>
+                        <h4 className="rowTitle">easy onboarding process</h4>
+                        <Col>
+                            <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
+                                through their first recording. She can also add an shortcut widget to her dashboard at anytime
+                                through the add a shortcut feature.
+
+                            </p>
+                        </Col>
+       
                         <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
+                      
                     </section>
-
-                <Col>
-                    <p className="rightfeatureDescription">Easy instructions to guide the user
-                    through their first recording or by starting with a default dashboard. 
-                    <br/>
-                    <ol>
-                                <li>Custom and/or default dashboard shortcuts can easily be added 
-                    and removed </li>
-                                <li>Provides more holistic information for institutions
-                                    when/if a Human-Trafficking case/rape-related case happens</li>
-                                <li>Maintains optional in-home security for domestic violence situations
-                                    by implementing Connect to Alexa/Google Home feature </li>
-                                    </ol>
-                    </p>
-                    </Col>
                 </div>
-
                 <br />
                 <br />
-
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">Add a Phone/Voice Recording</h4>
-                        <br />
-                        <p className="featureDescription">We wanted to create an application that would offer users a way to connect with family
-                            and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
-                            our app allows users to share their location with desired contacts and play audio or video
-                            recordings to provide companionship when users feel alone.</p>
+                        <h4 className="rowTitle">add an automated phone/voice recording</h4>
+
+                        <Col>
+                            <p className="rowDescriptionLong">Jenna doesn't have any recordings, but that's okay!
+                                She can easily create a recording by answering the list of questions
+                                and an automated call will be created and added to her saved recordings.
+                                <br />
+                            </p>
+                        </Col>
+                        <img className="longImage" src="/tutelaPhotos/createACall.png" />
                     </section>
-                    <img className="longImage" src="/tutelaPhotos/createACall.png" />
                 </div>
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">View Saved Recordings</h4>
-                        <img className="biggerfeaturedImage" src="/tutelaPhotos/addRecording.png" />
+                        <h4 className="rowTitle">access saved phone/voice recordings</h4>
+                        <Col>
+                            <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
+                                most popular public recordings that other users are currenly using.
+                            </p>
+                        </Col>
+                        <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 3 (2).png" />
                     </section>
-
-                    <p className="rightfeatureDescription">We wanted to create an application that would offer users a way to connect with family
-                        and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
-                        our app allows users to share their location with desired contacts and play audio or video
-                        recordings to provide companionship when users feel alone.</p>
                 </div>
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">Location Services</h4>
-                        <br />
-                        <p className="featureDescription">We wanted to create an application that would offer users a way to connect with family
-                            and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
-                            our app allows users to share their location with desired contacts and play audio or video
-                            recordings to provide companionship when users feel alone.</p>
+                        <h4 className="rowTitle">an on-the-go partner</h4>
+                        <Col>
+                            <p className="rowDescriptionLong">Jenna feels safe as she can access her tutela partner at any time and any location.
+                                All location information will be submitted to emergency services if the user dials 911
+                                via application.
+                            </p>
+                        </Col>
+                        <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
                     </section>
-                    <img className="longImage" src="/tutelaPhotos/locationServices.png" />
                 </div>
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">Pair with Alexa</h4>
+                        <h4 className="rowTitle">pair with alexa</h4>
+
+                        <Col>
+                            <p className="rowDescriptionLong"> Jenna sometimes feels unsafe at home. She can address potential at-home saftey
+                                by accessing the connect to Alexa feature is added by saying a key word/sentence and the application
+                                will call a friend or 911.
+                            </p>
+                        </Col>
                         <img className="biggerfeaturedImage" src="/tutelaPhotos/saveAlexa.png" />
                     </section>
-                    <br />
-                    <p className="rightfeatureDescription">We wanted to create an application that would offer users a way to connect with family
-                        and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
-                        our app allows users to share their location with desired contacts and play audio or video
-                        recordings to provide companionship when users feel alone.</p>
                 </div>
 
-                <h4 className="centerTitle">Application won "Best Overall in WINFO's 9th Annual WINFO Hackathon"</h4>
-                <div className="projectRowOne">
-                    <section className="leftHandSide">
-                        <br />
-                        <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" />
-                    </section>
-
-
-                    <p className="featureDescription">We wanted to create an application that would offer users a way to connect with family
-                        and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
-                        our app allows users to share their location with desired contacts and play audio or video
-                        recordings to provide companionship when users feel alone.
-                        <p >View Featured iSchool News Article</p>
-                        <br />
-                    </p>
-                </div>
+                <h3 className="rowTitle">Closing Thoughts</h3>
+                <br />
+                <Row>
+                    <Col md={6}>
+                    <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
+                            need bystander intervention.</p>
+                    </Col>
+                    <Col md={6}>
+                    <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" /> 
+                    </Col>
+                </Row>
+             
             </body>
         </div>
     )
