@@ -45,8 +45,8 @@ export function Tutela() {
                         <p className="rowDescriptionLong">
                             <div className="projectDetails">
                                 {/* <div className="box"> */}
-                                <h5 className="rowTitle">Project Specifics</h5>
-                                <p className="rowTitle">  My Role: Product Designer, Spokespearson  </p>
+                                <h5 className="rowTitle">Project Specifics - </h5>
+                                <p className="rowTitle">  My Role: Lead Spokespearson,  Product Designer  </p>
                                 <p className="rowTitle">  Team size: 4 total people</p>
                                 <p className="rowTitle">  Time Frame: ~30 Hours </p>
                                 <p className="rowTitle">  Tools: Figma, Canva</p>

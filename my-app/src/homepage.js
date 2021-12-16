@@ -53,7 +53,7 @@ export function Homepage() {
                     <Card className="homepageCard" style={{ width: '20rem', height: '33rem'}}>
                         <Card.Img  src="/tutelaPhotos/Frame 6 (1).png" style={{backgroundColor:'#80CCD7'}} />
                         <Card.Body>
-                            <br/>
+                       
                             <Card.Title>Meet Tutela</Card.Title>
                             <Card.Text>
                                 the application that provides the partner when you are alone and 

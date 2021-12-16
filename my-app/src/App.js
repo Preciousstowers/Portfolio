@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink, Col, Row} from 'react-bootstrap';
+import { Navbar, Container, Nav, NavDropdown, Center, NavLink, Col, Row} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
 import {Tutela} from "./tutela.js";
@@ -25,7 +25,7 @@ import Homepage from './homepage';
 function App() {
   return (
     <div >
-      <NavigationBar />
+      <NavigationBar/>
        <BrowserRouter>
         <Routes>
         <Route exact path="/" element={ <Homepage />} />
@@ -40,6 +40,8 @@ function App() {
 
         </Routes>
         <br />
+       <center> <Button>Back to Homepage</Button></center>
+       <br />
         <footer className="footer">
         <br />
           <Row>
