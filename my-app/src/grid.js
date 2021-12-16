@@ -111,6 +111,22 @@ export function Grid() {
                     </div>
                 </div>
 
+                <div className="projectRowOne">
+                    <section className="leftHandSide">
+                        <h4 className="rowTitle">Market Analysis</h4>
+                        <Col>
+                            <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
+                                through their first recording. She can also add an shortcut widget to her dashboard at anytime
+                                through the add a shortcut feature.
+
+                            </p>
+                        </Col>
+       
+                        <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" />
+                      
+                    </section>
+                </div>
+
                 {/* </div> */}
 
                 <br />
@@ -159,16 +175,39 @@ export function Grid() {
                     </div>
 
                 </div>
+
+                <div className="projectRowOne">
+                    <div className="box">
+                        <br />
+                        <h3 className="rowTitle">Initial Iteration</h3>
+                        <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
+                            and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
+                            our app allows users to share their location with desired contacts and play audio or video
+                            recordings to provide companionship when users feel alone.</p>
+
+
+                        <p className="rowDescriptionLong">
+                            <ol>
+                                <li>Reassures users, primarily women-idenifiying that they are never alone </li>
+                                <li>Provides more holistic information for institutions
+                                    when/if a Human-Trafficking case/rape-related case happens</li>
+                                <li>Maintains optional in-home security for domestic violence situations
+                                    by implementing Connect to Alexa/Google Home feature </li>
+                            </ol>
+                        </p>
+                        <br />
+                    </div>
+                    </div>
                 <br />
                 <br />
 
-                <h3 className="rowTitle">Jenna's Favorite Application Features</h3>
+                <h3 className="rowTitle">Final Application Features</h3>
                 <br />
                 <br />
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">easy onboarding process</h4>
+                        <h4 className="rowTitle">view building and room accessibility rating</h4>
                         <Col>
                             <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
                                 through their first recording. She can also add an shortcut widget to her dashboard at anytime
@@ -177,7 +216,7 @@ export function Grid() {
                             </p>
                         </Col>
        
-                        <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
+                        <img className="featuredImage" src="/gridPhotos/contribution.png" />
                       
                     </section>
                 </div>
@@ -185,7 +224,7 @@ export function Grid() {
                 <br />
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">add an automated phone/voice recording</h4>
+                        <h4 className="rowTitle">incentivized contribution</h4>
 
                         <Col>
                             <p className="rowDescriptionLong">Jenna doesn't have any recordings, but that's okay!
@@ -194,19 +233,19 @@ export function Grid() {
                                 <br />
                             </p>
                         </Col>
-                        <img className="longImage" src="/tutelaPhotos/createACall.png" />
+                        <img className="longImage" src="/gridPhotos/incentivized.png" />
                     </section>
                 </div>
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">access saved phone/voice recordings</h4>
+                        <h4 className="rowTitle">view indoor map and acceible features</h4>
                         <Col>
                             <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
                                 most popular public recordings that other users are currenly using.
                             </p>
                         </Col>
-                        <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 3 (2).png" />
+                        <img className="biggerfeaturedImage" src="/gridPhotos/indoorRating.png" />
                     </section>
                 </div>
 
