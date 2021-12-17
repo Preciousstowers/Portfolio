@@ -42,9 +42,16 @@ export function Homepage() {
                             </div>
                             <br />
                             <p className="rowDescriptionLong">
+                            <a href="mailto:Precious.Stowers2@gmail.com"  className="LinkedInButton" >
+                                        <img className="linkedIn" src="/image 79.png" /></a>
                                     <a href="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank" className="LinkedInButton" >
                                         <img className="linkedIn" src="/LI-In-Bug.png" /></a>
+                                        <a href="https://github.com/Preciousstowers" target="_blank" className="LinkedInButton" >
+                                        <img className="linkedIn" src="/GitHub-Mark-64px.png" /></a>
+                                        <a href="https://www.instagram.com/_preciousjane_/" target="_blank" className="LinkedInButton" >
+                                        <img className="linkedIn" src="/iglogo.png" /></a>
                                 </p>
+                                
                         
                             </Col>
                             <Col md lg={1} >
@@ -80,7 +87,7 @@ export function Homepage() {
                         </Card>
                     </Link>
 
-
+                    <Link className="cardLink" to="/DiscoveryHub">
                     <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
                         <Card.Img variant="top" src="/Rectangle (5).png" style={{ backgroundColor: '#B2ACD5' }} />
                         <Card.Body>
@@ -91,6 +98,7 @@ export function Homepage() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                    </Link>
 
                     <Link className="cardLink" to="/Tutela">
                         <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>

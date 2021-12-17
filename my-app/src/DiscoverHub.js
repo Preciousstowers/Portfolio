@@ -17,7 +17,7 @@ export function DiscoveryHub() {
                 <p className="rowDescription">creating educational opportunities for all</p>
                 {/* </div> */}
                 <div className="initialImages">
-                    <img className="initialImageOne" src="/tutelaPhotos/initialPhoto.png" />
+                    <img className="initialImageOne" src="/discoveryHubPhotos/Screen Shot 2021-12-16 at 11.13.47 PM.png" />
 
                 </div>
                 {/* </div> */}
