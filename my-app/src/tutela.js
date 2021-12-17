@@ -174,7 +174,7 @@ export function Tutela() {
                 <div className="projectRowOne">
                     <div className="box">
                         <br />
-                        <h3 className="rowTitle">Solution</h3>
+                        <h3 className="rowTitle">Why tutela?</h3>
                         <p className="rowDescriptionLong">We wanted to create an application that would offer users a way to connect with family
                             and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
                             our app allows users to share their location with desired contacts and play audio or video
