@@ -4,7 +4,8 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Navbar, Container, Nav, NavDropdown, Form, FormControl, NavLink, Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { render } from "react-dom";
+import { render} from "react-dom";
+import { Link } from "react-router-dom";
 
 export function Tutela() {
     return (
@@ -333,12 +334,14 @@ export function Tutela() {
                             <Col xs lg={6}> <img className="featuredImage" src="tutelaPhotos/WINFO9thHackathonWinningPoster.jpeg" /></Col>
                         </Row>
                     </Container>
-
-                {/* </Row> */}
                 <br />
 
                 <center>
-                    <Button>Back to Homepage</Button></center>
+                    <br />
+                    <Link exact to="/">
+                   back to homepage
+                    </Link>
+                    </center>
                 <br />
 
             </body>
