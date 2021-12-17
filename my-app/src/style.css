@@ -5,8 +5,12 @@ body {
   padding-left: 5rem;
   padding-right: 5rem;
   font-weight: normal;
+ }
 
-  /* background-image: url('/my-app/public/Untitled\ design.png'); */
+ .homepageBody {
+  padding-left: 3rem;
+  padding-right: 3rem;
+
  }
  
  a.nav-link, .homepageCard {
@@ -107,11 +111,25 @@ a.nav-link:first-of-type {
 .rowDescriptionLong {
   margin-left: 4vw;
   margin-right: 7vw;
+  background-color: white;
   /* margin-bottom: 2vw; */
+  
+
+}
+.homepagerowDescriptionLong {
+  position: relative;
+  margin-left: 4vw;
+  margin-right: 8vw;
+  padding: .5vw;
+  padding-left: 1vw;
+  background: rgba(233, 233, 233, 0.747);
+  border-radius: .5vw;
 }
 
 .personalPhoto {
-  height: 30vw;
+  height: 20vw;
+  margin-left: -12vw;
+  border-radius: .5vw;
 }
 
 .homepageDataWork {

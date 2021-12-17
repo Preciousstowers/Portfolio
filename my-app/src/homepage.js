@@ -15,15 +15,19 @@ export function Homepage() {
 
     return (
         <div>
+            <body className='homepageBody'>
             <div className="homepageContainer">
                 <section className="homepageMe">
+                   
+
                     <Container>
+                   
                         <Row>
-                            <Col >
+                            <Col md lg={11}>
                             <div className="rowTitle">
                                 <h4 className="rowTitle">Welcome, make yourself at home</h4>
                             </div>
-                            <div className="paragraphText">
+                            <div className="homepagerowDescriptionLong">
                                 <p>
                                     I'm glad you are here! I'm Precious, a third year at the University of Washington majoring in
                                     Informatics with a double concentration in Data Science and Human-Computer Interaction
@@ -34,19 +38,26 @@ export function Homepage() {
                                 <p>
                                     Take your time and look around. It's cold outside anyway.
                                 </p>
-                                <p>
+                        
+                            </div>
+                            <br />
+                            <p className="rowDescriptionLong">
                                     <a href="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank" className="LinkedInButton" >
                                         <img className="linkedIn" src="/LI-In-Bug.png" /></a>
                                 </p>
-                            </div>
-                            <Col  >
+                        
                             </Col>
+                            <Col md lg={1} >
+                                <br />
                             <img className="personalPhoto" src="/IMG_9570_Original.jpg" />
                               </Col> 
                              
                         </Row>
+           
                     </Container>
+                 
                 </section>
+              
 
                 <div className="rowTitle">
                     <h4 className="rowTitle">UX/UI Design</h4>
@@ -126,6 +137,7 @@ export function Homepage() {
                     </Card>
 
                 </section>
+              
             </div>
 
             {/* <SimpleReactFooter 
@@ -137,8 +149,11 @@ export function Homepage() {
             fontColor="black"
             copyrightColor="darkgrey"
             /> */}
+            
+            </body>
+  
         </div>
-        // </div>
+       
     )
 };
 

@@ -151,7 +151,8 @@ export function Grid() {
                                         through their first recording. She can also add an shortcut widget to her dashboard at anytime
                                         through the add a shortcut feature.
 
-                                    </p>  </Col>
+                                    </p>  
+                                    </Col>
 
                                 </Row>
                             </Container>
@@ -207,14 +208,25 @@ export function Grid() {
                             recordings to provide companionship when users feel alone.</p>
 
 
-                        <p className="rowDescriptionLong">
+                            <p className="rowDescriptionLong">
                             <ol>
-                                <li>Reassures users, primarily women-idenifiying that they are never alone </li>
-                                <li>Provides more holistic information for institutions
-                                    when/if a Human-Trafficking case/rape-related case happens</li>
-                                <li>Maintains optional in-home security for domestic violence situations
-                                    by implementing Connect to Alexa/Google Home feature </li>
+                                <Container>
+                                    <Row className="justify-content-md-center">
+                                        <Col md lg={4}>
+                                            <li>Reassures users that they are never alone </li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <li>Provides more detailed and holistic information for institutions
+                                                when/if a Human-Trafficking case/rape-related case happens</li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <li>Maintains optional in-home security for domestic violence situations
+                                                by implementing Connect to Alexa/Google Home feature </li>
+                                        </Col>
+                                    </Row>
+                                </Container>
                             </ol>
+
                         </p>
                         <br />
                     </div>
@@ -232,13 +244,12 @@ export function Grid() {
 
 
                         <p className="rowDescriptionLong">
-                            <ol>
-                                <li>Reassures users, primarily women-idenifiying that they are never alone </li>
-                                <li>Provides more holistic information for institutions
-                                    when/if a Human-Trafficking case/rape-related case happens</li>
-                                <li>Maintains optional in-home security for domestic violence situations
-                                    by implementing Connect to Alexa/Google Home feature </li>
-                            </ol>
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="9"><img className="miroBoard" src="/gridPhotos/Group 197 2.png" /> </Col>
+                            </Row>
+                        </Container>
+                           
                         </p>
                         <br />
                     </div>
