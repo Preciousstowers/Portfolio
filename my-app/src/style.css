@@ -132,6 +132,9 @@ a.nav-link:first-of-type {
   margin-left: -12vw;
   border-radius: .5vw;
 }
+.gridpersonaOne {
+  height: 30vw;
+}
 
 .homepageDataWork {
   margin-left: 2.5vw;

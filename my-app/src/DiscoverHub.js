@@ -17,7 +17,7 @@ export function DiscoveryHub() {
                 <p className="rowDescription">creating educational opportunities for all</p>
                 {/* </div> */}
                 <div className="initialImages">
-                    <img className="initialImageOne" src="/discoveryHubPhotos/Screen Shot 2021-12-16 at 11.13.47 PM.png" />
+                    <img className="initialImageOne" src="/discoveryHubPhotos/Screen Shot 2021-12-17 at 9.11.30 PM.png" />
 
                 </div>
                 {/* </div> */}
@@ -181,22 +181,38 @@ export function DiscoveryHub() {
                                     </Row>
                                 </Container>
                             </ol>
-
                         </p>
                         <br />
                     </div>
-
                 </div>
                 <br />
                 <br />
 
-                <h3 className="rowTitle">Jenna's Favorite Application Features</h3>
+                <h3 className="rowTitle">main application features</h3>
                 <br />
                 <br />
+                <div className="projectRowOne">
+                    <section className="leftHandSide">
+                        <h4 className="rowTitle">join our academic community popup</h4>
+                        <Col>
+                            <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
+                                most popular public recordings that other users are currenly using.
+                            </p>
+                        </Col>
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs lg="12">
+                                    <img className="biggerfeaturedImage" src="/discoveryHubPhotos/joinCommunity.png" />
+                                </Col>
+                            </Row>
+                        </Container>
+                    </section>
+                </div>
+
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">easy onboarding process</h4>
+                        <h4 className="rowTitle">filter for organizations</h4>
                         <Col>
                             <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
                                 through their first recording. She can also add an shortcut widget to her dashboard at anytime
@@ -206,20 +222,17 @@ export function DiscoveryHub() {
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col xs lg="8">
-                                    <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
+                                    <img className="featuredImage" src="/discoveryHubPhotos/filterOrg.png" />
                                 </Col>
                             </Row>
                         </Container>
-
-
                     </section>
                 </div>
                 <br />
                 <br />
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">add an automated phone/voice recording</h4>
-
+                        <h4 className="rowTitle">favorite organization handling</h4>
                         <Col>
                             <p className="rowDescriptionLong">Jenna doesn't have any recordings, but that's okay!
                                 She can easily create a recording by answering the list of questions
@@ -227,72 +240,33 @@ export function DiscoveryHub() {
                                 <br />
                             </p>
                         </Col>
-
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="8">
-                                    <img className="longImage" src="/tutelaPhotos/createACall.png" />
+                                <Col xs lg="6">
+                                    <img className="longImage" src="/discoveryHubPhotos/Screen Shot 2021-12-16 at 11.18.25 PM.png" />
+                                </Col>
+                                <Col xs lg="6">
+                                    <img className="longImage" src="/discoveryHubPhotos/favoriteOrg.png" />
                                 </Col>
                             </Row>
                         </Container>
                     </section>
                 </div>
 
+                
                 <div className="projectRowOne">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">access saved phone/voice recordings</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
-                                most popular public recordings that other users are currenly using.
-                            </p>
-                        </Col>
-
-                        <Container>
-                            <Row className="justify-content-md-center">
-                                <Col xs lg="12">
-                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 3 (2).png" />
-                                </Col>
-                            </Row>
-                        </Container>
-                    </section>
-                </div>
-
-                <div className="projectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">an on-the-go partner</h4>
+                        <h4 className="rowTitle">register your organization form</h4>
                         <Col>
                             <p className="rowDescriptionLong">Jenna feels safe as she can access her tutela partner at any time and any location.
                                 All location information will be submitted to emergency services if the user dials 911
                                 via application.
                             </p>
                         </Col>
-
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col xs lg="9">
-                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
-                                </Col>
-                            </Row>
-                        </Container>
-                    </section>
-                </div>
-
-                <div className="projectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">pair with alexa</h4>
-
-                        <Col>
-                            <p className="rowDescriptionLong"> Jenna sometimes feels unsafe at home. She can address potential at-home saftey
-                                by accessing the connect to Alexa feature is added by saying a key word/sentence and the application
-                                will call a friend or 911.
-                            </p>
-                        </Col>
-
-
-                        <Container>
-                            <Row className="justify-content-md-center">
-                                <Col xs lg="7">
-                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/saveAlexa.png" />
+                                    <img className="biggerfeaturedImage" src="/discoveryHubPhotos/Screen Shot 2021-12-17 at 9.09.36 PM.png" />
                                 </Col>
                             </Row>
                         </Container>
