@@ -35,17 +35,22 @@ export function DiscoveryHub() {
                                     <h2 className="rowTitle">Overview</h2>
                                     {/* <p className="rowDescriptionLong">  Tutela is latin for protection and guardianship. </p> */}
 
-                                    <p className="rowDescriptionLong"> Our application was inspired by a tiktok trend that included users uploading
-                                        videos of fake video/phone conversations to mimic an active conversation when
-                                        other users have no one to call and are the passanger seat of a car and/or in a potentially
-                                        threatening situation.  </p>
+                                    <p className="rowDescriptionLong"> Socioeconomic innequalities are still prevelant among
+                                        many communities accross the United States. The long history of these innequalities has created
+                                        collateral damage in the U.S educational system, where students in impoverished areas do not recieve
+                                        equal amounts educational resources. Information systems to distribute these educational resources lack
+                                        vital features to help their students long-term.
+                                    </p>
 
                                     <p className="rowDescriptionLong">
-                                        In the WINFO 9th annual Hackathon, my team and I decided to take
-                                        this trend and design an application because as women-identifying individuals,
-                                        myself and many others are oftentimes seen as potential targets for rape-related
-                                        and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
-                                        help end these issues. </p>
+                                        In our INFO442 Cooperative Software Development class, we created DiscoveryHub,
+                                        a product to connect local organizations who offer tutoring and mentoring services
+                                        to students within their community.
+                                    </p>
+
+                                    <b><p className="rowDescriptionLong">For students, by students. </p></b>
+
+
 
                                     {/* <p className="rowDescriptionLong">  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p> */}
                                     <a href="https://discoveryhub-86001.firebaseapp.com/" target="_blank" >
@@ -62,7 +67,7 @@ export function DiscoveryHub() {
                                     <p className="detail">  My Role: Product Designer, assistant developer </p>
                                     <p className="detail">  Team size: 4 total people</p>
                                     <p className="detail">  Time Frame: 12 weeks (including a 3 week development sprint)</p>
-                                    <p className="detail">  Tools: HTML, CSS, Javascript, Figma and Canva</p>
+                                    <p className="detail">  Tools: HTML, CSS, Javascript, React, Firebase Figma and Canva</p>
                                     <p className="detail">  Teammates: Victoria Ngyen, Sneha Reed, Natt Sakulborrirug</p>
                                 </Col>
                             </Row>
@@ -78,7 +83,6 @@ export function DiscoveryHub() {
                         <b><p className="rowDescriptionLong">There is a disproportionate access to information
                             about educational resources due to income inequalities across the U.S </p></b>
                         <p className="rowDescriptionLong">
-                            {/* <ol> */}
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col md lg={6}>
@@ -88,13 +92,8 @@ export function DiscoveryHub() {
                                         <p>On the Nation's Report Card Fourth-graders made no improvements in math or reading,
                                             while eighth-graders scores were flat in math and only slightly improved in reading -</p>
                                     </Col>
-                                    {/* <Col md lg={4}>
-                                            <li>Thousands of U.S rape cases are recorded and there has yet to be accountability
-                                                to the perpetrators and liability to these victims, specifically women.</li>
-                                        </Col> */}
                                 </Row>
                             </Container>
-                            {/* </ol> */}
                         </p>
                     </div>
                 </div>
@@ -110,16 +109,19 @@ export function DiscoveryHub() {
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col md lg={4}>
-                                        <b> <p>Word of Mouth</p></b>
-                                        <p>Information can oftentimes be hard to remember without documentation</p>
+
+                                        <p>  Information from <b> word of mouth,</b>
+                                            can oftentimes be <b>hard to remember</b> without documentation
+                                        </p>
                                     </Col>
                                     <Col md lg={4}>
-                                        <b> <p>Physical Advertisements</p></b>
-                                        <p>Educational Information distributed via flyers and signs can easily become destroyed</p>
+                                        <p>Educational information distributed via  <b>physical advertisements</b>, such as
+                                            flyers and signs can <b> easily become destroyed</b></p>
                                     </Col>
                                     <Col md lg={4}>
-                                        <b> <p>Social Media Platforms</p></b>
-                                        <p>Social media platforms encompas a mass amount of educational information that can be overwhelming </p>
+
+                                        <p> <b>Social media platforms</b> encompas a mass amount of educational
+                                            information that can be <b> overwhelming for the user</b> </p>
                                     </Col>
                                 </Row>
                             </Container>
@@ -134,27 +136,37 @@ export function DiscoveryHub() {
                 <div className="projectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Personas</h3>
-                        <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
-                            need bystander intervention.</p>
+                        <p className="rowDescriptionLong"> Two of our potential users who could utilize DiscoveryHub</p>
                         <br />
-                        {/* <div className="projectPersona"> */}
                         <Container>
                             <Row className="justify-content-md-center">
 
                                 <Col md lg={6}>
-                                    <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
-                                        support system and oftentimes find herself walking alone.</p>
+                                    <p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p>
+                                    <p className="rowDescriptionLong"> Melissa needs an easy way to search and learn about educational
+                                        programs outside of school hours for her children</p>
+
                                     <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                                 </Col>
 
                                 <Col md lg={6} >
-                                    <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
-                                        who finds herself walking alone thoughout her daily errands. </p>
+                                    <p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
+                                        to help students in the surrounding community</p>
+
+                                    <p className="rowDescriptionLong"> WINFO needs an easy platform where they can showcase their
+                                        organization if parents or students are in need of a mentor/tutor</p>
+
                                     <img className="personaOne" src="tutelaPhotos/Jenna's User Persona.png" />
                                 </Col>
                             </Row>
                         </Container>
                         {/* </div> */}
+                    </div>
+                </div>
+
+                <div className="projectRowOne">
+                    <div className="box">
+                        <h3 className="rowTitle">but don't worry, Melissa and WINFO met on DiscoveryHub!</h3>
                     </div>
                 </div>
 
@@ -166,18 +178,44 @@ export function DiscoveryHub() {
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
-                                    <Col md lg={4}>
-                                        <b> <p>Shared Privatized Platform</p></b>
-                                        <p>Provides a privatized platform for students/parents to directly meet organizations who offer mentors/tutors in their community </p>
-                                    </Col>
-                                    <Col md lg={4}>
-                                        <b> <p>Online/Offline Educational Support Options</p></b>
-                                        <p>The ability to have both online and offline services allows greater accessibility for those who need educational resources</p>
-                                    </Col>
-                                    <Col md lg={4}>
-                                        <b> <p>Live Educational Help Without The Expensive Cost</p></b>
-                                        <p>Tutoring/mentoring without the expensive costs allows more people in lower-income communities to have a chance at receiving higher income in the future</p>
-                                    </Col>
+                                        <Col md lg={4}>
+                                            <p><b>Provides a shared privatized platform </b> for students/parents to directly meet
+                                                organizations who offer mentors/tutors in their community without potentially distracting information </p>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <p><b>Online and offline education support services</b> allows greater accessibility for those who need educational resources</p>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
+                                                lower-income communities to have a chance at receiving higher income in the future</p>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </ol>
+                        </p>
+                        <br />
+                    </div>
+                </div>
+                <br />
+                <br />
+
+                <div className="projectRowOne">
+                    <div className="box">
+                        <br />
+                        <h3 className="rowTitle">Initial Mockup</h3>
+                        <p className="rowDescriptionLong">
+                            <ol>
+                                <Container>
+                                    <Row className="justify-content-md-center">
+                                        <Col md lg={4}>
+                                            <img className="personaOne" src="/discoveryHubPhotos/Get Started (1).jpg" />
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <img className="personaOne" src="/discoveryHubPhotos/Favorites (3).jpg" />
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <img className="personaOne" src="/discoveryHubPhotos/Organization Profile (1).jpg" />
+                                        </Col>
                                     </Row>
                                 </Container>
                             </ol>
@@ -195,8 +233,8 @@ export function DiscoveryHub() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">join our academic community popup</h4>
                         <Col>
-                            <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
-                                most popular public recordings that other users are currenly using.
+                            <p className="rowDescriptionLong">a users and organizations are quickly welcomed by offering
+                                to join the community using a pop-up to register.
                             </p>
                         </Col>
                         <Container>
@@ -214,9 +252,8 @@ export function DiscoveryHub() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">filter for organizations</h4>
                         <Col>
-                            <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
-                                through their first recording. She can also add an shortcut widget to her dashboard at anytime
-                                through the add a shortcut feature.
+                            <p className="rowDescriptionLong">users can filter for organizations based on
+                                their wanted criteria
                             </p>
                         </Col>
                         <Container>
@@ -234,9 +271,9 @@ export function DiscoveryHub() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">favorite organization handling</h4>
                         <Col>
-                            <p className="rowDescriptionLong">Jenna doesn't have any recordings, but that's okay!
-                                She can easily create a recording by answering the list of questions
-                                and an automated call will be created and added to her saved recordings.
+                            <p className="rowDescriptionLong">logged in users can favorite an organization and it is
+                                saved to their profile. if the user is not signed in, they will be notified to join the academic community
+                                before using the feature
                                 <br />
                             </p>
                         </Col>
@@ -253,14 +290,13 @@ export function DiscoveryHub() {
                     </section>
                 </div>
 
-                
+
                 <div className="projectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">register your organization form</h4>
                         <Col>
-                            <p className="rowDescriptionLong">Jenna feels safe as she can access her tutela partner at any time and any location.
-                                All location information will be submitted to emergency services if the user dials 911
-                                via application.
+                            <p className="rowDescriptionLong">organizations can become registered in discoveryHub by filling out
+                                the form and they can soon view their registered org on the homescreen
                             </p>
                         </Col>
                         <Container>
@@ -279,8 +315,20 @@ export function DiscoveryHub() {
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col md lg={6}>
-                            <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
-                                need bystander intervention.</p>
+                            <p className="rowDescriptionLong">
+
+                                Designing a website based on the skill level of the developers was a crucial skill I learned.
+                                As someone who assisted in developing, I was able to understand where my design could succeed and fail
+                                faster than if I had not understood/helped with the development. I was also able to empathize with my developers
+                                if they could not finish a task due to the technicality of the design and functionality. </p>
+                            <p className="rowDescriptionLong">
+
+                                If I were to work on this project in the future, I would implement a view mentor/tutor feature. This would
+                                allow specific mentors and tutors to have a platform to share singular voices along with voices of the organizations.
+                                See mockup on the right.  </p>
+                        </Col>
+                        <Col md lg={6}>
+                            <img className="biggerfeaturedImage" src="/discoveryHubPhotos/Organization Profile (2).jpg" />
                         </Col>
                     </Row>
                 </Container>
