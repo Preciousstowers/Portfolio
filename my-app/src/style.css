@@ -124,10 +124,12 @@ a.nav-link:first-of-type {
   margin-right: 3vw;
   background-color: white;
   /* margin-bottom: 2vw; */
-  
-
 }
 
+.homepageIcons {
+  margin-left: 4vw;
+  margin-right: 3vw;
+}
 .homepagerowDescriptionLong {
   position: relative;
   margin-left: 4vw;
@@ -168,6 +170,10 @@ img.researchPicture {
   height: 35vw; 
   margin: .5vw;
 }
+.discoveryHubMockUps {
+  height: 32vw;
+  padding: 2rem;
+}
 
 img.featuredImage {
   height: 30vw; 
@@ -181,6 +187,10 @@ img.lastCenterImage {
 
 img.biggerfeaturedImage {
   height: 35vw; 
+}
+
+.evenbiggerfeaturedImage {
+  height: 40vw; 
 }
 
 img.gridFeaturedImage {

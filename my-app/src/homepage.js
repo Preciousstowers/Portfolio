@@ -41,7 +41,7 @@ export function Homepage() {
                         
                             </div>
                             <br />
-                            <p className="rowDescriptionLong">
+                            <p className="homepageIcons">
                             <a href="mailto:Precious.Stowers2@gmail.com"  className="LinkedInButton" >
                                         <img className="linkedIn" src="/image 79.png" /></a>
                                     <a href="https://www.linkedin.com/in/precious-jane-stowers-a2201119a/" target="_blank" className="LinkedInButton" >

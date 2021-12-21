@@ -75,28 +75,6 @@ export function DiscoveryHub() {
                     </div>
                 </div>
                 <br />
-
-
-                {/* <div className="projectRowOne">
-                    <div className="box">
-                        <h3 className="rowTitle">Problem Space</h3>
-                        <b><p className="rowDescriptionLong">There is a disproportionate access to information
-                            about educational resources due to income inequalities across the U.S </p></b>
-                        <p className="rowDescriptionLong">
-                            <Container>
-                                <Row className="justify-content-md-center">
-                                    <Col md lg={6}>
-                                        <p>Only 35% of fourth graders were proficient in reading in 2019</p>
-                                    </Col>
-                                    <Col md lg={6}>
-                                        <p>On the Nation's Report Card Fourth-graders made no improvements in math or reading,
-                                            while eighth-graders scores were flat in math and only slightly improved in reading -</p>
-                                    </Col>
-                                </Row>
-                            </Container>
-                        </p>
-                    </div>
-                </div> */}
                 <br />
 
 
@@ -119,12 +97,12 @@ export function DiscoveryHub() {
                                     <Col md lg={4}>
                                         <p>Educational information distributed via  <b>physical advertisements</b>, such as
                                             flyers and signs can <b> easily become destroyed</b></p>
-                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-53 (1).png" /></center>
                                     </Col>
                                     <Col md lg={4}>
                                         <p> <b>Social media platforms</b> encompas a mass amount of educational
                                             information that can be <b> overwhelming for the user</b> </p>
-                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-log-out (1).png" /></center>
                                     </Col>
                                 </Row>
                             </Container>
@@ -140,64 +118,92 @@ export function DiscoveryHub() {
                         <p className="rowDescriptionLong"> Two of our potential users who could utilize DiscoveryHub</p>
                         <br />
                         <Container>
-                            <Row className="justify-content-md-center">
 
+                            <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                    <p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p>
-                                    <img className="illustration" src="/discoveryHubPhotos/mellow-family-concert.png" />
-                                    <p className="rowDescriptionLong"> Melissa needs an easy way to search and learn about educational
-                                        programs outside of school hours for her children</p>
+                                <center>   <p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p></center>
+
 
                                 </Col>
 
                                 <Col md lg={6} >
-                                    <p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
-                                        to help students in the surrounding community</p>
-                                        <img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" />
-                                    <p className="rowDescriptionLong"> WINFO needs an easy platform where they can showcase their
-                                        organization if parents or students are in need of a mentor/tutor</p>
+                                <center>    <p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
+                                        to help students in the surrounding community</p></center>
+
+                                </Col>
+                            </Row>
+                            <Row className="justify-content-md-center">
+                                <Col md lg={6}>
+                                <center><img className="illustration" src="/discoveryHubPhotos/mellow-a-hot-summer-day.png" /></center>
+                                </Col>
+
+                                <Col md lg={6}>
+                                <center>  <img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                </Col>
+                            </Row>
+
+                            <Row className="justify-content-md-center">
+                                <Col md lg={6}>
+                                <center>   <p className="rowDescriptionLong"> Melissa needs an easy way to search and learn about educational
+                                        programs outside of school hours for her children</p></center>  
+                                </Col>
+
+                                <Col md lg={6}>
+                                <center>      <p className="rowDescriptionLong"> WINFO needs an easy platform where they can showcase their
+                                        organization if parents or students are in need of a mentor/tutor</p>    </center>                                      </Col>
+                            </Row>
+                        </Container>
+                    </div>
+                </div>
+
+                {/* <div className="projectRowOne">
+                    <div className="box">
+                        <br />
+                        <br />
+                        <Container>
+                            <Row className="justify-content-lg-center">
+                                <Col md lg={12}>
+                                    <h3 className="textBanner">but don't worry, Melissa and WINFO met on DiscoveryHub!</h3>
                                 </Col>
                             </Row>
                         </Container>
-                        {/* </div> */}
-                    </div>
-                </div>
-
-                <div className="projectRowOne">
-                    <div className="box">
-                    <br />
-                    <br />
-                    <Container>
-                       <center><h3>but don't worry, Melissa and WINFO met on DiscoveryHub!</h3></center> 
-                       </Container>
                         <br />
                         <br />
-
                     </div>
-                </div>
+                </div> */}
 
                 <div className="projectRowOne">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Why DiscoveryHub?</h3>
+                        <br />
                         <p className="rowDescriptionLong">
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
-                                            <p><b>Provides a shared privatized platform </b> for students/parents to directly meet
-                                                organizations who offer mentors/tutors in their community without potentially distracting information 
-                                                <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
-                                                </p>
+                                        <center><p><b>Provides a shared privatized platform </b> for students/parents to directly meet
+                                                organizations who offer mentors/tutors in their community without potentially distracting information
+                                            </p></center> 
                                         </Col>
                                         <Col md lg={4}>
-                                            <p><b>Online and offline education support services</b> allows greater accessibility for those who need educational resources</p>
-                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                        <center><p><b>Online and offline education support services</b>
+                                                allows greater accessibility for those who need educational resources</p></center> 
                                         </Col>
                                         <Col md lg={4}>
-                                            <p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
-                                                lower-income communities to have a chance at receiving higher income in the future</p>
-                                                <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                        <center><p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
+                                                lower-income communities to have a chance at having a more prosperoruos future</p></center>  
+                                        </Col>
+                                    </Row>
+                                    <Row className="justify-content-md-center">
+                                        <Col md lg={4}>
+                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-virtual-meeting.png" /></center>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-remote-work.png" /></center>
+                                        </Col>
+                                        <Col md lg={4}>
+                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-back-to-school (1).png" /></center>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -207,29 +213,20 @@ export function DiscoveryHub() {
                     </div>
                 </div>
                 <br />
-                <br />
 
                 <div className="projectRowOne">
                     <div className="box">
-                        <br />
                         <h3 className="rowTitle">Initial Mockup</h3>
-                        <p className="rowDescriptionLong">
-                            <ol>
-                                <Container>
-                                    <Row className="justify-content-md-center">
-                                        <Col md lg={4}>
-                                            <img className="personaOne" src="/discoveryHubPhotos/Get Started (1).jpg" />
-                                        </Col>
-                                        <Col md lg={4}>
-                                            <img className="personaOne" src="/discoveryHubPhotos/Favorites (3).jpg" />
-                                        </Col>
-                                        <Col md lg={4}>
-                                            <img className="personaOne" src="/discoveryHubPhotos/Organization Profile (1).jpg" />
-                                        </Col>
-                                    </Row>
-                                </Container>
-                            </ol>
-                        </p>
+                        <Container>
+                            <Row >
+                                <Col md lg={6}>
+                                    <img className="discoveryHubMockUps" src="/discoveryHubPhotos/Get Started (1).jpg" />
+                                </Col>
+                                <Col md lg={6}>
+                                    <img className="discoveryHubMockUps" src="/discoveryHubPhotos/Favorites (3).jpg" />
+                                </Col>
+                            </Row>
+                        </Container>
                         <br />
                     </div>
                 </div>
@@ -249,8 +246,8 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="12">
-                                    <img className="biggerfeaturedImage" src="/discoveryHubPhotos/joinCommunity.png" />
+                                <Col xs lg={8}>
+                                    <img className="discoveryHubMockUps" src="/discoveryHubPhotos/joinCommunity.png" />
                                 </Col>
                             </Row>
                         </Container>
@@ -268,8 +265,8 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="8">
-                                    <img className="featuredImage" src="/discoveryHubPhotos/filterOrg.png" />
+                                <Col xs lg={8}>
+                                    <img className="discoveryHubMockUps" src="/discoveryHubPhotos/filterOrg.png" />
                                 </Col>
                             </Row>
                         </Container>
@@ -289,11 +286,8 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="6">
-                                    <img className="longImage" src="/discoveryHubPhotos/Screen Shot 2021-12-16 at 11.18.25 PM.png" />
-                                </Col>
-                                <Col xs lg="6">
-                                    <img className="longImage" src="/discoveryHubPhotos/favoriteOrg.png" />
+                                <Col xs lg={8}>
+                                    <img className="discoveryHubMockUps" src="/discoveryHubPhotos/favoriteOrg.png" />
                                 </Col>
                             </Row>
                         </Container>
@@ -304,15 +298,15 @@ export function DiscoveryHub() {
                 <div className="projectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">register your organization form</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">organizations can become registered in discoveryHub by filling out
-                                the form and they can soon view their registered org on the homescreen
-                            </p>
-                        </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="9">
-                                    <img className="biggerfeaturedImage" src="/discoveryHubPhotos/Screen Shot 2021-12-17 at 9.09.36 PM.png" />
+                                <Col xs lg={6}>
+                                    <p className="rowDescriptionLong">organizations can become registered in discoveryHub by filling out
+                                        the form and they can soon view their registered org on the homescreen
+                                    </p>
+                                </Col>
+                                <Col xs lg={6}>
+                                    <img className="evenbiggerfeaturedImage" src="/discoveryHubPhotos/Screen Shot 2021-12-17 at 9.09.36 PM.png" />
                                 </Col>
                             </Row>
                         </Container>
@@ -321,7 +315,6 @@ export function DiscoveryHub() {
 
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
-                {/* <Row> */}
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col md lg={6}>
