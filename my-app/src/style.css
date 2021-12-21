@@ -7,6 +7,11 @@ body {
   font-weight: normal;
  }
 
+ /* b,
+ strong {
+   font-weight: bolder;
+ } */
+
  .homepageBody {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -23,9 +28,9 @@ body {
  }
 
 
-b {
+/* b {
   font-weight: 900;
-}
+} */
 
 .linkedIn {
   color: black;
