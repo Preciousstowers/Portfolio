@@ -8,6 +8,7 @@ import {Tutela} from "./tutela.js";
 import {Resume} from "./resume.js";
 import {Grid} from "./grid.js";
 import {DiscoveryHub} from "./DiscoverHub";
+import {RhetoricalAnalysis} from "./rhetoricalAnalysis";
 
 
 // import { BrowserRouter } from 'react-router-dom'
@@ -38,7 +39,7 @@ function App() {
           <Route path="Tutela" element={<Tutela />} />
           <Route path="grid" element={<Grid />} />
           <Route path="DiscoveryHub" element={<DiscoveryHub />} />
-          <Route path="Humble" />
+          <Route path="RhetoricalAnalysis" element={<RhetoricalAnalysis />}/>
 
         </Routes>
         

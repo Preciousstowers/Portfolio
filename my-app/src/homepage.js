@@ -11,6 +11,7 @@ import {
 import SimpleReactFooter from "simple-react-footer";
 
 
+
 export function Homepage() {
 
     return (
@@ -120,26 +121,28 @@ export function Homepage() {
                     <h4 className="rowTitle">Writing</h4>
                 </div>
                 <section className="homepageDataWork">
+                <Link className="cardLink" to="/RhetoricalAnalysis">
                     <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
                         <Card.Img variant="top" src="/A4 Portrait.png" />
                         <Card.Body>
-                            <Card.Title>Timing Social Media - a rhetorical analysis
+                            <Card.Title>the perfect moment: a rhetorical analysis
                             </Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                a rhetorical analysis about how using Kairos and/or time as a design tool for social
+                                media can take a large way how users engage between physical and digital 
+                                spaces
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                    </Link > 
 
                     <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
                         <Card.Img variant="top" src="/Frame 8 (2).png" />
                         <Card.Body>
-                            <Card.Title>Tutorial
+                            <Card.Title>Grid Tutorial
                             </Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                a walkthrough on how to use the Grid application
                             </Card.Text>
                         </Card.Body>
                     </Card>
