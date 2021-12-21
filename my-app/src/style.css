@@ -23,10 +23,18 @@ body {
  }
 
 
+b {
+  font-weight: 900;
+}
+
 .linkedIn {
   color: black;
   width: 2.5vw;
   margin-right: 1vw;
+}
+
+.list {
+  /* inline-size: ; */
 }
 
 .tutela{
@@ -50,9 +58,11 @@ a.nav-link {
 a.nav-link:first-of-type {
   font-weight: bold;
 }
+
 .detail {
   line-height: 1rem;
 }
+
 .box {
   background-color: white;
   border-radius: 3px;
@@ -110,13 +120,14 @@ a.nav-link:first-of-type {
 }
 
 .rowDescriptionLong {
-  margin-left: 4vw;
-  margin-right: 7vw;
+  margin-left: 1vw;
+  margin-right: 3vw;
   background-color: white;
   /* margin-bottom: 2vw; */
   
 
 }
+
 .homepagerowDescriptionLong {
   position: relative;
   margin-left: 4vw;
@@ -132,8 +143,13 @@ a.nav-link:first-of-type {
   margin-left: -12vw;
   border-radius: .5vw;
 }
+
 .gridpersonaOne {
   height: 30vw;
+}
+
+.illustration {
+  height: 10vw;
 }
 
 .homepageDataWork {

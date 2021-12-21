@@ -77,7 +77,7 @@ export function DiscoveryHub() {
                 <br />
 
 
-                <div className="projectRowOne">
+                {/* <div className="projectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Problem Space</h3>
                         <b><p className="rowDescriptionLong">There is a disproportionate access to information
@@ -96,7 +96,7 @@ export function DiscoveryHub() {
                             </Container>
                         </p>
                     </div>
-                </div>
+                </div> */}
                 <br />
 
 
@@ -109,19 +109,22 @@ export function DiscoveryHub() {
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col md lg={4}>
-
                                         <p>  Information from <b> word of mouth,</b>
                                             can oftentimes be <b>hard to remember</b> without documentation
                                         </p>
+                                        {/* <Row className="img-fluid w-100"> */}
+                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                        {/* </Row> */}
                                     </Col>
                                     <Col md lg={4}>
                                         <p>Educational information distributed via  <b>physical advertisements</b>, such as
                                             flyers and signs can <b> easily become destroyed</b></p>
+                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
                                     </Col>
                                     <Col md lg={4}>
-
                                         <p> <b>Social media platforms</b> encompas a mass amount of educational
                                             information that can be <b> overwhelming for the user</b> </p>
+                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
                                     </Col>
                                 </Row>
                             </Container>
@@ -129,8 +132,6 @@ export function DiscoveryHub() {
                         <br />
                     </div>
                 </div>
-
-                {/* </div> */}
 
                 <br />
                 <div className="projectRowOne">
@@ -143,20 +144,18 @@ export function DiscoveryHub() {
 
                                 <Col md lg={6}>
                                     <p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p>
+                                    <img className="illustration" src="/discoveryHubPhotos/mellow-family-concert.png" />
                                     <p className="rowDescriptionLong"> Melissa needs an easy way to search and learn about educational
                                         programs outside of school hours for her children</p>
 
-                                    <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                                 </Col>
 
                                 <Col md lg={6} >
                                     <p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
                                         to help students in the surrounding community</p>
-
+                                        <img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" />
                                     <p className="rowDescriptionLong"> WINFO needs an easy platform where they can showcase their
                                         organization if parents or students are in need of a mentor/tutor</p>
-
-                                    <img className="personaOne" src="tutelaPhotos/Jenna's User Persona.png" />
                                 </Col>
                             </Row>
                         </Container>
@@ -166,7 +165,14 @@ export function DiscoveryHub() {
 
                 <div className="projectRowOne">
                     <div className="box">
-                        <h3 className="rowTitle">but don't worry, Melissa and WINFO met on DiscoveryHub!</h3>
+                    <br />
+                    <br />
+                    <Container>
+                       <center><h3>but don't worry, Melissa and WINFO met on DiscoveryHub!</h3></center> 
+                       </Container>
+                        <br />
+                        <br />
+
                     </div>
                 </div>
 
@@ -180,14 +186,18 @@ export function DiscoveryHub() {
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
                                             <p><b>Provides a shared privatized platform </b> for students/parents to directly meet
-                                                organizations who offer mentors/tutors in their community without potentially distracting information </p>
+                                                organizations who offer mentors/tutors in their community without potentially distracting information 
+                                                <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                                </p>
                                         </Col>
                                         <Col md lg={4}>
                                             <p><b>Online and offline education support services</b> allows greater accessibility for those who need educational resources</p>
+                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
                                         </Col>
                                         <Col md lg={4}>
                                             <p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
                                                 lower-income communities to have a chance at receiving higher income in the future</p>
+                                                <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
                                         </Col>
                                     </Row>
                                 </Container>

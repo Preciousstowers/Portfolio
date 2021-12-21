@@ -33,7 +33,7 @@ export function Grid() {
                                 <Col md lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
                                     <p className="rowDescriptionLong">
-                                        In today’s physical architecture, there lacks 
+                                        In today’s physical architecture, there lacks
                                         inclusiveness for those who identify with a disability.
                                         This can include outside physical barriers such as not
                                         including an accessible entrance to a building to indoor
@@ -59,11 +59,15 @@ export function Grid() {
 
 
                                         <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
-                                            <p>  view full interactive application here </p>
+                                            <p>  view full interactive application </p>
                                         </a>
 
                                         <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
-                                            <p>  view full slide deck here </p>
+                                            <p>  view full slide deck  </p>
+                                        </a>
+
+                                        <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
+                                            <p>  view product video  </p>
                                         </a>
                                     </p>
                                 </Col>
@@ -90,47 +94,47 @@ export function Grid() {
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
                         <p className="rowDescriptionLong">
+
                             <b> People who identify as having a disability are historically
                                 overlooked when designing society. </b>
                             At the University of Washington, there is a lack of digital technologies
                             that help reinforce the knowledge distribution about current accessibility
                             features.
                         </p>
-                        <p className="rowDescriptionLong">
-                            <ol>
-                                <Container>
-                                    <Row className="justify-content-md-center">
-                                        <Col lg={4}>
-                                            <li>
-                                                6% of undergraduate students in the U.S. identified as
-                                                having disabilities with 11% of that student body having a
-                                                mobility limitation/orthopedic impairment
-                                            </li>
-                                        </Col>
-                                        <Col lg={4}>
+                        {/* <p className="list"> */}
+                        <ol>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col sm md lg={4}>
+                                        <li>
+                                            6% of undergraduate students in the U.S. identified as
+                                            having disabilities with 11% of that student body having a
+                                            mobility limitation/orthopedic impairment
+                                        </li>
+                                    </Col>
+                                    <Col sm md lg={4}>
+                                        <li>
+                                            Traveling with a mobility disability can have
+                                            numerous obstacles, such as longer travel times and/or the
+                                            inability to reach their destination:
+                                            “25.5 million Americans aged 5 and older    have self-reported travel-limiting disabilities”
+                                            (Bureau of Transportation Statistics, 2021).
+                                        </li>
+                                    </Col>
+                                    <Col sm md lg={4}>
 
-                                            <li>
-                                                Specifically, traveling with a mobility disability can have
-                                                numerous obstacles, such as longer travel times and/or the
-                                                inability to reach their destination: “25.5 million Americans
-                                                aged 5 and older have self-reported travel-limiting disabilities”
-                                                (Bureau of Transportation Statistics, 2021).
-                                            </li>
-                                        </Col>
-                                        <Col lg={4}>
+                                        <li>
+                                            In the U.S, “40.7 million adults aged 18 and over have a physical
+                                            functioning difficulty” (CDC, 2020). This means that millions of
+                                            Americans are required to work and do other day-to-day tasks while
+                                            facing societal obstacles due to their disability
+                                        </li>
+                                    </Col>
+                                </Row>
+                            </Container>
 
-                                            <li>
-                                                In the U.S, “40.7 million adults aged 18 and over have a physical
-                                                functioning difficulty” (CDC, 2020). This means that millions of
-                                                Americans are required to work and do other day-to-day tasks while
-                                                facing societal obstacles due to their disability
-                                            </li>
-                                        </Col>
-                                    </Row>
-                                </Container>
-
-                            </ol>
-                        </p>
+                        </ol>
+                        {/* </p> */}
                     </div>
                 </div>
                 <br />
@@ -150,13 +154,13 @@ export function Grid() {
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col lg={4}>
-                                        Lindsey Muszkiewicz - a 4th-year undergraduate student who is mobility impaired
+                                        First interview - Lindsey Muszkiewicz, a 4th year undergraduate student who is mobility impaired
                                     </Col>
                                     <Col lg={8}>
                                         <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
                                     </Col>
                                     <Col lg={4}>
-                                        Annuska Zolyomi - HCDE PHD and INFO 498 Inclusive Design Professor
+                                        Second interview - Annuska Zolyomi, an HCDE PHD and INFO 498 Inclusive Design Professor
                                     </Col>
                                     <Col lg={8}>
                                         <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
@@ -173,16 +177,19 @@ export function Grid() {
                         <section className="leftHandSide">
                             <br />
                             <h4 className="rowTitle">Market Analysis</h4>
-                            <p className="rowDescriptionLong">
-                                        A market analysis allowed us to understand current products
-                                        that helped address our problem. Current solutions
-                                        still lacked vital features that could help solve our problem.
-                                    </p>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                        <Col xs md lg={6}> 
-                                        <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" /> 
-                                        </Col>
+
+                                    <Col xs md lg={5}>
+                                        <p className="rowDescriptionLong">
+                                            A market analysis allowed us to understand current products
+                                            that helped address our problem as many current solutions
+                                            still lacked vital features.
+                                        </p>
+                                    </Col>
+                                    <Col xs md lg={7}>
+                                        <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" />
+                                    </Col>
                                 </Row>
                             </Container>
                             <br />
@@ -194,17 +201,18 @@ export function Grid() {
                 <div className="projectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Personas</h3>
-                        <p className="rowDescriptionLong">
-                            A user persona was created to further empathize and
-                            understand with those identifying with a mobility disability.
-                        </p>
-                        <br />
+
                         <div className="projectPersona">
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col lg={4}>
+                                        <p className="rowDescriptionLong" >
                                         <br />
-                                        <p >
+                                            A user persona was created to further empathize and
+                                            understand with those identifying with a mobility disability.
+                                        </p>
+                                        <br />
+                                        <p className="rowDescriptionLong">
                                             Meet Natasha, a mobility disabled undergraduate student
                                             who oftentimes finds themself having a hard time planning
                                             their trip to class because they don’t know which path will take her to
@@ -213,7 +221,7 @@ export function Grid() {
                                     </Col>
                                     <Col md lg={8}>
                                         <img className="gridpersonaOne" src="/gridPhotos/NatashaPersona.png" />
-                                   
+
                                     </Col>
                                 </Row>
                             </Container>
@@ -221,9 +229,9 @@ export function Grid() {
                         </div>
                         <br />
                     </div>
-                
+
                 </div>
-           
+
                 <div className="projectRowOne">
                     <div className="box">
                         <br />
@@ -233,14 +241,14 @@ export function Grid() {
                                 <Container>
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
-                                          <li><b>  Provides information</b>  about accessibility features about indoor buildings, outdoor architecture and on travel paths </li>
+                                            <li><b>  Provides information</b>  about accessibility features about indoor buildings, outdoor architecture and on travel paths </li>
                                         </Col>
                                         <Col md lg={4}>
-                                         <li><b> Empowers users </b> who identify having a mobility disability by reassuring self-sufficiency through 
+                                            <li><b> Empowers users </b> who identify having a mobility disability by reassuring self-sufficiency through
                                                 understanding current accesibility features for future travels </li>
                                         </Col>
                                         <Col md lg={4}>
-                                        <li> <b> De-stigmatizes conversations </b> about disabilities and accesibility features in society </li>
+                                            <li> <b> De-stigmatizes conversations </b> about disabilities and accesibility features in society </li>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -255,21 +263,31 @@ export function Grid() {
                 <div className="projectRowOne">
                     <div className="box">
                         <br />
-                        <h3 className="rowTitle">Initial Iteration</h3>
-                        <p className="rowDescriptionLong">
-                            <Container>
-                                <Row className="justify-content-md-center">
-                                    <Col xs lg="9"><img className="miroBoard" src="/gridPhotos/Group 197 2.png" /> </Col>
-                                </Row>
-                            </Container>
+                        <h3 className="rowTitle">initial iteration</h3>
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs md lg={3}>
+                                    <p className="rowDescriptionLong">
 
-                        </p>
-                        <p className="rowDescriptionLong">
-                            From our initial iteration to our final product, we
-                            changed the Color scheme/UI, restructured the information,
-                            changed the centrality of information and included optional
-                            flagging of misinformation.
-                        </p>
+                                        From our initial iteration to our final product, we
+                                        changed:
+
+                                        <ol>
+                                            <br />
+                                            <b><li> changed the color scheme/UI</li></b>
+                                            <br />
+                                            <b> <li> changed the centrality of information</li></b>
+                                            <br />
+                                            <b> <li> included optional flagging of misinformation</li></b>
+                                        </ol>
+                                    </p>
+                                </Col>
+                                <Col xs md lg={9}>
+                                    <img className="miroBoard" src="/gridPhotos/Group 197 2.png" />
+                                </Col>
+                            </Row>
+                        </Container>
+
                         <br />
                     </div>
                 </div>
@@ -372,20 +390,20 @@ export function Grid() {
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
                 <Container>
-                <Row>
-                <Col xs lg="10">
-                    <p className="rowDescriptionLong"> 
-                    Disability is on a spectrum. This entails that making a digital 
-                    application to capture all aspects of the spectrum will be very 
-                    difficult and could still leave people unintentionally excluded. 
-                    </p>
-                    <p className="rowDescriptionLong"> 
-                    If I were to continue this project, I would perform user testing
-                    with those who identify having a mobility disability and use physical technologies
-                    to examine the relationship between our application and the physical space. 
-                    </p>
-                </Col>
-                </Row>
+                    <Row>
+                        <Col xs lg="10">
+                            <p className="rowDescriptionLong">
+                                Disability is on a spectrum. This entails that making a digital
+                                application to capture all aspects of the spectrum will be very
+                                difficult and could still leave people unintentionally excluded.
+                            </p>
+                            <p className="rowDescriptionLong">
+                                If I were to continue this project, I would perform user testing
+                                with those who identify having a mobility disability and use physical technologies
+                                to examine the relationship between our application and the physical space.
+                            </p>
+                        </Col>
+                    </Row>
                 </Container>
                 <center>
                     <br />
