@@ -7,14 +7,19 @@ body {
   font-weight: normal;
  }
 
- /* b,
- strong {
+ b {
    font-weight: bolder;
- } */
+ }
 
  .homepageBody {
   padding-left: 3rem;
   padding-right: 3rem;
+
+ }
+
+ .react-pdf__Page__canvas {
+   border-style: solid;
+   border-width: 1px;
 
  }
  
@@ -27,17 +32,15 @@ body {
   font-family: 'Quicksand', sans-serif;
  }
 
-
-/* b {
-  font-weight: 900;
-} */
-
 .linkedIn {
   color: black;
   width: 2.5vw;
   margin-right: 1vw;
 }
 
+.btn {
+  margin-left: .8vw;
+}
 .list {
   /* inline-size: ; */
 }

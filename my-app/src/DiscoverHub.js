@@ -11,21 +11,14 @@ export function DiscoveryHub() {
     return (
         <div >
             <body >
-                {/* <div className="box"> */}
-                {/* <div className="projectTitle"> */}
                 <h1 className="rowTitle">DiscoveryHub</h1>
                 <p className="rowDescription">creating educational opportunities for all</p>
-                {/* </div> */}
                 <div className="initialImages">
                     <img className="initialImageOne" src="/discoveryHubPhotos/Screen Shot 2021-12-17 at 9.11.30 PM.png" />
-
                 </div>
-                {/* </div> */}
                 <br />
 
                 <div className="projectRowOne">
-
-                    {/* <div className="projectOverview"> */}
                     <div className="box">
                         <br />
                         <br />
@@ -33,7 +26,6 @@ export function DiscoveryHub() {
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
-                                    {/* <p className="rowDescriptionLong">  Tutela is latin for protection and guardianship. </p> */}
 
                                     <p className="rowDescriptionLong"> Socioeconomic innequalities are still prevelant among
                                         many communities accross the United States. The long history of these innequalities has created
@@ -50,9 +42,6 @@ export function DiscoveryHub() {
 
                                     <b><p className="rowDescriptionLong">For students, by students. </p></b>
 
-
-
-                                    {/* <p className="rowDescriptionLong">  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p> */}
                                     <a href="https://discoveryhub-86001.firebaseapp.com/" target="_blank" >
                                         <p className="rowDescriptionLong">  view full product here </p>
                                     </a>
@@ -82,7 +71,6 @@ export function DiscoveryHub() {
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
                         <p className="rowDescriptionLong"> There are inequitable information systems to learn about educational opportunities across the U.S.</p>
-                        {/* <div className="researchImages"> */}
                         <div className="sidebyside">
                             <Container>
                                 <Row className="justify-content-md-center">

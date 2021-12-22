@@ -23,23 +23,38 @@ export function RhetoricalAnalysis() {
             <body >
 
                 <h1 className="rowTitle">the perfect moment</h1>
-                <p className="rowDescription">a rhetorical analysis</p>
+                <p className="rowDescription">rhetorically examining how social media platforms design time</p>
 
                 <div className="initialImages">
-                    <div>
-                        <Document
-                            file="/ThePerfectMoment.pdf"
-                            onLoadSuccess={onDocumentLoadSuccess}
-                        >
-                            <Page pageNumber={pageNumber} />
-                        </Document>
-                        <p>Page {pageNumber} of {numPages}</p>
-                        <Link to="/ThePerfectMoment.pdf" target="_blank" download>
-                            <Button>click here to download</Button>
-                        </Link>
+                    <Container>
+                        <Row className="justify-content-md-center">
+                            <Col lg={9}>
+                                <div>
+                                    <Document
+                                        file="/ThePerfectMoment.pdf"
+                                        onLoadSuccess={onDocumentLoadSuccess}
+                                    >
+                                        <Page pageNumber={pageNumber} />
+                                    </Document>
 
-                    </div>
+                                    <Row className="justify-content-md-center">
+                                        <Col lg={3}>
+                                            <p>Page {pageNumber} of {numPages}</p>
+                                        </Col>
+                                    </Row>
 
+
+                                    <Row className="justify-content-md-center">
+                                        <Col lg={4}>
+                                            <Link to="/ThePerfectMoment.pdf" target="_blank" download>
+                                                <Button>download file</Button>
+                                            </Link>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
 
                 <br />
@@ -92,9 +107,10 @@ export function RhetoricalAnalysis() {
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col md lg={6}>
+                                        <b>  Research Questions:</b>
                                         <ol>
                                             <p>
-                                                Research Questions:
+
                                                 <li>What is Kairos and why is it important within rhetoric?</li>
                                                 <li> How does Kairos affect digital rhetoric?</li>
                                                 <li>What is digital rhetoric and why is it important?</li>
@@ -106,18 +122,27 @@ export function RhetoricalAnalysis() {
 
                                     </Col>
                                     <Col md lg={6}>
+                                        <b>Artifacts + Archives:</b>
                                         <ol>
-                                            Artifacts + Archives:
-                                            <li> Classical Usages of Kairos - I will examine how Kairos was viewed in the classical time period. 
-                                                I will also examine Kairos in classical/historical pieces of rhetoric. 
+                                            <li> Classical Usages of Kairos - I will examine how Kairos was viewed in the classical time period.
+                                                I will also examine Kairos in classical/historical pieces of rhetoric.
                                                 This will allow me to gain a better understanding of when/how Kairos was used before the internet.</li>
-                                            <li> Social Media - I will be examining different social media posts on platforms such as twitter, 
-                                                Facebook and tik tok. This will allow me to look for patterns of rhetoric and if digital rhetoric 
+                                            <li> Social Media - I will be examining different social media posts on platforms such as twitter,
+                                                Facebook and tik tok. This will allow me to look for patterns of rhetoric and if digital rhetoric
                                                 is stylistically changing as we progress to further adopt social media usage.</li>
                                         </ol>
                                     </Col>
                                     <Row className="justify-content-md-center">
                                     </Row>
+                                </Row>
+                                <Row className="justify-content-md-center">
+                                    <Col md lg={6}>
+                                        <img className="featuredImage" src="/november-2021-printable-calendar-1 2.jpg" />
+                                    </Col>
+                                    <Col md lg={6}>
+                                        <img className="featuredImage" src="/december-2021-calendar-1 2.jpg" />
+                                    </Col>
+
                                 </Row>
                             </Container>
                         </div>
@@ -129,20 +154,19 @@ export function RhetoricalAnalysis() {
                 <div className="projectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Final Paper</h3>
-                        {/* <p className="rowDescriptionLong"> Two of our potential users who could utilize DiscoveryHub</p> */}
                         <br />
 
                     </div>
                 </div>
 
                 <div className="projectRowOne">
-                    <div className="box">
-                        <br />
-                        <h3 className="rowTitle">Key Takeaways</h3>
-                        <br />
 
-                        <br />
-                    </div>
+                    <br />
+                    <h3 className="rowTitle">Key Takeaways</h3>
+                    <br />
+
+                    <br />
+
                 </div>
 
             </body>
