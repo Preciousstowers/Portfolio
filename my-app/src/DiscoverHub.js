@@ -64,7 +64,7 @@ export function DiscoveryHub() {
                     </div>
                 </div>
                 <br />
-                <br />
+          
 
 
                 <div className="projectRowOne">
@@ -72,28 +72,32 @@ export function DiscoveryHub() {
                         <h3 className="rowTitle">Problem</h3>
                         <p className="rowDescriptionLong"> There are inequitable information systems to learn about educational opportunities across the U.S.</p>
                         <div className="sidebyside">
+                        <ol>  
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col md lg={4}>
-                                        <p>  Information from <b> word of mouth,</b>
+                             
+                                      <li><p> Information from <b> word of mouth,</b>
                                             can oftentimes be <b>hard to remember</b> without documentation
-                                        </p>
+                                        </p></li> 
                                         {/* <Row className="img-fluid w-100"> */}
-                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                        {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center> */}
                                         {/* </Row> */}
                                     </Col>
                                     <Col md lg={4}>
-                                        <p>Educational information distributed via  <b>physical advertisements</b>, such as
-                                            flyers and signs can <b> easily become destroyed</b></p>
-                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-53 (1).png" /></center>
+                                    <li><p>Educational information distributed via  <b>physical advertisements</b>, such as
+                                            flyers and signs can <b> easily become destroyed</b></p></li> 
+                                        {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-53 (1).png" /></center> */}
                                     </Col>
                                     <Col md lg={4}>
-                                        <p> <b>Social media platforms</b> encompas a mass amount of educational
-                                            information that can be <b> overwhelming for the user</b> </p>
-                                        <center><img className="illustration" src="/discoveryHubPhotos/mellow-log-out (1).png" /></center>
+                                    <li> <p> <b>Social media platforms</b> encompas a mass amount of educational
+                                            information that can be <b> overwhelming for the user</b> </p></li> 
+                                  
+                                        {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-log-out (1).png" /></center> */}
                                     </Col>
                                 </Row>
                             </Container>
+                            </ol>
                         </div>
                         <br />
                     </div>
@@ -111,13 +115,11 @@ export function DiscoveryHub() {
                                 <Col md lg={6}>
                                 <center>   <p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p></center>
 
-
                                 </Col>
 
                                 <Col md lg={6} >
                                 <center>    <p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
                                         to help students in the surrounding community</p></center>
-
                                 </Col>
                             </Row>
                             <Row className="justify-content-md-center">
@@ -144,22 +146,6 @@ export function DiscoveryHub() {
                     </div>
                 </div>
 
-                {/* <div className="projectRowOne">
-                    <div className="box">
-                        <br />
-                        <br />
-                        <Container>
-                            <Row className="justify-content-lg-center">
-                                <Col md lg={12}>
-                                    <h3 className="textBanner">but don't worry, Melissa and WINFO met on DiscoveryHub!</h3>
-                                </Col>
-                            </Row>
-                        </Container>
-                        <br />
-                        <br />
-                    </div>
-                </div> */}
-
                 <div className="projectRowOne">
                     <div className="box">
                         <br />
@@ -170,20 +156,20 @@ export function DiscoveryHub() {
                                 <Container>
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
-                                        <center><p><b>Provides a shared privatized platform </b> for students/parents to directly meet
+                                        <li><p><b>Provides a shared privatized platform </b> for students/parents to directly meet
                                                 organizations who offer mentors/tutors in their community without potentially distracting information
-                                            </p></center> 
+                                            </p> </li>
                                         </Col>
                                         <Col md lg={4}>
-                                        <center><p><b>Online and offline education support services</b>
-                                                allows greater accessibility for those who need educational resources</p></center> 
+                                        <li> <p><b>Online and offline education support services</b>
+                                                allows greater accessibility for those who need educational resources</p></li>
                                         </Col>
                                         <Col md lg={4}>
-                                        <center><p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
-                                                lower-income communities to have a chance at having a more prosperoruos future</p></center>  
+                                        <li>  <p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
+                                                lower-income communities to have a chance at having a more prosperoruos future</p></li> 
                                         </Col>
                                     </Row>
-                                    <Row className="justify-content-md-center">
+                                    {/* <Row className="justify-content-md-center">
                                         <Col md lg={4}>
                                             <center><img className="illustration" src="/discoveryHubPhotos/mellow-virtual-meeting.png" /></center>
                                         </Col>
@@ -193,7 +179,7 @@ export function DiscoveryHub() {
                                         <Col md lg={4}>
                                             <center><img className="illustration" src="/discoveryHubPhotos/mellow-back-to-school (1).png" /></center>
                                         </Col>
-                                    </Row>
+                                    </Row> */}
                                 </Container>
                             </ol>
                         </p>

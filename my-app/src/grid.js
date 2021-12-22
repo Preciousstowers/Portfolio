@@ -66,7 +66,7 @@ export function Grid() {
                                             <p>  view full slide deck  </p>
                                         </a>
 
-                                        <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
+                                        <a href="https://drive.google.com/file/d/1UYOE-vx9Kz_yZSSNZU7jj2SjKxdky9w6/view?usp=sharing" target="_blank" >
                                             <p>  view product video  </p>
                                         </a>
                                     </p>
@@ -391,7 +391,7 @@ export function Grid() {
                 <br />
                 <Container>
                     <Row>
-                        <Col xs lg="10">
+                        <Col xs lg={6}>
                             <p className="rowDescriptionLong">
                                 Disability is on a spectrum. This entails that making a digital
                                 application to capture all aspects of the spectrum will be very
@@ -402,6 +402,9 @@ export function Grid() {
                                 with those who identify having a mobility disability and use physical technologies
                                 to examine the relationship between our application and the physical space.
                             </p>
+                        </Col>
+                        <Col xs lg={6}>
+                            <img className="featuredImage" src="/Rectangle (6).png" />
                         </Col>
                     </Row>
                 </Container>
