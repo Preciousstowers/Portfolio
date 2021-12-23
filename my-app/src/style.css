@@ -72,8 +72,10 @@ a.nav-link:first-of-type {
 }
 
 .box {
-  background-color: white;
-  border-radius: 3px;
+  background-color: gray;
+  border-radius: 20px;
+  padding: 2.5vw;
+  margin: 1vw;
   border-bottom: 3px solid gray;
 }
 

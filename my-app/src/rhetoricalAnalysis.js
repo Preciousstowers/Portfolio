@@ -54,7 +54,6 @@ export function RhetoricalAnalysis() {
                 </div>
 
                 <br />
-
                 <div className="projectRowOne">
                     <div className="box">
                         <br />
@@ -91,24 +90,22 @@ export function RhetoricalAnalysis() {
                     </div>
                 </div>
                 <br />
-         
+
 
 
                 <div className="projectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Planning</h3>
-               
-                            <Container>
-                                <Row>
-                                    <Col md lg={6}>
-                                        <img className="novemberfeaturedImage" src="/november-2021-printable-calendar-1 2.jpg" />
-                                    </Col>
-                                    <Col md lg={6}>
-                                        <img className="decemberfeaturedImage" src="/december-2021-calendar-1 2.jpg" />
-                                    </Col>
-                                </Row>
-                            </Container>
-        
+                        <Container>
+                            <Row>
+                                <Col md lg={6}>
+                                    <img className="novemberfeaturedImage" src="/november-2021-printable-calendar-1 2.jpg" />
+                                </Col>
+                                <Col md lg={6}>
+                                    <img className="decemberfeaturedImage" src="/december-2021-calendar-1 2.jpg" />
+                                </Col>
+                            </Row>
+                        </Container>
                         <br />
                     </div>
                 </div>
@@ -116,59 +113,127 @@ export function RhetoricalAnalysis() {
                 <br />
                 <div className="projectRowOne">
                     <div className="box">
-                
                         <h3 className="rowTitle">Research Questions</h3>
                         <p className="rowDescriptionLong">
-                        <ol>
-                            <p>
-                                <li>What is Kairos and why is it important within rhetoric?</li>
-                                <li> How does Kairos affect digital rhetoric?</li>
-                                <li>What is digital rhetoric and why is it important?</li>
-                                <li>How can digital rhetoric amplify and silence different narratives in society?</li>
-                                <li>How does digital rhetoric affect physical spaces for different audiences? (Comparing the impact on generational difference and racial differences) </li>
-                            </p>
-                        </ol>
+                            <ol>
+                                <p>
+                                    <li>What is Kairos and why is it important within rhetoric?</li>
+                                    <li> How does Kairos affect digital rhetoric?</li>
+                                    <li>What is digital rhetoric and why is it important?</li>
+                                    <li>How can digital rhetoric amplify and silence different narratives in society?</li>
+                                    <li>How does digital rhetoric affect physical spaces for different audiences? (Comparing the impact on generational difference and racial differences) </li>
+                                </p>
+                            </ol>
                         </p>
                     </div>
-                </div>
-                <div className="projectRowOne">
-                    <div className="box">
-                    <br />
-                        <h3 className="rowTitle">Artifacts + Archives Observed</h3>
-                    
-                        <p className="rowDescriptionLong">
-                        <ol>
-                            <li> Classical Usages of Kairos - I will examine how Kairos was viewed in the classical time period.
-                                I will also examine Kairos in classical/historical pieces of rhetoric.
-                                This will allow me to gain a better understanding of when/how Kairos was used before the internet.</li>
-                            <li> Social Media - I will be examining different social media posts on platforms such as twitter,
-                                Facebook and tik tok. This will allow me to look for patterns of rhetoric and if digital rhetoric
-                                is stylistically changing as we progress to further adopt social media usage.</li>
-                        </ol>
-                        </p>
-                    </div>
-          
                 </div>
 
                 <div className="projectRowOne">
-              
-                    <h3 className="rowTitle">Key Takeaways</h3>
-                    <Container>
-                        <Row>
-                    <ol>
-                            <p>
-                                <li>What is Kairos and why is it important within rhetoric?</li>
-                                <li> How does Kairos affect digital rhetoric?</li>
-                                <li>What is digital rhetoric and why is it important?</li>
-                                <li>How can digital rhetoric amplify and silence different narratives in society?</li>
-                                <li>How does digital rhetoric affect physical spaces for different audiences? (Comparing the impact on generational difference and racial differences) </li>
-                            </p>
-                        </ol>
-                        </Row>
-                    </Container>
-                    <br />
-                    <br />
+                    <div className="box">
+                        <br />
+                        <h3 className="rowTitle">Artifacts + Archives Observed</h3>
+                        <p className="rowDescriptionLong">
+                            <ol>
+                                <li>Classical Usages of Kairos - I will examine how Kairos was viewed in the classical time period.
+                                    I will also examine Kairos in classical/historical pieces of rhetoric.
+                                    This will allow me to gain a better understanding of when/how Kairos was used before the internet.</li>
+                                <li>Social Media - I will be examining different social media posts on platforms such as twitter,
+                                    Facebook and tik tok. This will allow me to look for patterns of rhetoric and if digital rhetoric
+                                    is stylistically changing as we progress to further adopt social media usage.</li>
+                            </ol>
+                        </p>
+                        <br />
+                    </div>
                 </div>
+                <br />
+
+                <div className="projectRowOne">
+                    <div className="box">
+
+                        <h3 className="rowTitle">Key Findings</h3>
+
+                        <p className="rowDescriptionLong">
+                        </p>
+                        <ol>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col md lg={4}>
+                                        <li><b>  Provides information</b>  about accessibility features about indoor buildings, outdoor architecture and on travel paths </li>
+                                    </Col>
+                                    <Col md lg={4}>
+                                        <li><b> Empowers users </b> who identify having a mobility disability by reassuring self-sufficiency through
+                                            understanding current accesibility features for future travels </li>
+                                    </Col>
+                                    <Col md lg={4}>
+                                        <li> <b> De-stigmatizes conversations </b> about disabilities and accesibility features in society </li>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </ol>
+                        <br />
+                    </div>
+                </div>
+
+                <div className="projectRowOne">
+                    <div className="box">
+                        <br />
+                        <h3 className="rowTitle">Styling Text</h3>
+                        <p className="rowDescriptionLong">
+                        </p>
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs md lg={3}>
+                                    <p className="rowDescriptionLong">
+                                        From our initial iteration to our final product, we
+                                        changed:
+                                        <ol>
+                                            <br />
+                                            <b><li> changed the color scheme/UI</li></b>
+                                            <br />
+                                            <b> <li> changed the centrality of information</li></b>
+                                            <br />
+                                            <b> <li> included optional flagging of misinformation</li></b>
+                                        </ol>
+                                    </p>
+                                </Col>
+                                <Col lg={9}>
+                                    <img className="featuredImage" src="/rhetoricalPaper.png" />
+                                </Col>
+                            </Row>
+                        </Container>
+                        <br />
+                    </div>
+                </div>
+
+                <div className="projectRowOne">
+                    <div className="box">
+                        <br />
+                        <h3 className="rowTitle">Key Takeaways</h3>
+                        <p className="rowDescriptionLong">
+                        </p>
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col md lg={6}>
+                                    <p className="rowDescriptionLong"> The usage of Language</p>
+                                    <p className="rowDescriptionLong"> If I had more time, I would changed the language of my paper to fit
+                                        the editorial design rather than a straight copy/paste.</p>
+                                </Col>
+                                <Col md lg={6}>
+                                    <img className="featuredImage" src="/A4 Portrait.png" />
+                                </Col>
+                            </Row>
+                        </Container>
+                        <br />
+                    </div>
+                </div>
+
+                <center>
+                    <br />
+                    <Link exact to="/">
+                        back to homepage
+                    </Link>
+                </center>
+                <br />
             </body>
         </div>
     )

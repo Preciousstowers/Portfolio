@@ -142,7 +142,7 @@ export function Homepage() {
                             <Card.Title>Grid Tutorial
                             </Card.Title>
                             <Card.Text>
-                                a walkthrough on how to use the Grid application
+                                a walkthrough on how to use the application Grid 
                             </Card.Text>
                         </Card.Body>
                     </Card>
