@@ -17,7 +17,7 @@ export function Tutela() {
                     <img className="initialImageOne" src="/tutelaPhotos/initialPhoto.png" />
                 </div>
                 <br />
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowOne">
                     <div className="box">
                         <br />
                         <br />
@@ -25,27 +25,27 @@ export function Tutela() {
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
-                                    <p className="rowDescriptionLong">  Tutela is latin for protection and guardianship. </p>
+                                    <p>  Tutela is latin for protection and guardianship. </p>
 
-                                    <p className="rowDescriptionLong"> Our application was inspired by a tiktok trend that included users uploading
+                                    <p> Our application was inspired by a tiktok trend that included users uploading
                                         videos of fake video/phone conversations to mimic an active conversation when
                                         other users have no one to call and are the passanger seat of a car and/or in a potentially
                                         threatening situation.  </p>
 
-                                    <p className="rowDescriptionLong">
+                                    <p>
                                         In the WINFO 9th annual Hackathon, my team and I decided to take
                                         this trend and design an application because as women-identifying individuals,
                                         myself and many others are oftentimes seen as potential targets for rape-related
                                         and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
                                         help end these issues. </p>
 
-                                    <p className="rowDescriptionLong">  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
+                                    <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
                                     <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
-                                        <p className="rowDescriptionLong">  view full interactive application here </p>
+                                        <p>  view full interactive application here </p>
                                     </a>
 
                                     <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
-                                        <p className="rowDescriptionLong">  view full slide deck here </p>
+                                        <p>  view full slide deck here </p>
                                     </a>
                                 </Col>
                                 <Col md lg={5}>
@@ -66,13 +66,13 @@ export function Tutela() {
                 <br />
 
 
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
-                        <b><p className="rowDescriptionLong">Higher institutions lack the accountability that Human Trafficking and Rape
+                        <b><p>Higher institutions lack the accountability that Human Trafficking and Rape
                             related cases are consistently making women (and others) feel unsafe in society,
                             both in home and in public spaces. </p></b>
-                        <p className="rowDescriptionLong">
+                        <p>
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
@@ -97,13 +97,13 @@ export function Tutela() {
                 </div>
                 <br />
 
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Research</h3>
-                        <p className="rowDescriptionLong"> Women feel safer in the actual or potential
+                        <p> Women feel safer in the actual or potential
                             presence of others because they assume that offenders will be deterred by the possibility of bystander intervention.
                             - Women's Fear and Design of Public Space</p>
-                        <b><p className="rowDescriptionLong">61% of women regularly take steps to avoid being sexually assaulted - YouGov </p></b>
+                        <b><p>61% of women regularly take steps to avoid being sexually assaulted - YouGov </p></b>
 
                         <div className="sidebyside">
                             <Container>
@@ -122,23 +122,23 @@ export function Tutela() {
                     </div>
                 </div>
                 <br />
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Personas</h3>
-                        <p className="rowDescriptionLong"> Two user persona's were created to further empathize with women identifying who could potnetially
+                        <p> Two user persona's were created to further empathize with women identifying who could potnetially
                             need bystander intervention.</p>
                         <br />
                         <Container>
                             <Row className="justify-content-md-center">
 
                                 <Col md lg={6}>
-                                    <p className="rowDescriptionLong"> Meet Hannah, a 21 year old college student who does not have a reliable
+                                    <p> Meet Hannah, a 21 year old college student who does not have a reliable
                                         support system and oftentimes find herself walking alone.</p>
                                     <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                                 </Col>
 
                                 <Col md lg={6} >
-                                    <p className="rowDescriptionLong">  Meet Jenna, a 25 year old transgender woman
+                                    <p>  Meet Jenna, a 25 year old transgender woman
                                         who finds herself walking alone thoughout her daily errands. </p>
                                     <img className="personaOne" src="tutelaPhotos/Jenna's User Persona.png" />
                                 </Col>
@@ -147,7 +147,7 @@ export function Tutela() {
                     </div>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowOne">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Why tutela?</h3>
@@ -155,7 +155,7 @@ export function Tutela() {
                             and friends when they can't connect with anyone and safety is compromised. Many women often fear walking or traveling alone,
                             our app allows users to share their location with desired contacts and play audio or video
                             recordings to provide companionship when users feel alone.</p> */}
-                        <p className="rowDescriptionLong">
+                        <p>
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
@@ -183,11 +183,11 @@ export function Tutela() {
                 <h3 className="rowTitle">Jenna's Favorite Application Features</h3>
                 <br />
                 <br />
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">easy onboarding process</h4>
                         <Col>
-                            <p className="rowDescriptionLong">Jenna easily follows the instructions to guide her
+                            <p>Jenna easily follows the instructions to guide her
                                 through their first recording. She can also add an shortcut widget to her dashboard at anytime
                                 through the add a shortcut feature.
                             </p>
@@ -203,11 +203,11 @@ export function Tutela() {
                 </div>
                 <br />
                 <br />
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">add an automated phone/voice recording</h4>
                         <Col>
-                            <p className="rowDescriptionLong">Jenna doesn't have any recordings, but that's okay!
+                            <p>Jenna doesn't have any recordings, but that's okay!
                                 She can easily create a recording by answering the list of questions
                                 and an automated call will be created and added to her saved recordings.
                                 <br />
@@ -222,11 +222,11 @@ export function Tutela() {
                         </Container>
                     </section>
                 </div>
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">access saved phone/voice recordings</h4>
                         <Col>
-                            <p className="rowDescriptionLong">She can easily view her saved recordings privatley or search the
+                            <p>She can easily view her saved recordings privatley or search the
                                 most popular public recordings that other users are currenly using.
                             </p>
                         </Col>
@@ -239,11 +239,11 @@ export function Tutela() {
                         </Container>
                     </section>
                 </div>
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">an on-the-go partner</h4>
                         <Col>
-                            <p className="rowDescriptionLong">Jenna feels safe as she can access her tutela partner at any time and any location.
+                            <p>Jenna feels safe as she can access her tutela partner at any time and any location.
                                 All location information will be submitted to emergency services if the user dials 911
                                 via application.
                             </p>
@@ -257,11 +257,11 @@ export function Tutela() {
                         </Container>
                     </section>
                 </div>
-                <div className="projectRowOne">
+                <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">pair with alexa</h4>
                         <Col>
-                            <p className="rowDescriptionLong"> Jenna sometimes feels unsafe at home. She can address potential at-home saftey
+                            <p> Jenna sometimes feels unsafe at home. She can address potential at-home saftey
                                 by accessing the connect to Alexa feature is added by saying a key word/sentence and the application
                                 will call a friend or 911.
                             </p>

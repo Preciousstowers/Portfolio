@@ -18,36 +18,34 @@ export function DiscoveryHub() {
                 </div>
                 <br />
 
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowOne">
                     <div className="box">
-                        <br />
-                        <br />
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
                                     <h2 className="rowTitle">Project Overview</h2>
 
-                                    <p className="rowDescriptionLong"> Socioeconomic innequalities are still prevelant among
+                                    <p > Socioeconomic innequalities are still prevelant among
                                         many communities accross the United States. The long history of these innequalities has created
                                         collateral damage in the U.S educational system, where students in impoverished areas do not recieve
                                         equal amounts educational resources. Information systems to distribute these educational resources lack
                                         vital features to help their students long-term.
                                     </p>
 
-                                    <p className="rowDescriptionLong">
+                                    <p >
                                         In our INFO442 Cooperative Software Development class, we created DiscoveryHub,
                                         a product to connect local organizations who offer tutoring and mentoring services
                                         to students within their community.
                                     </p>
 
-                                    <b><p className="rowDescriptionLong">For students, by students. </p></b>
+                                    <b><p >For students, by students. </p></b>
 
                                     <a href="https://discoveryhub-86001.firebaseapp.com/" target="_blank" >
-                                        <p className="rowDescriptionLong">  view full product here </p>
+                                        <p >  view full product here </p>
                                     </a>
 
                                     <a href="https://www.canva.com/design/DAExQqM053k/k8R0Eo6dRqlccp81xUw52w/view?utm_content=DAExQqM053k&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1" target="_blank" >
-                                        <p className="rowDescriptionLong">  view full slide deck here </p>
+                                        <p>  view full slide deck here </p>
                                     </a>
                                 </Col>
                                 <Col md lg={5}>
@@ -67,10 +65,10 @@ export function DiscoveryHub() {
           
 
 
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Let's see the problem</h3>
-                        <p className="rowDescriptionLong"> There are inequitable information systems to learn about educational opportunities across the U.S.</p>
+                        <p > There are inequitable information systems to learn about educational opportunities across the U.S.</p>
                         <div className="sidebyside">
                         <ol>  
                             <Container>
@@ -104,21 +102,21 @@ export function DiscoveryHub() {
                 </div>
 
                 <br />
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Our Personas</h3>
-                        <p className="rowDescriptionLong"> Two of our potential users who could utilize DiscoveryHub</p>
+                        <p> Two of our potential users who could utilize DiscoveryHub</p>
                         <br />
                         <Container>
 
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                <center><p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p></center>
+                                <center><p > Meet Melissa, a busy 34 year old mother of two children.</p></center>
 
                                 </Col>
 
                                 <Col md lg={6} >
-                                <center><p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
+                                <center><p > Meet Winfo, sn RSO at the University of Washington who wants
                                         to help students in the surrounding community</p></center>
                                 </Col>
                             </Row>
@@ -134,24 +132,24 @@ export function DiscoveryHub() {
 
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                <center><p className="rowDescriptionLong"> Melissa needs an easy way to search and learn about educational
+                                <center><p > Melissa needs an easy way to search and learn about educational
                                         programs outside of school hours for her children</p></center>  
                                 </Col>
 
                                 <Col md lg={6}>
-                                <center><p className="rowDescriptionLong"> WINFO needs an easy platform where they can showcase their
+                                <center><p > WINFO needs an easy platform where they can showcase their
                                         organization if parents or students are in need of a mentor/tutor</p>    </center>                                      </Col>
                             </Row>
                         </Container>
                     </div>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowTwo">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Why DiscoveryHub?</h3>
                         <br />
-                        <p className="rowDescriptionLong">
+                        <p>
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
@@ -177,13 +175,13 @@ export function DiscoveryHub() {
                 </div>
                 <br />
 
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Our Initial Mockup</h3>
                         <Container> 
                             <Row >
                             <Col xs md lg={3}>
-                                    <p className="rowDescriptionLong">
+                                    <p>
                                         From our initial iteration to our final product, we
                                         changed:
                                         <ol>
@@ -210,11 +208,11 @@ export function DiscoveryHub() {
                 <h3 className="rowTitle">Main Application Features</h3>
                 <br />
                 <br />
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">join our academic community popup</h4>
                         <Col>
-                            <p className="rowDescriptionLong">a users and organizations are quickly welcomed by offering
+                            <p>a users and organizations are quickly welcomed by offering
                                 to join the community using a pop-up to register.
                             </p>
                         </Col>
@@ -229,11 +227,11 @@ export function DiscoveryHub() {
                 </div>
 
 
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">filter for organizations</h4>
                         <Col>
-                            <p className="rowDescriptionLong">users can filter for organizations based on
+                            <p>users can filter for organizations based on
                                 their wanted criteria
                             </p>
                         </Col>
@@ -248,11 +246,11 @@ export function DiscoveryHub() {
                 </div>
                 <br />
                 <br />
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">favorite organization handling</h4>
                         <Col>
-                            <p className="rowDescriptionLong">logged in users can favorite an organization and it is
+                            <p>logged in users can favorite an organization and it is
                                 saved to their profile. if the user is not signed in, they will be notified to join the academic community
                                 before using the feature
                                 <br />
@@ -268,13 +266,13 @@ export function DiscoveryHub() {
                     </section>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="discoveryHubprojectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">register your organization form</h4>
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col xs lg={6}>
-                                    <p className="rowDescriptionLong">organizations can become registered in discoveryHub by filling out
+                                    <p>organizations can become registered in discoveryHub by filling out
                                         the form and they can soon view their registered org on the homescreen
                                     </p>
                                 </Col>
@@ -286,19 +284,19 @@ export function DiscoveryHub() {
                     </section>
                 </div>
 
-                <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
+                <br />
+                <h3 className="rowTitle">Closing Thoughts</h3>
+         
                 <Container>
                     <Row className="justify-content-md-center">
                         <Col md lg={6}>
-                            <p className="rowDescriptionLong">
-
+                            <p>
                                 Designing a website based on the skill level of the developers was a crucial skill I learned.
                                 As someone who assisted in developing, I was able to understand where my design could succeed and fail
                                 faster than if I had not understood/helped with the development. I was also able to empathize with my developers
                                 if they could not finish a task due to the technicality of the design and functionality. </p>
-                            <p className="rowDescriptionLong">
-
+                            <p>
                                 If I were to work on this project in the future, I would implement a view mentor/tutor feature. This would
                                 allow specific mentors and tutors to have a platform to share singular voices along with voices of the organizations.
                                 See mockup on the right.  </p>

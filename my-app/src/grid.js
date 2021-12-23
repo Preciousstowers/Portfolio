@@ -81,7 +81,7 @@ export function Grid() {
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
                         <p >
-                            <b> People who identify as having a disability are historically
+                            <b className='boldText'> People who identify as having a disability are historically
                                 overlooked when designing society. </b>
                             At the University of Washington, there is a lack of digital technologies
                             that help reinforce the knowledge distribution about current accessibility
@@ -108,7 +108,6 @@ export function Grid() {
                                         </li>
                                     </Col>
                                     <Col sm md lg={4}>
-
                                         <li>
                                             In the U.S, “40.7 million adults aged 18 and over have a physical
                                             functioning difficulty” (CDC, 2020). This means that millions of
