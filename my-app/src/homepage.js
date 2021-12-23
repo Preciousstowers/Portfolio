@@ -74,7 +74,7 @@ export function Homepage() {
                 <section className="homepageDesignWork">
                     {/* <section className="homepageRow"> */}
                     <Link className="cardLink" to="/Grid">
-                        <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                        <Card className="homepageCard" >
                             <Card.Img variant="top" src="/Frame 7 (10).png" style={{ backgroundColor: '#454173' }}
                             />
                             <Card.Body>
@@ -89,7 +89,7 @@ export function Homepage() {
                     </Link>
 
                     <Link className="cardLink" to="/DiscoveryHub">
-                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                    <Card className="homepageCard" >
                         <Card.Img variant="top" src="/Rectangle (5).png" style={{ backgroundColor: '#B2ACD5' }} />
                         <Card.Body>
                             <Card.Title>Meet DiscoveryHub</Card.Title>
@@ -102,7 +102,7 @@ export function Homepage() {
                     </Link>
 
                     <Link className="cardLink" to="/Tutela">
-                        <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                        <Card className="homepageCard" >
                             <Card.Img src="/tutelaPhotos/Frame 6 (1).png" style={{ backgroundColor: '#80CCD7' }} />
                             <Card.Body>
 
@@ -122,7 +122,7 @@ export function Homepage() {
                 </div>
                 <section className="homepageDataWork">
                 <Link className="cardLink" to="/RhetoricalAnalysis">
-                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                    <Card className="homepageCard" >
                         <Card.Img variant="top" src="/A4 Portrait.png" />
                         <Card.Body>
                             <Card.Title>the perfect moment: a rhetorical analysis
@@ -136,7 +136,7 @@ export function Homepage() {
                     </Card>
                     </Link > 
 
-                    <Card className="homepageCard" style={{ width: '20rem', height: '33rem' }}>
+                    <Card className="homepageCard" >
                         <Card.Img variant="top" src="/Frame 8 (2).png" />
                         <Card.Body>
                             <Card.Title>Grid Tutorial

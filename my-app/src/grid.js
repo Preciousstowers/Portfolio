@@ -22,7 +22,7 @@ export function Grid() {
                         <br />
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={7}>
+                                <Col xs={12} lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
                                     <p>
                                         <p>
@@ -49,15 +49,15 @@ export function Grid() {
                                             inclusive spaces.  </p>
 
                                         <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
-                                            <p>  view full interactive application </p>
+                                            <p>view full interactive application</p>
                                         </a>
 
                                         <a href="https://www.canva.com/design/DAETdDe0fpo/oeytfbreqagPj8e6kr2RQA/view?utm_content=DAETdDe0fpo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" >
-                                            <p>  view full slide deck  </p>
+                                            <p>view full slide deck</p>
                                         </a>
 
                                         <a href="https://drive.google.com/file/d/1UYOE-vx9Kz_yZSSNZU7jj2SjKxdky9w6/view?usp=sharing" target="_blank" >
-                                            <p>  view product video  </p>
+                                            <p>view product video</p>
                                         </a>
                                     </p>
                                 </Col>
@@ -76,7 +76,7 @@ export function Grid() {
                         </Container>
                     </div>
                 </div>
-                <br />
+                {/* <br /> */}
                 <div className="GridProjectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
@@ -121,7 +121,7 @@ export function Grid() {
                         </ol>
                     </div>
                 </div>
-                <br />
+                {/* <br /> */}
 
 
                 <div className="GridProjectRowOne">
@@ -156,7 +156,6 @@ export function Grid() {
                             <Col lg={4}>
                                 <br />
                                 <p>   Annuska Zolyomi, an INFO 498 Inclusive Design Professor </p>
-
                                 <b><p>We learned: </p></b>
                                 <ol>
                                     <b><li>we should take into account the caregivers helping those with a disability</li></b>
@@ -289,7 +288,7 @@ export function Grid() {
                 <h3 className="rowTitle">Final Application Features</h3>
                 <div className="box">
                     <br />
-                    <br />
+                
                     <div className="GridProjectRowTwo">
                         <section className="leftHandSide">
                             <h4 className="rowTitle">building and room accessibility rating</h4>
@@ -306,8 +305,8 @@ export function Grid() {
                             </Container>
                         </section>
                     </div>
-                    <br />
-                    <br />
+                    {/* <br /> */}
+                 
                     <div className="GridProjectRowOne">
                         <section className="leftHandSide">
                             <h4 className="rowTitle">incentivized contribution</h4>
