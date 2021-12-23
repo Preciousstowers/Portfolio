@@ -7,9 +7,9 @@ body {
   font-weight: normal;
  }
 
- b {
+ /* b {}
    font-weight: bolder;
- }
+ } */
 
  .homepageBody {
   padding-left: 3rem;
@@ -178,13 +178,34 @@ img.researchPicture {
   height: 35vw; 
   margin: .5vw;
 }
+
 .discoveryHubMockUps {
   height: 32vw;
-  padding: 2rem;
+  margin-top: 2vw;
+  margin-bottom:2vw;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.initialdiscoveryHubMockUps {
+  height: 30vw;
+  margin-right: 5vw;
+  border-style: solid;
+  border-width: 1px;
 }
 
 img.featuredImage {
   height: 30vw; 
+}
+
+.novemberfeaturedImage {
+  height: 32vw; 
+  margin-top: 1.2vw; 
+}
+
+.decemberfeaturedImage {
+  height: 33vw; 
+  /* margin-top: 10vw; */
 }
 
 img.lastCenterImage {

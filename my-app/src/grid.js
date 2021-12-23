@@ -11,23 +11,15 @@ export function Grid() {
     return (
         <div >
             <body >
-                {/* <div className="box"> */}
-                {/* <div className="projectTitle"> */}
-
                 <h1 className="rowTitle">Grid</h1>
                 <p className="rowDescription"> Increasing travel accessibility one direction at a time </p>
-                {/* </div> */}
                 <div className="initialImages">
                     <img className="initialImageOne" src="/gridPhotos/initialPhotoGrid.png" />
-
                 </div>
                 <br />
                 <div className="projectRowOne">
-
-                    {/* <div className="projectOverview"> */}
                     <div className="box">
                         <br />
-
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
@@ -38,7 +30,6 @@ export function Grid() {
                                         This can include outside physical barriers such as not
                                         including an accessible entrance to a building to indoor
                                         physical barriers such as not including an accessible bathroom.
-
                                     </p>
 
                                     <p className="rowDescriptionLong">
@@ -55,8 +46,6 @@ export function Grid() {
                                             where accessible features are and encourages those who do
                                             not have a disability to join the conversation surrounding
                                             inclusive spaces.  </p>
-
-
 
                                         <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
                                             <p>  view full interactive application </p>
@@ -86,10 +75,7 @@ export function Grid() {
                         </Container>
                     </div>
                 </div>
-
                 <br />
-
-
                 <div className="projectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
@@ -101,7 +87,7 @@ export function Grid() {
                             that help reinforce the knowledge distribution about current accessibility
                             features.
                         </p>
-                        {/* <p className="list"> */}
+
                         <ol>
                             <Container>
                                 <Row className="justify-content-md-center">
@@ -134,7 +120,6 @@ export function Grid() {
                             </Container>
 
                         </ol>
-                        {/* </p> */}
                     </div>
                 </div>
                 <br />
@@ -148,21 +133,43 @@ export function Grid() {
                             how people around the University of Washington gain insights
                             about accessibility features around campus.
                         </p>
-                        {/* <div className="researchImages"> */}
                         <div className="sidebyside">
-
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col lg={4}>
-                                        First interview - Lindsey Muszkiewicz, a 4th year undergraduate student who is mobility impaired
+                                    <p> Lindsey Muszkiewicz, a 4th year undergraduate student who is mobility impaired</p>
+                            
+                                        <b><p>We learned: </p></b>
+                                        <ol>
+                                            <b><li>finding accessible building entrances could result in circling a building more than 3 times</li></b>
+                                            <br />
+                                            <b> <li>there is a lack of detail about specific accesibility features in buildings</li></b>
+                                            <br />
+                                            <b> <li>we need to be able to notify users if an accesible entrance/path/feature is blocked</li></b>
+                                        </ol>
+                                        <br />
                                     </Col>
                                     <Col lg={8}>
+                               
                                         <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
                                     </Col>
+                               
                                     <Col lg={4}>
-                                        Second interview - Annuska Zolyomi, an HCDE PHD and INFO 498 Inclusive Design Professor
+                                    <br />
+                                    <p>   Annuska Zolyomi, an INFO 498 Inclusive Design Professor </p>
+                              
+                                        <b><p>We learned: </p></b>
+                                        <ol>
+                                            <b><li>we should take into account the caregivers helping those with a disability</li></b>
+                                            <br />
+                                            <b> <li>we need to research how we can keep information about accesibility up to date</li></b>
+                                            <br />
+                                            <b> <li>we need to create a collaborative enviroment where different communities can empower and help
+                                                each other</li></b>
+                                        </ol>
                                     </Col>
                                     <Col lg={8}>
+                                    <br />
                                         <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
                                     </Col>
                                 </Row>
@@ -173,13 +180,11 @@ export function Grid() {
                 </div>
                 <div className="box">
                     <div className="projectRowOne">
-
                         <section className="leftHandSide">
                             <br />
                             <h4 className="rowTitle">Market Analysis</h4>
                             <Container>
                                 <Row className="justify-content-md-center">
-
                                     <Col xs md lg={5}>
                                         <p className="rowDescriptionLong">
                                             A market analysis allowed us to understand current products
@@ -201,7 +206,6 @@ export function Grid() {
                 <div className="projectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Personas</h3>
-
                         <div className="projectPersona">
                             <Container>
                                 <Row className="justify-content-md-center">
@@ -221,11 +225,9 @@ export function Grid() {
                                     </Col>
                                     <Col md lg={8}>
                                         <img className="gridpersonaOne" src="/gridPhotos/NatashaPersona.png" />
-
                                     </Col>
                                 </Row>
                             </Container>
-
                         </div>
                         <br />
                     </div>
@@ -253,7 +255,6 @@ export function Grid() {
                                     </Row>
                                 </Container>
                             </ol>
-
                         </p>
                         <br />
                     </div>
@@ -268,10 +269,8 @@ export function Grid() {
                             <Row className="justify-content-md-center">
                                 <Col xs md lg={3}>
                                     <p className="rowDescriptionLong">
-
                                         From our initial iteration to our final product, we
                                         changed:
-
                                         <ol>
                                             <br />
                                             <b><li> changed the color scheme/UI</li></b>
@@ -287,7 +286,6 @@ export function Grid() {
                                 </Col>
                             </Row>
                         </Container>
-
                         <br />
                     </div>
                 </div>
@@ -295,9 +293,9 @@ export function Grid() {
                 <br />
 
                 <h3 className="rowTitle">Final Application Features</h3>
+                <div className="box">
                 <br />
                 <br />
-
                 <div className="projectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">building and room accessibility rating</h4>
@@ -310,11 +308,10 @@ export function Grid() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={5}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
+                                <Col xs lg={2}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
                             </Row>
                         </Container>
                     </section>
-
                 </div>
                 <br />
                 <br />
@@ -330,7 +327,7 @@ export function Grid() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="8"> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
+                                <Col xs lg={6}> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
                             </Row>
                         </Container>
                     </section>
@@ -346,7 +343,7 @@ export function Grid() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="7"> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
+                                <Col xs lg={4}> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
                             </Row>
                         </Container>
                     </section>
@@ -362,7 +359,7 @@ export function Grid() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="7"> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
+                                <Col xs lg={5}> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
                             </Row>
                         </Container>
                     </section>
@@ -380,12 +377,14 @@ export function Grid() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="10"> <img className="biggerfeaturedImage" src="/gridPhotos/handsFree.png" /></Col>
+                                <Col xs lg={10}> <img className="biggerfeaturedImage" src="/gridPhotos/handsFree.png" /></Col>
                             </Row>
                         </Container>
 
                     </section>
+                    </div>
                 </div>
+                <br />
 
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
@@ -404,7 +403,7 @@ export function Grid() {
                             </p>
                         </Col>
                         <Col xs lg={6}>
-                            <img className="featuredImage" src="/Rectangle (6).png" />
+                            <img className="featuredImage" src="/gridPhotos/Rectangle (6).png" />
                         </Col>
                     </Row>
                 </Container>

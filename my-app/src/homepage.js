@@ -128,7 +128,7 @@ export function Homepage() {
                             <Card.Title>the perfect moment: a rhetorical analysis
                             </Card.Title>
                             <Card.Text>
-                                a rhetorical analysis about how using Kairos and/or time as a design tool for social
+                                a rhetorical analysis about how using Kairos as a design tool for social
                                 media can take a large way how users engage between physical and digital 
                                 spaces
                             </Card.Text>

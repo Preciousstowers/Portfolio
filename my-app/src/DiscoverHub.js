@@ -25,7 +25,7 @@ export function DiscoveryHub() {
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
-                                    <h2 className="rowTitle">Overview</h2>
+                                    <h2 className="rowTitle">Project Overview</h2>
 
                                     <p className="rowDescriptionLong"> Socioeconomic innequalities are still prevelant among
                                         many communities accross the United States. The long history of these innequalities has created
@@ -69,7 +69,7 @@ export function DiscoveryHub() {
 
                 <div className="projectRowOne">
                     <div className="box">
-                        <h3 className="rowTitle">Problem</h3>
+                        <h3 className="rowTitle">Let's see the problem</h3>
                         <p className="rowDescriptionLong"> There are inequitable information systems to learn about educational opportunities across the U.S.</p>
                         <div className="sidebyside">
                         <ol>  
@@ -106,19 +106,19 @@ export function DiscoveryHub() {
                 <br />
                 <div className="projectRowOne">
                     <div className="box">
-                        <h3 className="rowTitle">Personas</h3>
+                        <h3 className="rowTitle">Our Personas</h3>
                         <p className="rowDescriptionLong"> Two of our potential users who could utilize DiscoveryHub</p>
                         <br />
                         <Container>
 
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                <center>   <p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p></center>
+                                <center><p className="rowDescriptionLong"> Meet Melissa, a busy 34 year old mother of two children.</p></center>
 
                                 </Col>
 
                                 <Col md lg={6} >
-                                <center>    <p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
+                                <center><p className="rowDescriptionLong"> Meet Winfo, sn RSO at the University of Washington who wants
                                         to help students in the surrounding community</p></center>
                                 </Col>
                             </Row>
@@ -128,18 +128,18 @@ export function DiscoveryHub() {
                                 </Col>
 
                                 <Col md lg={6}>
-                                <center>  <img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
+                                <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center>
                                 </Col>
                             </Row>
 
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                <center>   <p className="rowDescriptionLong"> Melissa needs an easy way to search and learn about educational
+                                <center><p className="rowDescriptionLong"> Melissa needs an easy way to search and learn about educational
                                         programs outside of school hours for her children</p></center>  
                                 </Col>
 
                                 <Col md lg={6}>
-                                <center>      <p className="rowDescriptionLong"> WINFO needs an easy platform where they can showcase their
+                                <center><p className="rowDescriptionLong"> WINFO needs an easy platform where they can showcase their
                                         organization if parents or students are in need of a mentor/tutor</p>    </center>                                      </Col>
                             </Row>
                         </Container>
@@ -158,28 +158,17 @@ export function DiscoveryHub() {
                                         <Col md lg={4}>
                                         <li><p><b>Provides a shared privatized platform </b> for students/parents to directly meet
                                                 organizations who offer mentors/tutors in their community without potentially distracting information
-                                            </p> </li>
+                                            </p></li>
                                         </Col>
                                         <Col md lg={4}>
                                         <li> <p><b>Online and offline education support services</b>
                                                 allows greater accessibility for those who need educational resources</p></li>
                                         </Col>
                                         <Col md lg={4}>
-                                        <li>  <p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
+                                        <li><p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
                                                 lower-income communities to have a chance at having a more prosperoruos future</p></li> 
                                         </Col>
                                     </Row>
-                                    {/* <Row className="justify-content-md-center">
-                                        <Col md lg={4}>
-                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-virtual-meeting.png" /></center>
-                                        </Col>
-                                        <Col md lg={4}>
-                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-remote-work.png" /></center>
-                                        </Col>
-                                        <Col md lg={4}>
-                                            <center><img className="illustration" src="/discoveryHubPhotos/mellow-back-to-school (1).png" /></center>
-                                        </Col>
-                                    </Row> */}
                                 </Container>
                             </ol>
                         </p>
@@ -190,14 +179,25 @@ export function DiscoveryHub() {
 
                 <div className="projectRowOne">
                     <div className="box">
-                        <h3 className="rowTitle">Initial Mockup</h3>
-                        <Container>
+                        <h3 className="rowTitle">Our Initial Mockup</h3>
+                        <Container> 
                             <Row >
-                                <Col md lg={6}>
-                                    <img className="discoveryHubMockUps" src="/discoveryHubPhotos/Get Started (1).jpg" />
+                            <Col xs md lg={3}>
+                                    <p className="rowDescriptionLong">
+                                        From our initial iteration to our final product, we
+                                        changed:
+                                        <ol>
+                                            <br />
+                                           <li>incorporated the color scheme/UI</li>
+                                            <br />
+                                             <li>changed the subjects/services/platform attribute styling on the organization cards </li>
+                                            <br />
+                                          <li>included alerts if the user wanted to use a favorite feature and they're not logged in</li>
+                                        </ol>
+                                    </p>
                                 </Col>
                                 <Col md lg={6}>
-                                    <img className="discoveryHubMockUps" src="/discoveryHubPhotos/Favorites (3).jpg" />
+                                    <img className="initialdiscoveryHubMockUps" src="/discoveryHubPhotos/Homepage (6).jpg" />
                                 </Col>
                             </Row>
                         </Container>
@@ -207,7 +207,7 @@ export function DiscoveryHub() {
                 <br />
                 <br />
 
-                <h3 className="rowTitle">main application features</h3>
+                <h3 className="rowTitle">Main Application Features</h3>
                 <br />
                 <br />
                 <div className="projectRowOne">
@@ -220,7 +220,7 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={8}>
+                                <Col xs lg={9}>
                                     <img className="discoveryHubMockUps" src="/discoveryHubPhotos/joinCommunity.png" />
                                 </Col>
                             </Row>
@@ -239,7 +239,7 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={8}>
+                                <Col xs lg={9}>
                                     <img className="discoveryHubMockUps" src="/discoveryHubPhotos/filterOrg.png" />
                                 </Col>
                             </Row>
@@ -260,14 +260,13 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={8}>
+                                <Col xs lg={9}>
                                     <img className="discoveryHubMockUps" src="/discoveryHubPhotos/favoriteOrg.png" />
                                 </Col>
                             </Row>
                         </Container>
                     </section>
                 </div>
-
 
                 <div className="projectRowOne">
                     <section className="leftHandSide">
