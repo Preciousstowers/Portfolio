@@ -22,17 +22,18 @@ export function Grid() {
                         <br />
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col md lg={7}>
+                                <Col xs lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
-                                    <p className="rowDescriptionLong">
-                                        In today’s physical architecture, there lacks
-                                        inclusiveness for those who identify with a disability.
-                                        This can include outside physical barriers such as not
-                                        including an accessible entrance to a building to indoor
-                                        physical barriers such as not including an accessible bathroom.
-                                    </p>
+                                    <p>
+                                        <p>
+                                            In today’s physical architecture, there lacks
+                                            inclusiveness for those who identify with a disability.
+                                            This can include outside physical barriers such as not
+                                            including an accessible entrance to a building to indoor
+                                            physical barriers such as not including an accessible bathroom.
+                                        </p>
 
-                                    <p className="rowDescriptionLong">
+
                                         <p>  Created in the INFO360 Design Methods class,
                                             our application Grid, addresses the accessibility
                                             information gap by allowing users to identify,
@@ -76,11 +77,10 @@ export function Grid() {
                     </div>
                 </div>
                 <br />
-                <div className="GridProjectRowOne">
+                <div className="GridProjectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
-                        <p className="rowDescriptionLong">
-
+                        <p >
                             <b> People who identify as having a disability are historically
                                 overlooked when designing society. </b>
                             At the University of Washington, there is a lack of digital technologies
@@ -128,69 +128,70 @@ export function Grid() {
                 <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Research</h3>
-                        <p className="rowDescriptionLong">
+                        <p >
                             Our team performed interviews to gain an understanding of
                             how people around the University of Washington gain insights
                             about accessibility features around campus.
                         </p>
-                            <Container>
-                                <Row className="justify-content-md-center">
-                                    <Col lg={4}>
-                                    <p> Lindsey Muszkiewicz, a 4th year undergraduate student who is mobility impaired</p>
-                            
-                                        <b><p>We learned: </p></b>
-                                        <ol>
-                                            <b><li>finding accessible building entrances could result in circling a building more than 3 times</li></b>
-                                            <br />
-                                            <b> <li>there is a lack of detail about specific accesibility features in buildings</li></b>
-                                            <br />
-                                            <b> <li>we need to be able to notify users if an accesible entrance/path/feature is blocked</li></b>
-                                        </ol>
-                                        <br />
-                                    </Col>
-                                    <Col lg={8}>
-                               
-                                        <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
-                                    </Col>
-                               
-                                    <Col lg={4}>
+                        <br />
+                        {/* <Container> */}
+                        <Row className="justify-content-md-center">
+                            <Col lg={4}>
+                                <p> Lindsey Muszkiewicz, a 4th year undergraduate student who is mobility impaired</p>
+
+                                <b><p>We learned: </p></b>
+                                <ol>
+                                    <b><li>finding accessible building entrances could result in circling a building more than 3 times</li></b>
                                     <br />
-                                    <p>   Annuska Zolyomi, an INFO 498 Inclusive Design Professor </p>
-                              
-                                        <b><p>We learned: </p></b>
-                                        <ol>
-                                            <b><li>we should take into account the caregivers helping those with a disability</li></b>
-                                            <br />
-                                            <b> <li>we need to research how we can keep information about accesibility up to date</li></b>
-                                            <br />
-                                            <b> <li>we need to create a collaborative enviroment where different communities can empower and help
-                                                each other</li></b>
-                                        </ol>
-                                    </Col>
-                                    <Col lg={8}>
+                                    <b> <li>there is a lack of detail about specific accesibility features in buildings</li></b>
                                     <br />
-                                        <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
-                                    </Col>
-                                </Row>
-                            </Container>
+                                    <b> <li>we need to be able to notify users if an accesible entrance/path/feature is blocked</li></b>
+                                </ol>
+                                <br />
+                            </Col>
+                            <Col lg={8}>
+
+                                <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
+                            </Col>
+
+                            <Col lg={4}>
+                                <br />
+                                <p>   Annuska Zolyomi, an INFO 498 Inclusive Design Professor </p>
+
+                                <b><p>We learned: </p></b>
+                                <ol>
+                                    <b><li>we should take into account the caregivers helping those with a disability</li></b>
+                                    <br />
+                                    <b> <li>we need to research how we can keep information about accesibility up to date</li></b>
+                                    <br />
+                                    <b> <li>we need to create a collaborative enviroment where different communities can empower and help
+                                        each other</li></b>
+                                </ol>
+                            </Col>
+                            <Col lg={8}>
+                                <br />
+                                <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
+                            </Col>
+                        </Row>
+                        {/* </Container> */}
                         <br />
                     </div>
                 </div>
                 <div className="box">
-                    <div className="GridProjectRowOne">
+                    <div className="GridProjectRowTwo">
                         <section className="leftHandSide">
                             <br />
                             <h4 className="rowTitle">Market Analysis</h4>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col xs md lg={5}>
-                                        <p className="rowDescriptionLong">
+                                    <Col lg={5}>
+                                        <p >
                                             A market analysis allowed us to understand current products
                                             that helped address our problem as many current solutions
                                             still lacked vital features.
                                         </p>
                                     </Col>
-                                    <Col xs md lg={7}>
+                                    <Col xs={12} lg={7}>
                                         <img className="featuredImage" src="/gridPhotos/marketAnalysis.png" />
                                     </Col>
                                 </Row>
@@ -200,52 +201,50 @@ export function Grid() {
                     </div>
                 </div>
 
-           
+
                 <div className="GridProjectRowOne">
                     <div className="box">
-                        <h3 className="rowTitle">Personas</h3>
-                            <Container>
-                                <Row className="justify-content-md-center">
-                                    <Col lg={4}>
-                                        <p className="rowDescriptionLong" >
-                                        <br />
-                                            A user persona was created to further empathize and
-                                            understand with those identifying with a mobility disability.
-                                        </p>
-                                        <br />
-                                        <p className="rowDescriptionLong">
-                                            Meet Natasha, a mobility disabled undergraduate student
-                                            who oftentimes finds themself having a hard time planning
-                                            their trip to class because they don’t know which path will take her to
-                                            the accessible entrance.
-                                        </p>
-                                    </Col>
-                                    <Col md lg={8}>
-                                        <img className="gridpersonaOne" src="/gridPhotos/NatashaPersona.png" />
-                                    </Col>
-                                </Row>
-                            </Container>
-                        <br />
+                        <h3 className="rowTitle">Persona</h3>
+                        <Row className="justify-content-md-center">
+                            <Col lg={4}>
+                                <p>
+                                    <br />
+                                    A user persona was created to further empathize and
+                                    understand with those identifying with a mobility disability.
+                                </p>
+                                <br />
+                                <p>
+                                    Meet Natasha, a mobility disabled undergraduate student
+                                    who oftentimes finds themself having a hard time planning
+                                    their trip to class because they don’t know which path will take her to
+                                    the accessible entrance.
+                                </p>
+                            </Col>
+                            <Col xs={12} lg={8}>
+                                <img className="gridpersonaOne" src="/gridPhotos/NatashaPersona.png" />
+                            </Col>
+                        </Row>
                     </div>
 
                 </div>
 
-                <div className="GridProjectRowOne">
+                <div className="GridProjectRowTwo">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Why Grid?</h3>
-                        <p className="rowDescriptionLong">
+                        <br />
+                        <p>
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
-                                        <Col md lg={4}>
+                                        <Col lg={4}>
                                             <li><b>  Provides information</b>  about accessibility features about indoor buildings, outdoor architecture and on travel paths </li>
                                         </Col>
-                                        <Col md lg={4}>
+                                        <Col lg={4}>
                                             <li><b> Empowers users </b> who identify having a mobility disability by reassuring self-sufficiency through
                                                 understanding current accesibility features for future travels </li>
                                         </Col>
-                                        <Col md lg={4}>
+                                        <Col lg={4}>
                                             <li> <b> De-stigmatizes conversations </b> about disabilities and accesibility features in society </li>
                                         </Col>
                                     </Row>
@@ -263,8 +262,8 @@ export function Grid() {
                         <h3 className="rowTitle">initial iteration</h3>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs md lg={3}>
-                                    <p className="rowDescriptionLong">
+                                <Col lg={3}>
+                                    <p>
                                         From our initial iteration to our final product, we
                                         changed:
                                         <ol>
@@ -277,7 +276,7 @@ export function Grid() {
                                         </ol>
                                     </p>
                                 </Col>
-                                <Col xs md lg={9}>
+                                <Col xs={12} lg={9}>
                                     <img className="miroBoard" src="/gridPhotos/Group 197 2.png" />
                                 </Col>
                             </Row>
@@ -290,123 +289,126 @@ export function Grid() {
 
                 <h3 className="rowTitle">Final Application Features</h3>
                 <div className="box">
-                <br />
-                <br />
-                <div className="GridProjectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">building and room accessibility rating</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">
-                                Easily view building, path and room accessibility ratings
-                                based on current contributions
-                            </p>
+                    <br />
+                    <br />
+                    <div className="GridProjectRowTwo">
+                        <section className="leftHandSide">
+                            <h4 className="rowTitle">building and room accessibility rating</h4>
+                            <Col>
+                                <p>
+                                    Easily view building, path and room accessibility ratings
+                                    based on current contributions
+                                </p>
+                            </Col>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col lg={2}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
+                                </Row>
+                            </Container>
+                        </section>
+                    </div>
+                    <br />
+                    <br />
+                    <div className="GridProjectRowOne">
+                        <section className="leftHandSide">
+                            <h4 className="rowTitle">incentivized contribution</h4>
+                            <Col>
+                                <p>
+                                    Users can create a contribution and earn more stickers
+                                    the user makes more contributions to the application
+                                    <br />
+                                </p>
+                            </Col>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col lg={6}> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
+                                </Row>
+                            </Container>
+                        </section>
+                    </div>
 
-                        </Col>
-                        <Container>
-                            <Row className="justify-content-md-center">
-                                <Col xs lg={2}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
-                            </Row>
-                        </Container>
-                    </section>
-                </div>
-                <br />
-                <br />
-                <div className="GridProjectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">incentivized contribution</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">
-                                Users can create a contribution and earn more stickers
-                                the user makes more contributions to the application
-                                <br />
-                            </p>
-                        </Col>
-                        <Container>
-                            <Row className="justify-content-md-center">
-                                <Col xs lg={6}> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
-                            </Row>
-                        </Container>
-                    </section>
-                </div>
+                    <div className="GridProjectRowTwo">
+                        <section className="leftHandSide">
+                            <h4 className="rowTitle">indoor accessibility and map features</h4>
+                            <Col>
+                                <p>Indoor map design allows additional holistic
+                                    information about accessibility features within the UW campus
+                                </p>
+                            </Col>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col lg={4}> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
+                                </Row>
+                            </Container>
+                        </section>
+                    </div>
 
-                <div className="GridProjectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">indoor accessibility and map features</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">Indoor map design allows additional holistic
-                                information about accessibility features within the UW campus
-                            </p>
-                        </Col>
-                        <Container>
-                            <Row className="justify-content-md-center">
-                                <Col xs lg={4}> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
-                            </Row>
-                        </Container>
-                    </section>
-                </div>
+                    <div className="GridProjectRowOne">
+                        <section className="leftHandSide">
+                            <h4 className="rowTitle">consistent accesibility alerts</h4>
+                            <Col>
+                                <p >Become more aware about what might be blocking the
+                                    accessible path by using the application while traveling.
+                                </p>
+                            </Col>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col lg={5}> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
+                                </Row>
+                            </Container>
+                        </section>
+                    </div>
 
-                <div className="GridProjectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">consistent accesibility alerts</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">Become more aware about what might be blocking the
-                                accessible path by using the application while traveling.
-                            </p>
-                        </Col>
-                        <Container>
-                            <Row className="justify-content-md-center">
-                                <Col xs lg={5}> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
-                            </Row>
-                        </Container>
-                    </section>
-                </div>
+                    <div className="GridProjectRowTwo">
+                        <section className="leftHandSide">
+                            <h4 className="rowTitle">hands-free interaction</h4>
+                            <Col>
+                                <p>
+                                    Hands-free interaction allows those who are consistently using
+                                    their hands (such as wheelchair users) to be able to be guided
+                                    throughout their route using voice mode
+                                </p>
+                            </Col>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col xs={12} lg={10}> <img className="biggerfeaturedImage smallerScreenSizeClass" src="/gridPhotos/handsFree.png" /></Col>
+                                </Row>
+                            </Container>
 
-                <div className="GridProjectRowOne">
-                    <section className="leftHandSide">
-                        <h4 className="rowTitle">hands-free interaction</h4>
-                        <Col>
-                            <p className="rowDescriptionLong">
-                                Hands-free interaction allows those who are consistently using
-                                their hands (such as wheelchair users) to be able to be guided
-                                throughout their route using voice mode
-                            </p>
-                        </Col>
-                        <Container>
-                            <Row className="justify-content-md-center">
-                                <Col xs lg={10}> <img className="biggerfeaturedImage" src="/gridPhotos/handsFree.png" /></Col>
-                            </Row>
-                        </Container>
-
-                    </section>
+                        </section>
                     </div>
                 </div>
                 <br />
 
-                <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
+                <h3 className="rowTitle">Closing Thoughts</h3>
                 <Container>
                     <Row>
-                        <Col xs lg={6}>
-                            <p className="rowDescriptionLong">
+                        <Col lg={6}>
+
+                            <br />
+                            <p >
                                 Disability is on a spectrum. This entails that making a digital
                                 application to capture all aspects of the spectrum will be very
                                 difficult and could still leave people unintentionally excluded.
                             </p>
-                            <p className="rowDescriptionLong">
+                            <p >
                                 If I were to continue this project, I would perform user testing
                                 with those who identify having a mobility disability and use physical technologies
                                 to examine the relationship between our application and the physical space.
                             </p>
                         </Col>
-                        <Col xs lg={6}>
-                            <img className="featuredImage" src="/gridPhotos/Rectangle (6).png" />
+                        <Col lg={6}>
+                            <img className="featuredImage smallerScreenSizeClassLastImage" src="/Frame 7 (10).png" />
                         </Col>
                     </Row>
                 </Container>
                 <center>
                     <br />
                     <Link exact to="/">
-                        back to homepage
+                        <button className="gridButton">
+                            back to homepage
+                        </button>
                     </Link>
                 </center>
                 <br />

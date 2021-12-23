@@ -4,23 +4,17 @@ body {
   font-weight: 300;
   padding-left: 5rem;
   padding-right: 5rem;
-  font-weight: normal;
+  /* font-weight: normal; */
  }
-
- /* b {}
-   font-weight: bolder;
- } */
 
  .homepageBody {
   padding-left: 3rem;
   padding-right: 3rem;
-
  }
 
  .react-pdf__Page__canvas {
    border-style: solid;
    border-width: 1px;
-
  }
  
  a.nav-link, .homepageCard {
@@ -70,17 +64,6 @@ a.nav-link:first-of-type {
 .detail {
   line-height: 1rem;
 }
-
-
-
-
-/* .gridBox {
-  background-color: gray;
-  border-radius: 20px;
-  padding: 1vw;
-  margin: 1vw;
-  border-bottom: 3px solid gray;
-} */
 
 .homepageContainer {
   display: flex;
@@ -138,6 +121,7 @@ a.nav-link:first-of-type {
   /* margin-bottom: 2vw; */
 }
 
+
 .homepageIcons {
   margin-left: 4vw;
   margin-right: 3vw;
@@ -158,9 +142,55 @@ a.nav-link:first-of-type {
   border-radius: .5vw;
 }
 
+/* ------- grid page styling  ---------- */
+
 .gridpersonaOne {
-  height: 30vw;
+  height: 28vw;
 }
+
+.gridRowDescriptionLong {
+  margin-left: 1vw;
+  margin-right: 3vw;
+  background: linear-gradient(90deg, hsla(229, 80%, 77%, 0.5) 100%, hsla(241, 53%, 65%, 1) 100%);
+
+  /* margin-bottom: 2vw; */
+}
+
+.GridProjectRowOne {
+  display: flex;
+  background: linear-gradient(90deg, hsla(229, 80%, 77%, 0.5) 100%, hsla(241, 53%, 65%, 1) 100%);
+  padding: 2vw;
+  margin: 1vw;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.GridProjectRowTwo {
+  display: flex;
+  background: linear-gradient(90deg, hsla(229, 80%, 77%, 0.5) 0%, hsla(36, 31%, 94%, 0.9) 0%);  padding: 2vw;
+  margin: 1vw;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.GridProjectRowOne p{
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+
+.gridButton {
+  background: linear-gradient(90deg, hsla(229, 80%, 77%, 0.5) 0%, hsla(245, 28%, 35%, 0.9) 0%);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* ----------------- */
 
 .illustration {
   height: 10vw;
@@ -274,7 +304,7 @@ img.gridFeaturedImageTwo {
   margin-right: auto;
 }
 
-.initialImageOne, .initialImageTwo, .initialImageThree {
+.initialImageOne {
   width: 65vw;
   margin-left: .25vw;
   /* margin-right: -15%; */
@@ -314,14 +344,6 @@ img.longImage {
   margin: 2vw;
 }
 
-.GridProjectRowOne {
-  display: flex;
-  background: linear-gradient(90deg, hsla(229, 80%, 77%, 0.5) 100%, hsla(241, 53%, 65%, 1) 100%);
-  padding: 2vw;
-  margin: 1vw;
-  border-radius: 20px;
-}
-
 .projectOverview {
   width: 50%;
   margin-right: 2rem;
@@ -333,9 +355,81 @@ img.longImage {
 .footer {
   border-top: 2pt solid black;
   text-align: center;
-  /* width: 55%;
-  margin-left: auto;
-  margin-right: auto; */
-
 }
 
+@media (max-width: 415px) {
+  body {
+    padding: .75rem;
+  }
+
+  .homepageBody {
+    padding-left: 0;
+    margin-left: 1rem;
+  }
+
+  .personalPhoto {
+    display: none;
+  }
+
+  .homepagerowDescriptionLong {
+    margin: 0%;
+    padding: 1rem;
+    border-radius: 4vw;
+  }
+
+  .homepageIcons {
+   display: none;
+  }
+
+  .initialImageOne {
+    width: 85vw;
+    margin-right: 2rem;
+    margin-left: 0;
+  }
+
+  .GridProjectRowOne {
+    padding-top: .5rem;
+    margin-top: 1rem;
+  }
+
+  .GridProjectRowTwo {
+    padding-top: .5rem;
+    margin-top: 1rem;
+  }
+
+  .GridProjectRowOne {
+    width: 100%;
+  }
+
+  .miroBoard {
+    width: 100%;
+  }
+
+  img.gridpersonaOne {
+    height: 45vw;
+  }
+
+  img.featuredImage {
+    height: 50vw;
+  }
+
+  img.gridFeaturedImage {
+    height: 100vw;
+  }
+
+  img.gridFeaturedImageTwo {
+    height: 90vw;
+  }
+
+  img.biggerfeaturedImage {
+    height: 80vw;
+  }
+
+  img.smallerScreenSizeClass {
+    height: 50vw;
+  }
+
+  img.smallerScreenSizeClassLastImage {
+    height: 75vw;
+  }
+}
