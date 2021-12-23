@@ -71,13 +71,16 @@ a.nav-link:first-of-type {
   line-height: 1rem;
 }
 
-.box {
+
+
+
+/* .gridBox {
   background-color: gray;
   border-radius: 20px;
-  padding: 2.5vw;
+  padding: 1vw;
   margin: 1vw;
   border-bottom: 3px solid gray;
-}
+} */
 
 .homepageContainer {
   display: flex;
@@ -92,7 +95,6 @@ a.nav-link:first-of-type {
   align-items: center;
   flex-wrap: wrap;
 }
-
 
 .homepagetextRow h2{
   display: flex;
@@ -302,11 +304,22 @@ img.longImage {
 }
 
 .miroBoard {
-  width: 50vw;
+  width: 47vw;
 }
 
 .projectRowOne {
   display: flex;
+  background-color: gray;
+  padding: 2vw;
+  margin: 2vw;
+}
+
+.GridProjectRowOne {
+  display: flex;
+  background: linear-gradient(90deg, hsla(229, 80%, 77%, 0.5) 100%, hsla(241, 53%, 65%, 1) 100%);
+  padding: 2vw;
+  margin: 1vw;
+  border-radius: 20px;
 }
 
 .projectOverview {

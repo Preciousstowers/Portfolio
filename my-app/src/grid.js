@@ -17,7 +17,7 @@ export function Grid() {
                     <img className="initialImageOne" src="/gridPhotos/initialPhotoGrid.png" />
                 </div>
                 <br />
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <div className="box">
                         <br />
                         <Container>
@@ -76,7 +76,7 @@ export function Grid() {
                     </div>
                 </div>
                 <br />
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
                         <p className="rowDescriptionLong">
@@ -125,7 +125,7 @@ export function Grid() {
                 <br />
 
 
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Research</h3>
                         <p className="rowDescriptionLong">
@@ -133,7 +133,6 @@ export function Grid() {
                             how people around the University of Washington gain insights
                             about accessibility features around campus.
                         </p>
-                        <div className="sidebyside">
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col lg={4}>
@@ -174,12 +173,11 @@ export function Grid() {
                                     </Col>
                                 </Row>
                             </Container>
-                        </div>
                         <br />
                     </div>
                 </div>
                 <div className="box">
-                    <div className="projectRowOne">
+                    <div className="GridProjectRowOne">
                         <section className="leftHandSide">
                             <br />
                             <h4 className="rowTitle">Market Analysis</h4>
@@ -202,11 +200,10 @@ export function Grid() {
                     </div>
                 </div>
 
-                <br />
-                <div className="projectRowOne">
+           
+                <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Personas</h3>
-                        <div className="projectPersona">
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col lg={4}>
@@ -228,13 +225,12 @@ export function Grid() {
                                     </Col>
                                 </Row>
                             </Container>
-                        </div>
                         <br />
                     </div>
 
                 </div>
 
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Why Grid?</h3>
@@ -261,7 +257,7 @@ export function Grid() {
 
                 </div>
 
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">initial iteration</h3>
@@ -296,7 +292,7 @@ export function Grid() {
                 <div className="box">
                 <br />
                 <br />
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">building and room accessibility rating</h4>
                         <Col>
@@ -315,7 +311,7 @@ export function Grid() {
                 </div>
                 <br />
                 <br />
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">incentivized contribution</h4>
                         <Col>
@@ -333,7 +329,7 @@ export function Grid() {
                     </section>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">indoor accessibility and map features</h4>
                         <Col>
@@ -349,7 +345,7 @@ export function Grid() {
                     </section>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">consistent accesibility alerts</h4>
                         <Col>
@@ -365,7 +361,7 @@ export function Grid() {
                     </section>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="GridProjectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">hands-free interaction</h4>
                         <Col>
