@@ -53,30 +53,28 @@ export function RhetoricalAnalysis() {
                     </Container>
                 </div>
 
-                <br />
-                <div className="projectRowOne">
+
+                <div className="rAprojectRowOne">
                     <div className="box">
-                        <br />
-                        <br />
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
                                     <h2 className="rowTitle">Prompt Overview</h2>
 
-                                    <p className="rowDescriptionLong"> Socioeconomic innequalities are still prevelant among
+                                    <p > Socioeconomic innequalities are still prevelant among
                                         many communities accross the United States. The long history of these innequalities has created
                                         collateral damage in the U.S educational system, where students in impoverished areas do not recieve
                                         equal amounts educational resources. Information systems to distribute these educational resources lack
                                         vital features to help their students long-term.
                                     </p>
 
-                                    <p className="rowDescriptionLong">
+                                    <p>
                                         In our INFO442 Cooperative Software Development class, we created DiscoveryHub,
                                         a product to connect local organizations who offer tutoring and mentoring services
                                         to students within their community.
                                     </p>
 
-                                    <b><p className="rowDescriptionLong">For students, by students. </p></b>
+                                    <b><p >For students, by students. </p></b>
                                 </Col>
                                 <Col md lg={5}>
                                     <br />
@@ -89,11 +87,11 @@ export function RhetoricalAnalysis() {
                         </Container>
                     </div>
                 </div>
-                <br />
 
 
 
-                <div className="projectRowOne">
+
+                <div className="rAprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Planning</h3>
                         <Container>
@@ -110,11 +108,11 @@ export function RhetoricalAnalysis() {
                     </div>
                 </div>
 
-                <br />
-                <div className="projectRowOne">
+
+                <div className="rAprojectRowOne ">
                     <div className="box">
                         <h3 className="rowTitle">Research Questions</h3>
-                        <p className="rowDescriptionLong">
+                        <p >
                             <ol>
                                 <p>
                                     <li>What is Kairos and why is it important within rhetoric?</li>
@@ -128,11 +126,11 @@ export function RhetoricalAnalysis() {
                     </div>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="rAprojectRowTwo">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Artifacts + Archives Observed</h3>
-                        <p className="rowDescriptionLong">
+                        <p >
                             <ol>
                                 <li>Classical Usages of Kairos - I will examine how Kairos was viewed in the classical time period.
                                     I will also examine Kairos in classical/historical pieces of rhetoric.
@@ -145,14 +143,14 @@ export function RhetoricalAnalysis() {
                         <br />
                     </div>
                 </div>
-                <br />
+   
 
-                <div className="projectRowOne">
+                <div className="rAprojectRowOne ">
                     <div className="box">
 
                         <h3 className="rowTitle">Key Findings</h3>
 
-                        <p className="rowDescriptionLong">
+                        <p >
                         </p>
                         <ol>
                             <Container>
@@ -174,16 +172,16 @@ export function RhetoricalAnalysis() {
                     </div>
                 </div>
 
-                <div className="projectRowOne">
+                <div className="rAprojectRowTwo">
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Styling Text</h3>
-                        <p className="rowDescriptionLong">
+                        <p >
                         </p>
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col xs md lg={3}>
-                                    <p className="rowDescriptionLong">
+                                    <p >
                                         From our initial iteration to our final product, we
                                         changed:
                                         <ol>
@@ -205,17 +203,17 @@ export function RhetoricalAnalysis() {
                     </div>
                 </div>
 
-                <div className="projectRowOne">
+                <div >
                     <div className="box">
                         <br />
                         <h3 className="rowTitle">Key Takeaways</h3>
-                        <p className="rowDescriptionLong">
+                        <p>
                         </p>
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                    <p className="rowDescriptionLong"> The usage of Language</p>
-                                    <p className="rowDescriptionLong"> If I had more time, I would changed the language of my paper to fit
+                                    <p > The usage of Language</p>
+                                    <p > If I had more time, I would changed the language of my paper to fit
                                         the editorial design rather than a straight copy/paste.</p>
                                 </Col>
                                 <Col md lg={6}>
@@ -230,10 +228,13 @@ export function RhetoricalAnalysis() {
                 <center>
                     <br />
                     <Link exact to="/">
-                        back to homepage
+                        <button className="rhetoricalButton">
+                            back to homepage
+                        </button>
                     </Link>
                 </center>
                 <br />
+
             </body>
         </div>
     )

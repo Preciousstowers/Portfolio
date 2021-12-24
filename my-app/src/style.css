@@ -234,6 +234,19 @@ a.nav-link:first-of-type {
   margin-right: 3vw;
 }
 
+.discoveryHubButton {
+  background: linear-gradient(90deg, hsla(83, 59%, 65%, 0.6) 100%, hsla(240, 67%, 95%, 1) 100%);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 
 /* -------tutela Styling---------- */
 .tutelaprojectRowOne {
@@ -254,8 +267,63 @@ a.nav-link:first-of-type {
   box-shadow: 10px 5px 5px gray;
 }
 
+.tutelaButton {
+  background: linear-gradient(90deg, hsla(83, 59%, 65%, 0.6) 0%, hsla(188, 67%, 75%, 0.7) 0%);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+/* ----------------- */
 
 
+/* -------rhetorical analysis styling---------- */
+
+.rAprojectRowOne {
+  display: flex;
+  background: linear-gradient(90deg, hsla(83, 59%, 65%, 0.6) 0%, hsla(0, 0%, 77%, 0.7) 0%);
+  padding: 2vw;
+  margin: 1vw;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.rAprojectRowTwo {
+  display: flex;
+  background: linear-gradient(90deg, hsla(0, 0%, 93%, 1) 100%, hsla(0, 0%, 77%, 0.1) 100%);  padding: 2vw;
+  margin: 1vw;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.decemberfeaturedImage {
+  height: 25vw; 
+}
+
+.novemberfeaturedImage {
+  height: 25vw; 
+  /* margin-top: 1.2vw;  */
+}
+
+.rhetoricalButton {
+  background: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 /* ----------------- */
 .illustration {
   height: 10vw;
@@ -295,14 +363,9 @@ img.featuredImage {
   height: 30vw; 
 }
 
-.novemberfeaturedImage {
-  height: 32vw; 
-  margin-top: 1.2vw; 
-}
 
-.decemberfeaturedImage {
-  height: 33vw; 
-}
+
+
 
 img.lastCenterImage {
   height: 30vw; 
@@ -415,12 +478,17 @@ img.longImage {
 }
 
 
+
 @media (min-width: 319px) and (max-width: 375px) {
   body {
     padding: .20rem;
   }
 
   p {
+    font-size: 13.5px;
+  }
+
+  li {
     font-size: 13.5px;
   }
   .homepageBody {
@@ -461,11 +529,124 @@ img.longImage {
      margin-bottom: 5vw;
    }
 
+   img.linkedIn {
+     height: 10vw;
+     width: max-content;
+     padding-right: 5vw;
+   }
+
+   .normalNavBar {
+     display: none;
+   }
    
-   
+   .GridProjectRowOne {
+    width: 96vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .rowTitle {
+    padding-top: 10vw;
+  }
+
+  .initialImageOne {
+    height: 45vw;
+    width: max-content;
+  }
 }
 /* iphone 6 styling */
 @media (min-width: 376px) and (max-width: 415px) {
+  body {
+    padding: .75rem;
+  }
+
+  .homepageBody {
+    padding-left: 0;
+    margin-left: 1rem;
+  }
+
+  img.linkedIn {
+    height: 10vw;
+    width: max-content;
+    padding-right: 5vw;
+  }
+
+  .personalPhoto {
+    display: none;
+  }
+
+  .normalNavBar {
+    display: none;
+  }
+
+  .homepagerowDescriptionLong {
+    margin: 0%;
+    padding: 1rem;
+    border-radius: 4vw;
+  }
+
+  .homepageIcons {
+   display: none;
+  }
+
+  .initialImageOne {
+    width: 85vw;
+    margin-right: 2rem;
+    margin-left: 0;
+  }
+
+  .GridProjectRowOne {
+    padding-top: .5rem;
+    margin-top: 1rem;
+  }
+
+  .GridProjectRowTwo {
+    padding-top: .5rem;
+    margin-top: 1rem;
+  }
+
+  .GridProjectRowOne {
+    width: 100%;
+  }
+
+  .miroBoard {
+    width: 100%;
+  }
+
+  img.gridpersonaOne {
+    height: 45vw;
+  }
+
+  img.featuredImage {
+    height: 50vw;
+  }
+
+  img.gridFeaturedImage {
+    height: 100vw;
+  }
+
+  img.gridFeaturedImageTwo {
+    height: 90vw;
+  }
+
+  img.biggerfeaturedImage {
+    height: 80vw;
+  }
+
+  img.smallerScreenSizeClass {
+    height: 50vw;
+  }
+
+  img.smallerScreenSizeClassLastImage {
+    height: 75vw;
+  }
+
+  
+}
+
+@media (min-width: 415px) and (max-width: 769px) {
   body {
     padding: .75rem;
   }
@@ -539,5 +720,11 @@ img.longImage {
 
   img.smallerScreenSizeClassLastImage {
     height: 75vw;
+  }
+}
+
+@media (min-width: 1023px) {
+  .hamburgerNav {
+    display: none;
   }
 }

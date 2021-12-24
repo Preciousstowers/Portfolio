@@ -61,7 +61,7 @@ export function Grid() {
                                         </a>
                                     </p>
                                 </Col>
-                                <Col md lg={5}>
+                                <Col xs={12} md lg={5}>
                                     <br />
                                     <br />
                                     <br />
@@ -91,14 +91,14 @@ export function Grid() {
                         <ol>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col sm md lg={4}>
+                                    <Col xs={12} sm md lg={4}>
                                         <li>
                                             6% of undergraduate students in the U.S. identified as
                                             having disabilities with 11% of that student body having a
                                             mobility limitation/orthopedic impairment
                                         </li>
                                     </Col>
-                                    <Col sm md lg={4}>
+                                    <Col xs={12} sm md lg={4}>
                                         <li>
                                             Traveling with a mobility disability can have
                                             numerous obstacles, such as longer travel times and/or the
@@ -107,7 +107,7 @@ export function Grid() {
                                             (Bureau of Transportation Statistics, 2021).
                                         </li>
                                     </Col>
-                                    <Col sm md lg={4}>
+                                    <Col xs={12} sm md lg={4}>
                                         <li>
                                             In the U.S, “40.7 million adults aged 18 and over have a physical
                                             functioning difficulty” (CDC, 2020). This means that millions of
@@ -135,7 +135,7 @@ export function Grid() {
                         <br />
                         {/* <Container> */}
                         <Row className="justify-content-md-center">
-                            <Col lg={4}>
+                            <Col xs={12} lg={4}>
                                 <p> Lindsey Muszkiewicz, a 4th year undergraduate student who is mobility impaired</p>
 
                                 <b><p>We learned: </p></b>
@@ -153,7 +153,7 @@ export function Grid() {
                                 <img className="miroBoard" src="/gridPhotos/LindseyMiro.png" />
                             </Col>
 
-                            <Col lg={4}>
+                            <Col xs={12} lg={4}>
                                 <br />
                                 <p>   Annuska Zolyomi, an INFO 498 Inclusive Design Professor </p>
                                 <b><p>We learned: </p></b>
@@ -166,7 +166,7 @@ export function Grid() {
                                         each other</li></b>
                                 </ol>
                             </Col>
-                            <Col lg={8}>
+                            <Col xs={12} lg={8}>
                                 <br />
                                 <img className="miroBoard" src="/gridPhotos/AnnuskaMiro.png" />
                             </Col>
@@ -182,7 +182,7 @@ export function Grid() {
                             <h4 className="rowTitle">Market Analysis</h4>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col lg={5}>
+                                    <Col xs={12} lg={5}>
                                         <p >
                                             A market analysis allowed us to understand current products
                                             that helped address our problem as many current solutions
@@ -204,7 +204,7 @@ export function Grid() {
                     <div className="box">
                         <h3 className="rowTitle">Persona</h3>
                         <Row className="justify-content-md-center">
-                            <Col lg={4}>
+                            <Col xs={12} lg={4}>
                                 <p>
                                     <br />
                                     A user persona was created to further empathize and
@@ -235,14 +235,14 @@ export function Grid() {
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
-                                        <Col lg={4}>
+                                        <Col xs={12} lg={4}>
                                             <li><b>  Provides information</b>  about accessibility features about indoor buildings, outdoor architecture and on travel paths </li>
                                         </Col>
-                                        <Col lg={4}>
+                                        <Col xs={12} lg={4}>
                                             <li><b> Empowers users </b> who identify having a mobility disability by reassuring self-sufficiency through
                                                 understanding current accesibility features for future travels </li>
                                         </Col>
-                                        <Col lg={4}>
+                                        <Col xs={12} lg={4}>
                                             <li> <b> De-stigmatizes conversations </b> about disabilities and accesibility features in society </li>
                                         </Col>
                                     </Row>
@@ -260,7 +260,7 @@ export function Grid() {
                         <h3 className="rowTitle">initial iteration</h3>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col lg={3}>
+                                <Col xs={12} lg={3}>
                                     <p>
                                         From our initial iteration to our final product, we
                                         changed:
@@ -300,7 +300,7 @@ export function Grid() {
                             </Col>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col lg={2}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
+                                    <Col xs={12} lg={2}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
                                 </Row>
                             </Container>
                         </section>
@@ -319,7 +319,7 @@ export function Grid() {
                             </Col>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col lg={6}> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
+                                    <Col xs={12} lg={6}> <img className="gridFeaturedImageTwo" src="/gridPhotos/incentivized.png" /></Col>
                                 </Row>
                             </Container>
                         </section>
@@ -335,7 +335,7 @@ export function Grid() {
                             </Col>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col lg={4}> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
+                                    <Col xs={12} lg={4}> <img className="gridFeaturedImageTwo" src="/gridPhotos/indoorRating.png" /></Col>
                                 </Row>
                             </Container>
                         </section>
@@ -351,7 +351,7 @@ export function Grid() {
                             </Col>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col lg={5}> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
+                                    <Col xs={12} lg={5}> <img className="biggerfeaturedImage" src="/gridPhotos/map.png" /> </Col>
                                 </Row>
                             </Container>
                         </section>
@@ -382,7 +382,7 @@ export function Grid() {
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <Container>
                     <Row>
-                        <Col lg={6}>
+                        <Col xs={12} lg={6}>
 
                             <br />
                             <p >

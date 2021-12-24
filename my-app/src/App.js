@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import { Navbar, Container, Nav, NavDropdown, Center, NavLink, Col, Row } from 'react-bootstrap';
+import { Navbar, Container, Nav, NavDropdown, Center, NavLink, Col, Row, Form, Offcanvas, FormControl} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
 import { Tutela } from "./tutela.js";
@@ -29,6 +29,7 @@ function App() {
   return (
     <div >
       <NavigationBar />
+      <HamburgerMenu />
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
@@ -76,7 +77,7 @@ function App() {
 
 function NavigationBar() {
   return (
-    <div>
+    <div className="normalNavBar">
       <Navbar className="navbar" >
         <Container>
           <NavLink href="/">Precious Stowers</NavLink>
@@ -93,6 +94,35 @@ function NavigationBar() {
         </Container>
       </Navbar>
     </div>
+  )
+}
+
+function HamburgerMenu() {
+  return (
+    <div className="hamburgerNav">
+    <Navbar bg="light" expand={false}>
+  <Container fluid>
+    {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}
+    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+    <Navbar.Offcanvas
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+      placement="end"
+      // justify-Content="flex-end"
+    >
+      <Offcanvas.Header closeButton>
+      </Offcanvas.Header>
+      <Offcanvas.Body>
+        <Nav className="justify-content-end flex-grow-1 pe-3">
+          <Nav.Link href="#action1">Home</Nav.Link>
+          <Nav.Link href="#action2">About Me</Nav.Link>
+          <Nav.Link href="#action2">Resume</Nav.Link>
+        </Nav>
+      </Offcanvas.Body>
+    </Navbar.Offcanvas>
+  </Container>
+</Navbar>
+</div>
   )
 }
 

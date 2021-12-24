@@ -10,16 +10,14 @@ import { Link } from "react-router-dom";
 export function Tutela() {
     return (
         <div >
-            <body >
+            <body>
                 <h1 className="rowTitle">tutela</h1>
                 <p className="rowDescription">connecting together, safely</p>
                 <div className="initialImages">
                     <img className="initialImageOne" src="/tutelaPhotos/initialPhoto.png" />
                 </div>
-                <br />
                 <div className="tutelaprojectRowOne">
                     <div className="box">
-                        <br />
                         <br />
                         <Container>
                             <Row className="justify-content-md-center">
@@ -60,12 +58,8 @@ export function Tutela() {
                             </Row>
                         </Container>
                     </div>
-
-
                 </div>
-                <br />
-
-
+          
                 <div className="tutelaprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
@@ -95,7 +89,6 @@ export function Tutela() {
                         </p>
                     </div>
                 </div>
-                <br />
 
                 <div className="tutelaprojectRowOne">
                     <div className="box">
@@ -121,7 +114,7 @@ export function Tutela() {
                         <br />
                     </div>
                 </div>
-                <br />
+             
                 <div className="tutelaprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Personas</h3>
@@ -147,6 +140,7 @@ export function Tutela() {
                     </div>
                 </div>
 
+           
                 <div className="tutelaprojectRowOne">
                     <div className="box">
                         <br />
@@ -179,9 +173,7 @@ export function Tutela() {
                     </div>
                 </div>
                 <br />
-                <br />
                 <h3 className="rowTitle">Jenna's Favorite Application Features</h3>
-                <br />
                 <br />
                 <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
@@ -201,8 +193,6 @@ export function Tutela() {
                         </Container>
                     </section>
                 </div>
-                <br />
-                <br />
                 <div className="tutelaprojectRowOne">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">add an automated phone/voice recording</h4>
@@ -275,7 +265,7 @@ export function Tutela() {
                         </Container>
                     </section>
                 </div>
-
+                <br />
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <br />
                 <Container>
@@ -302,12 +292,17 @@ export function Tutela() {
                     </Row>
                 </Container>
                 <br />
+                
                 <center>
                     <br />
                     <Link exact to="/">
-                        back to homepage
+                        <button className="tutelaButton">
+                            back to homepage
+                        </button>
                     </Link>
                 </center>
+                <br />
+
                 <br />
             </body>
         </div>

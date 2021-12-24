@@ -61,7 +61,7 @@ export function DiscoveryHub() {
                         </Container>
                     </div>
                 </div>
-                <br />
+          
           
 
 
@@ -97,11 +97,10 @@ export function DiscoveryHub() {
                             </Container>
                             </ol>
                         </div>
-                        <br />
+            
                     </div>
                 </div>
 
-                <br />
                 <div className="discoveryHubprojectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Our Personas</h3>
@@ -146,7 +145,6 @@ export function DiscoveryHub() {
 
                 <div className="discoveryHubprojectRowTwo">
                     <div className="box">
-                        <br />
                         <h3 className="rowTitle">Why DiscoveryHub?</h3>
                         <br />
                         <p>
@@ -173,7 +171,6 @@ export function DiscoveryHub() {
                         <br />
                     </div>
                 </div>
-                <br />
 
                 <div className="discoveryHubprojectRowOne">
                     <div className="box">
@@ -202,7 +199,7 @@ export function DiscoveryHub() {
                         <br />
                     </div>
                 </div>
-                <br />
+        
                 <br />
 
                 <h3 className="rowTitle">Main Application Features</h3>
@@ -244,8 +241,6 @@ export function DiscoveryHub() {
                         </Container>
                     </section>
                 </div>
-                <br />
-                <br />
                 <div className="discoveryHubprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">favorite organization handling</h4>
@@ -311,7 +306,9 @@ export function DiscoveryHub() {
                 <center>
                     <br />
                     <Link exact to="/">
-                        back to homepage
+                        <button className="discoveryHubButton">
+                            back to homepage
+                        </button>
                     </Link>
                 </center>
                 <br />
