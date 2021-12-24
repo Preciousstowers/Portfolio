@@ -9,6 +9,7 @@ import { Resume } from "./resume.js";
 import { Grid } from "./grid.js";
 import { DiscoveryHub } from "./DiscoverHub";
 import { RhetoricalAnalysis } from "./rhetoricalAnalysis";
+import {GridTutorial} from "./gridTutorial";
 
 
 // import { BrowserRouter } from 'react-router-dom'
@@ -21,8 +22,6 @@ import {
 
 import Homepage from './homepage';
 // import DesignAndWritting from './designAndWritting';
-
-
 
 
 function App() {
@@ -39,6 +38,7 @@ function App() {
           <Route path="grid" element={<Grid />} />
           <Route path="DiscoveryHub" element={<DiscoveryHub />} />
           <Route path="RhetoricalAnalysis" element={<RhetoricalAnalysis />} />
+          <Route path="GridTutorial" element={<GridTutorial />} />
 
         </Routes>
 

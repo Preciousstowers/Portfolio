@@ -136,6 +136,7 @@ export function Homepage() {
                     </Card>
                     </Link > 
 
+                    <Link className="cardLink" to="/GridTutorial">
                     <Card className="homepageCard" >
                         <Card.Img variant="top" src="/Frame 8 (2).png" />
                         <Card.Body>
@@ -146,7 +147,7 @@ export function Homepage() {
                             </Card.Text>
                         </Card.Body>
                     </Card>
-
+                    </Link > 
                 </section>
               
             </div>

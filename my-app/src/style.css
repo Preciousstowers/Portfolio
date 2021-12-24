@@ -555,6 +555,37 @@ img.longImage {
     height: 45vw;
     width: max-content;
   }
+  .miroBoard {
+    width: 100%;
+  }
+
+  img.gridpersonaOne {
+    height: 45vw;
+  }
+
+  img.featuredImage {
+    height: 50vw;
+  }
+
+  img.gridFeaturedImage {
+    height: 100vw;
+  }
+
+  img.gridFeaturedImageTwo {
+    height: 90vw;
+  }
+
+  img.biggerfeaturedImage {
+    height: 80vw;
+  }
+
+  img.smallerScreenSizeClass {
+    height: 50vw;
+  }
+
+  img.smallerScreenSizeClassLastImage {
+    height: 75vw;
+  }
 }
 /* iphone 6 styling */
 @media (min-width: 376px) and (max-width: 415px) {
