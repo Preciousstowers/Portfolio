@@ -325,6 +325,23 @@ a.nav-link:first-of-type {
   cursor: pointer;
 }
 /* ----------------- */
+
+
+.directionFrames {
+  width: max-content;
+  height: 29vw;
+}
+
+.tutorialBubbles {
+  width: max-content;
+  height: 35vw;
+}
+
+.gridTutorialCards {
+  width: 70vw;
+  height: max-content;
+}
+
 .illustration {
   height: 10vw;
 }

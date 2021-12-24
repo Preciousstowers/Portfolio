@@ -61,7 +61,6 @@ export function Homepage() {
                               </Col> 
                              
                         </Row>
-           
                     </Container>
                  
                 </section>

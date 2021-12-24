@@ -77,6 +77,8 @@ export function GridTutorial() {
                     </div>
                 </div>
                 {/* <br /> */}
+
+         
                 <div className="GridProjectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Thought Process</h3>
@@ -121,8 +123,22 @@ export function GridTutorial() {
                         </ol>
                     </div>
                 </div>
-                {/* <br /> */}
 
+                  {/* <div className="box"> */}
+                    {/* <div > */}
+                        {/* <section className="leftHandSide"> */}
+                        {/* <br />
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                <img className="gridTutorialCards" src="/tutorialPhotos/Frame 180.png" />
+                                </Row>
+                            </Container>
+                            <br /> */}
+                        {/* </section> */}
+                    {/* </div> */}
+                {/* </div> */}
+           
+              
 
                 <div className="GridProjectRowOne">
                     <div className="box">
@@ -132,11 +148,14 @@ export function GridTutorial() {
                             how people around the University of Washington gain insights
                             about accessibility features around campus.
                         </p>
-                        <img className="miroBoard" src="/tutorialPhotos/Frame 179 (2).png" />
+                    
 
                         <br />
                         {/* <Container> */}
                         <Container>
+                                <Row className="justify-content-md-center">
+                                <img className="gridTutorialCards" src="/tutorialPhotos/Frame 179 (2).png" />
+                                </Row >
                                 <Row className="justify-content-md-center">
                                     <Col xs={12} sm md lg={4}>
                                         <li>
@@ -171,29 +190,26 @@ export function GridTutorial() {
 
                 <h4 className="rowTitle">Let's checkout the Create a Contribution tutorial</h4>
 
-                <div className="box">
-                    <div >
-                        <section className="leftHandSide">
+                {/* <div className="box"> */}
+                    {/* <div > */}
+                        {/* <section className="leftHandSide"> */}
                             <br />
-                            {/* <h4 className="rowTitle">Create a Contribution tutorial</h4> */}
                             <Container>
                                 <Row className="justify-content-md-center">
-                                 
-                                        <img src="/tutorialPhotos/directionFrames.png" />
-                    
+                                        <img className="directionFrames" src="/tutorialPhotos/directionFrames.png" />
                                 </Row>
                             </Container>
                             <br />
-                        </section>
-                    </div>
-                </div>
+                        {/* </section> */}
+                    {/* </div> */}
+                {/* </div> */}
 
 
                 <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Thought Process</h3>
                         <Row className="justify-content-md-center">
-                            <Col xs={12} lg={4}>
+                            <Col xs={12} lg={9}>
                                 <p>
                                     <br />
                                     A user persona was created to further empathize and
@@ -207,8 +223,8 @@ export function GridTutorial() {
                                     the accessible entrance.
                                 </p>
                             </Col>
-                            <Col xs={12} lg={8}>
-                                <img className="gridpersonaOne" src="/tutorialPhotos/annotatedDirections.png" />
+                            <Col xs={12} lg={3}>
+                                <img className="tutorialBubbles" src="/tutorialPhotos/annotatedDirections.png" />
                             </Col>
                         </Row>
                     </div>
@@ -224,7 +240,6 @@ export function GridTutorial() {
                 <Container>
                     <Row>
                         <Col xs={12} lg={6}>
-
                             <br />
                             <p >
                                 Disability is on a spectrum. This entails that making a digital
@@ -238,7 +253,7 @@ export function GridTutorial() {
                             </p>
                         </Col>
                         <Col lg={6}>
-                            <img className="featuredImage smallerScreenSizeClassLastImage" src="/Frame 7 (10).png" />
+                            <img className="featuredImage smallerScreenSizeClassLastImage" src="/Frame 8 (2).png" />
                         </Col>
                     </Row>
                 </Container>
