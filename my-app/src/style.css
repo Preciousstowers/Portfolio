@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   padding-left: 5rem;
   padding-right: 5rem;
-  font-weight: 400;
+  font-weight: 500;
  }
 
  .homepageBody {
@@ -37,10 +37,6 @@ body {
 
 .btn {
   margin-left: .8vw;
-}
-
-.list {
-  /* inline-size: ; */
 }
 
 .tutela{
