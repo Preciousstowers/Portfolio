@@ -554,7 +554,7 @@ img.longImage {
 
 
 
-@media (min-width: 319px) and (max-width: 375px) {
+@media (max-width: 415px) {
   body {
     padding: .20rem;
   }
@@ -709,175 +709,24 @@ img.longImage {
     display: none;
   }
 }
+
 /* iphone 6 styling */
-@media (min-width: 376px) and (max-width: 415px) {
-  body {
-    padding: .75rem;
-  }
 
-  .homepageBody {
-    padding-left: 0;
-    margin-left: 1rem;
-  }
 
-  img.linkedIn {
-    height: 10vw;
-    width: max-content;
-    padding-right: 5vw;
-  }
-
-  .personalPhoto {
-    display: none;
-  }
-
+@media (max-width: 550px) {
   .normalNavBar {
     display: none;
   }
-
-  .homepagerowDescriptionLong {
-    margin: 0%;
-    padding: 1rem;
-    border-radius: 4vw;
-  }
-
-  .homepageIcons {
-   display: none;
-  }
-
-  .initialImageOne {
-    width: 85vw;
-    margin-right: 2rem;
-    margin-left: 0;
-  }
-
-  .GridProjectRowOne {
-    padding-top: .5rem;
-    margin-top: 1rem;
-  }
-
-  .GridProjectRowTwo {
-    padding-top: .5rem;
-    margin-top: 1rem;
-  }
-
-  .GridProjectRowOne {
-    width: 100%;
-  }
-
-  .miroBoard {
-    width: 100%;
-  }
-
-  img.gridpersonaOne {
-    height: 45vw;
-  }
-
-  img.featuredImage {
-    height: 50vw;
-  }
-
-  img.gridFeaturedImage {
-    height: 100vw;
-  }
-
-  img.gridFeaturedImageTwo {
-    height: 90vw;
-  }
-
-  img.biggerfeaturedImage {
-    height: 80vw;
-  }
-
-  img.smallerScreenSizeClass {
-    height: 50vw;
-  }
-
-  img.smallerScreenSizeClassLastImage {
-    height: 75vw;
-  }
-
-  
 }
 
-@media (min-width: 415px) and (max-width: 769px) {
-  body {
-    padding: .75rem;
-  }
-
-  .homepageBody {
-    padding-left: 0;
-    margin-left: 1rem;
-  }
-
-  .personalPhoto {
-    display: none;
-  }
-
-  .homepagerowDescriptionLong {
-    margin: 0%;
-    padding: 1rem;
-    border-radius: 4vw;
-  }
-
-  .homepageIcons {
-   display: none;
-  }
-
-  .initialImageOne {
-    width: 85vw;
-    margin-right: 2rem;
-    margin-left: 0;
-  }
-
-  .GridProjectRowOne {
-    padding-top: .5rem;
-    margin-top: 1rem;
-  }
-
-  .GridProjectRowTwo {
-    padding-top: .5rem;
-    margin-top: 1rem;
-  }
-
-  .GridProjectRowOne {
-    width: 100%;
-  }
-
-  .miroBoard {
-    width: 100%;
-  }
-
-  img.gridpersonaOne {
-    height: 45vw;
-  }
-
-  img.featuredImage {
-    height: 50vw;
-  }
-
-  img.gridFeaturedImage {
-    height: 100vw;
-  }
-
-  img.gridFeaturedImageTwo {
-    height: 90vw;
-  }
-
-  img.biggerfeaturedImage {
-    height: 80vw;
-  }
-
-  img.smallerScreenSizeClass {
-    height: 50vw;
-  }
-
-  img.smallerScreenSizeClassLastImage {
-    height: 75vw;
-  }
-}
-
-@media (min-width: 1023px) {
+@media (min-width: 550px) {
   .hamburgerNav {
     display: none;
   }
 }
+
+/* @media (min-width: 1023px) {
+  .hamburgerNav {
+    display: none;
+  }
+} */
