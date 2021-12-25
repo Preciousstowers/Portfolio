@@ -29,6 +29,9 @@ body {
   font-family: 'Quicksand', sans-serif;
  }
 
+ a {
+  text-decoration: none;
+ }
 .linkedIn {
   color: black;
   width: 2.5vw;

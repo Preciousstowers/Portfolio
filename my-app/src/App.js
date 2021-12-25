@@ -68,7 +68,9 @@ function App() {
             </Col>
 
             <Col lg={4}>
-              <p>View my Resume</p>
+            <a href="/Resume" target="_blank" >
+              View my Resume
+              </a>
             </Col>
           </Row>
         </footer>
