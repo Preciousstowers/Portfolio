@@ -36,14 +36,14 @@ export function RhetoricalAnalysis() {
                                     </Document>
 
                                     <Row className="justify-content-md-center">
-                                        <Col lg={3}>
+                                        <Col lg={4.5}>
                                             <p>Page {pageNumber} of {numPages}</p>
                                         </Col>
                                     </Row>
                                     <Row className="justify-content-md-center">
                                         <Col lg={4}>
                                             <Link to="/ThePerfectMoment.pdf" target="_blank" download>
-                                                <Button>download file</Button>
+                                                <button className="rhetoricalButton">download</button>
                                             </Link>
                                         </Col>
                                     </Row>

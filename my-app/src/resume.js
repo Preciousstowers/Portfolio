@@ -39,14 +39,17 @@ export function Resume() {
         </div> */}
       </Row >
       <center>
+
+          <Link to="PreciousStowers.pdf" target="_blank" download>
+            <button className="gridButton">
+              download resume
+              </button>
+          </Link>
+
         <Link exact to="/Resume">
-          <button className="gridButton">
-            download
-          </button>
-        </Link>
-        <Link exact to="/Resume">
-          <button className="gridButton">
-            Email
+         
+          <button className="emailMe">
+            email me
           </button>
         </Link>
       </center>

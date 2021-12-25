@@ -103,7 +103,7 @@ function NavigationBar() {
 function HamburgerMenu() {
   return (
     <div className="hamburgerNav">
-    <Navbar bg="light" expand={false}>
+    <Navbar expand={false}>
   <Container fluid>
     {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
@@ -117,9 +117,9 @@ function HamburgerMenu() {
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action2">About Me</Nav.Link>
-          <Nav.Link href="#action2">Resume</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="AboutMe">About Me</Nav.Link>
+          <Nav.Link href="Resume">Resume</Nav.Link>
         </Nav>
       </Offcanvas.Body>
     </Navbar.Offcanvas>
