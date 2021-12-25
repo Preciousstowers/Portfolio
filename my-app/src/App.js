@@ -10,6 +10,7 @@ import { Grid } from "./grid.js";
 import { DiscoveryHub } from "./DiscoverHub";
 import { RhetoricalAnalysis } from "./rhetoricalAnalysis";
 import {GridTutorial} from "./gridTutorial";
+import {AboutMe} from "./AboutMe";
 
 
 // import { BrowserRouter } from 'react-router-dom'
@@ -32,13 +33,15 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
-          <Route path="/aboutme" />
+          {/* <Route path="/aboutme" /> */}
           <Route path="/Resume" element={<Resume />} />
           <Route path="Tutela" element={<Tutela />} />
           <Route path="grid" element={<Grid />} />
           <Route path="DiscoveryHub" element={<DiscoveryHub />} />
           <Route path="RhetoricalAnalysis" element={<RhetoricalAnalysis />} />
           <Route path="GridTutorial" element={<GridTutorial />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+
 
         </Routes>
 
@@ -87,9 +90,7 @@ function NavigationBar() {
           >
             <NavDropdown.Divider />
           </Nav>
-          {/* <NavLink href="/uxwrittinganddesign">UX/UI Design and Writing</NavLink> */}
-          {/* <NavLink href="/dataanalytics">Data Analytics</NavLink> */}
-          <NavLink href="/aboutme">About me</NavLink>
+          <NavLink href="/AboutMe">About me</NavLink>
           <NavLink href="/Resume">Resume</NavLink>
         </Container>
       </Navbar>
