@@ -34,13 +34,13 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           {/* <Route path="/aboutme" /> */}
-          <Route path="/Resume" element={<Resume />} />
+          <Route path="Resume" element={<Resume />} />
           <Route path="Tutela" element={<Tutela />} />
           <Route path="grid" element={<Grid />} />
           <Route path="DiscoveryHub" element={<DiscoveryHub />} />
           <Route path="RhetoricalAnalysis" element={<RhetoricalAnalysis />} />
           <Route path="GridTutorial" element={<GridTutorial />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="AboutMe" element={<AboutMe />} />
 
 
         </Routes>
@@ -68,7 +68,7 @@ function App() {
             </Col>
 
             <Col lg={4}>
-            <a href="/Resume" target="_blank" >
+            <a href="Resume" target="_blank" >
               View my Resume
               </a>
             </Col>
