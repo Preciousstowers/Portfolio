@@ -61,26 +61,44 @@ export function RhetoricalAnalysis() {
                                 <Col md lg={7}>
                                     <h2 className="rowTitle">Prompt Overview</h2>
 
-                                    <p > Socioeconomic innequalities are still prevelant among
-                                        many communities accross the United States. The long history of these innequalities has created
-                                        collateral damage in the U.S educational system, where students in impoverished areas do not recieve
-                                        equal amounts educational resources. Information systems to distribute these educational resources lack
-                                        vital features to help their students long-term.
+                                    <b><p>Rhetoric - goal-oriented communication</p></b>
+                                    <b><p>Kairos - an opportune moment, the perfect moment </p></b>
+
+                                    <p >
+                                        Rhetoric can be seen and heard everywhere.
+                                        Rhetoric can be the design on of the chair for which the
+                                        entirety of society agreed as humans that we should be sitting upright.
+                                        Rhetoric can be seen as a stylistic choice, as if a car salesman was
+                                        using a tone to try to convince their customer to purchase the car.
+                                        Rhetoric can be seen within the words themselves such as if politicians
+                                        speaking their opinions to gain a reaction from their audience.
                                     </p>
 
                                     <p>
-                                        In our INFO442 Cooperative Software Development class, we created DiscoveryHub,
-                                        a product to connect local organizations who offer tutoring and mentoring services
-                                        to students within their community.
+                                        All these examples have a commonality of using communication to
+                                        enforce an intended goal  from the rhetor.
+
+                                    </p>
+                                    <p>
+                                        In my ENGL306 Introduction to Rhetoric class, I researched how an
+                                        ancient greek word called Kairos, helps describe how social media
+                                        platforms rhetorically design their platforms to fit the perfect timing.
+                                        Over ~4 weeks I learned that social media platforms using time is a
+                                        powerful tool because it is indivisible. Along with digital rhetoric
+                                        created by users of the platform and other various interaction designs,
+                                        social media companies design their platforms to create continuously active
+                                        perfect moments for users to interact with their platform.
+
+
                                     </p>
 
-                                    <b><p >For students, by students. </p></b>
+
                                 </Col>
                                 <Col md lg={5}>
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
-                                    <p className="detail">  My Role: sole priter and presenter </p>
-                                    <p className="detail">  Time Frame: 6 weeks (including a presentation)</p>
+                                    <p className="detail">  My Role: sole writer and presenter </p>
+                                    <p className="detail">  Time Frame: 4 weeks (including a presentation)</p>
                                     <p className="detail">  Tools: Google Docs and Canva</p>
                                 </Col>
                             </Row>
@@ -94,6 +112,14 @@ export function RhetoricalAnalysis() {
                 <div className="rAprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Planning</h3>
+                        <p>
+                            I divided my 4-5 weeks into various task sprints that include
+                            researching information about classical greek history and methodologies,
+                            examining social media design as a rhetorical artifact, writing the
+                            “standard version” draft of my paper, researching editorial designs and
+                            applying the editorial design to the final of my draft.
+
+                        </p>
                         <Container>
                             <Row>
                                 <Col md lg={6}>
@@ -132,39 +158,46 @@ export function RhetoricalAnalysis() {
                         <h3 className="rowTitle">Artifacts + Archives Observed</h3>
                         <p >
                             <ol>
-                                <li>Classical Usages of Kairos - I will examine how Kairos was viewed in the classical time period.
-                                    I will also examine Kairos in classical/historical pieces of rhetoric.
-                                    This will allow me to gain a better understanding of when/how Kairos was used before the internet.</li>
-                                <li>Social Media - I will be examining different social media posts on platforms such as twitter,
-                                    Facebook and tik tok. This will allow me to look for patterns of rhetoric and if digital rhetoric
-                                    is stylistically changing as we progress to further adopt social media usage.</li>
+                                <li>Classical Usages of Kairos - I examined how Kairos was viewed in the classical time period. I also examined
+                                    Kairos within in classical/historical pieces of rhetoric throughout history. This will allow me to gain a
+                                    better understanding of when/how Kairos was used before the digital age</li>
+                                <li>Social Media - I examined different social media posts on platforms such as twitter, Facebook and
+                                    tik tok. This will allow me to look for patterns of rhetoric and if digital rhetoric and/or UX/UI
+                                    design is stylistically changing as we progress to further adopt social media usage</li>
                             </ol>
                         </p>
                         <br />
                     </div>
                 </div>
-   
+
 
                 <div className="rAprojectRowOne ">
                     <div className="box">
-
                         <h3 className="rowTitle">Key Findings</h3>
-
                         <p >
                         </p>
                         <ol>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col md lg={4}>
-                                        <li><b>  Provides information</b>  about accessibility features about indoor buildings, outdoor architecture and on travel paths </li>
-                                    </Col>
-                                    <Col md lg={4}>
-                                        <li><b> Empowers users </b> who identify having a mobility disability by reassuring self-sufficiency through
-                                            understanding current accesibility features for future travels </li>
-                                    </Col>
-                                    <Col md lg={4}>
-                                        <li> <b> De-stigmatizes conversations </b> about disabilities and accesibility features in society </li>
-                                    </Col>
+                                <Container>
+                                    <Row className="justify-content-md-center">
+                                        <Col md lg={4}>
+                                        <li><p>Gorgias, a famous rhetor in Ancient Greece, was known for his teachings and usage of Kairos. 
+                                            He discovered that Kairos was a key aspect to discourse because it allows two contrasting 
+                                            idea to be met at one point in time before an audience’s decision is made and/or before an opinion is formed
+                                            </p></li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                        <li> <p>Digital rhetoric takes all previous stylistic forms of rhetoric and adds the 
+                                            following styles: interactivity, speed, anonymity and Kairos (time)</p></li>
+                                        </Col>
+                                        <Col md lg={4}>
+                                        <li><p>Potential “dark patterns” can be observed within styling platforms based on time,
+                                             such consistently disrupting the user in the physical space to address the digital space 
+                                             or making the user take various more steps to reach their goal on the platform than nessecary</p></li> 
+                                        </Col>
+                                    </Row>
+                                </Container> 
                                 </Row>
                             </Container>
                         </ol>
@@ -175,22 +208,20 @@ export function RhetoricalAnalysis() {
                 <div className="rAprojectRowTwo">
                     <div className="box">
                         <br />
-                        <h3 className="rowTitle">Styling Text</h3>
+                        <h3 className="rowTitle">Textography: first vs. final draft</h3>
                         <p >
                         </p>
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col xs md lg={3}>
                                     <p >
-                                        From our initial iteration to our final product, we
-                                        changed:
                                         <ol>
                                             <br />
-                                            <b><li> changed the color scheme/UI</li></b>
+                                            <b><li> Styled columns to resemble a magazine/editorial </li></b>
                                             <br />
-                                            <b> <li> changed the centrality of information</li></b>
+                                            <b> <li> Styled font and font weight throughout the paper </li></b>
                                             <br />
-                                            <b> <li> included optional flagging of misinformation</li></b>
+                                            <b> <li> Styled content divisions based on the information of each section </li></b>
                                         </ol>
                                     </p>
                                 </Col>
@@ -212,9 +243,14 @@ export function RhetoricalAnalysis() {
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                    <p > The usage of Language</p>
-                                    <p > If I had more time, I would changed the language of my paper to fit
-                                        the editorial design rather than a straight copy/paste.</p>
+                                    <p > Time-sensative design - A key aspect of my learning is understanding more about time-sensative design.
+                                        The idea of time existing and a whole culture has adapted to creating their whole life around time
+                                        I think is absolutely fascinating. Incorporating how time can affect and/or alter this time was a topic that I enjoyed researching.
+                                        This is genuinely one of my favorite pieces that I have completed within undergrad. </p>
+                                    <p > Designing Language - If I had more time or the opportunity to revise my final draft,
+                                        I would change the language of my paper to fit an editorial context rather than a
+                                        standard english paper. This would include researching how magazines/editorals are
+                                        written to imitate the tone as if my peice was in a published magazine. </p>
                                 </Col>
                                 <Col md lg={6}>
                                     <img className="featuredImage" src="/A4 Portrait.png" />

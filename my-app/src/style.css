@@ -335,7 +335,7 @@ a.nav-link:first-of-type {
 
 .aboutMeProjectRowTwo {
   display: flex;
-  background: linear-gradient(90deg, hsla(195, 100%, 44%, 0.6) 100%, hsla(197, 100%, 37%, 0.5) 100%);
+  background: linear-gradient(90deg, hsla(195, 100%, 44%, 0.4) 100%, hsla(197, 100%, 37%, 0.5) 100%);
   padding: 2vw;
   margin: 1vw;
   border-radius: 20px;

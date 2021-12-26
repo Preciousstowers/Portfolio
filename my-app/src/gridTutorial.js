@@ -26,27 +26,22 @@ export function GridTutorial() {
                                     <h2 className="rowTitle">Overview</h2>
                                     <p>
                                         <p>
-                                            In today’s physical architecture, there lacks
-                                            inclusiveness for those who identify with a disability.
-                                            This can include outside physical barriers such as not
-                                            including an accessible entrance to a building to indoor
-                                            physical barriers such as not including an accessible bathroom.
+                                            This tutorial was made for the project Grid, an application
+                                            that allow users to identify, rate and contribute to the knowledge
+                                            of physical accessibility features in and around the University of
+                                            Washington Campus. This overarching tutorial is broken up in tutorial sections
+                                            which the user can select from. We will be focusing on the writing for the
+                                            tutorial sections and the “Create a Contribution” tutorial.
+
                                         </p>
 
 
-                                        <p>  Created in the INFO360 Design Methods class,
-                                            our application Grid, addresses the accessibility
-                                            information gap by allowing users to identify,
-                                            rate and contribute knowledge about physical
-                                            accessibility features in and around the
-                                            University of Washington Campus.
+                                        <p>
+                                            Our goal with the tutorial is for our suers to gain a better understanding of the
+                                            application and an added layer of confidence knowing that they can successful use
+                                            the application to the fullest.
                                         </p>
 
-                                        <p>  Our application allows those who identify with a
-                                            disability to better plan out their day by understanding
-                                            where accessible features are and encourages those who do
-                                            not have a disability to join the conversation surrounding
-                                            inclusive spaces.  </p>
 
                                         <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
                                             <p>view full interactive application</p>
@@ -65,10 +60,10 @@ export function GridTutorial() {
                                     <br />
                                     <br />
                                     <br />
-                                    <h5 className="detail">Project Specifics  </h5>
-                                    <p className="detail">  My Role: Lead Speaker,  Product Designer  </p>
+                                    <h5 className="detail">Project: Tutorial Specifics  </h5>
+                                    <p className="detail">  My Role:  Lead UX Writer and Designer  </p>
                                     <p className="detail">  Team size: 5 total people</p>
-                                    <p className="detail">  Time Frame: 11 weeks </p>
+                                    <p className="detail">  Time Frame: 1 week to complete tutorial (11 total weeks to complete project) </p>
                                     <p className="detail">  Tools: Figma and Miro</p>
                                     <p className="detail">  Teammates: Anna Shi, Emily Dooley, Pranav Shekar and Rachel Chung</p>
                                 </Col>
@@ -78,178 +73,148 @@ export function GridTutorial() {
                 </div>
                 {/* <br /> */}
 
-         
+
                 <div className="GridProjectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Thought Process</h3>
                         <p >
-                            <b className='boldText'> People who identify as having a disability are historically
-                                overlooked when designing society. </b>
-                            At the University of Washington, there is a lack of digital technologies
-                            that help reinforce the knowledge distribution about current accessibility
-                            features.
+                            Users are unlikely to read a long list of instructions to learn how to use an application,
+                            therefore, our application tutorial needed to be simple, quick, and easy to increase application
+                            comprehension in a short period of time.
+
                         </p>
 
-                        <ol>
-                            <Container>
-                                <Row className="justify-content-md-center">
-                                    <Col xs={12} sm md lg={4}>
-                                        <li>
-                                            6% of undergraduate students in the U.S. identified as
-                                            having disabilities with 11% of that student body having a
-                                            mobility limitation/orthopedic impairment
-                                        </li>
-                                    </Col>
-                                    <Col xs={12} sm md lg={4}>
-                                        <li>
-                                            Traveling with a mobility disability can have
-                                            numerous obstacles, such as longer travel times and/or the
-                                            inability to reach their destination:
-                                            “25.5 million Americans aged 5 and older    have self-reported travel-limiting disabilities”
-                                            (Bureau of Transportation Statistics, 2021).
-                                        </li>
-                                    </Col>
-                                    <Col xs={12} sm md lg={4}>
-                                        <li>
-                                            In the U.S, “40.7 million adults aged 18 and over have a physical
-                                            functioning difficulty” (CDC, 2020). This means that millions of
-                                            Americans are required to work and do other day-to-day tasks while
-                                            facing societal obstacles due to their disability
-                                        </li>
-                                    </Col>
-                                </Row>
-                            </Container>
-
-                        </ol>
                     </div>
                 </div>
 
-                  {/* <div className="box"> */}
-                    {/* <div > */}
-                        {/* <section className="leftHandSide"> */}
-                        {/* <br />
-                            <Container>
-                                <Row className="justify-content-md-center">
-                                <img className="gridTutorialCards" src="/tutorialPhotos/Frame 180.png" />
-                                </Row>
-                            </Container>
-                            <br /> */}
-                        {/* </section> */}
-                    {/* </div> */}
-                {/* </div> */}
-           
-              
+
+
 
                 <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Grid Tutorial Selections</h3>
                         <p >
-                            Our team performed interviews to gain an understanding of
-                            how people around the University of Washington gain insights
-                            about accessibility features around campus.
+                            Our team agreed to break the tutorial sections into their main features
+                            where users can choose to walk through a tutorial if needed.
+                            This allows the users to choose a tutorial or skip to the next tutorial until
+                            they are finished viewing the main four features.
+
                         </p>
-                    
+
+                        <p >
+                            We need our application tutorial writing to be straightforward, skimmable and simple.
+
+                        </p>
 
                         <br />
+                  
                         {/* <Container> */}
+                        <ol>
                         <Container>
-                                <Row className="justify-content-md-center">
+                            <Row className="justify-content-md-center">
                                 <img className="gridTutorialCards" src="/tutorialPhotos/Frame 179 (2).png" />
-                                </Row >
-                                <Row className="justify-content-md-center">
-                                    <Col xs={12} sm md lg={4}>
-                                        <li>
-                                            6% of undergraduate students in the U.S. identified as
-                                            having disabilities with 11% of that student body having a
-                                            mobility limitation/orthopedic impairment
-                                        </li>
-                                    </Col>
-                                    <Col xs={12} sm md lg={4}>
-                                        <li>
-                                            Traveling with a mobility disability can have
-                                            numerous obstacles, such as longer travel times and/or the
-                                            inability to reach their destination:
-                                            “25.5 million Americans aged 5 and older    have self-reported travel-limiting disabilities”
-                                            (Bureau of Transportation Statistics, 2021).
-                                        </li>
-                                    </Col>
-                                    <Col xs={12} sm md lg={4}>
-                                        <li>
-                                            In the U.S, “40.7 million adults aged 18 and over have a physical
-                                            functioning difficulty” (CDC, 2020). This means that millions of
-                                            Americans are required to work and do other day-to-day tasks while
-                                            facing societal obstacles due to their disability
-                                        </li>
-                                    </Col>
-                                </Row>
-                            </Container>
-                        {/* </Container> */}
+                            </Row >
+                            <br />
+                            <Row className="justify-content-md-center">
+                                <Col >
+                                    <li>
+                                        Straightforward title - easily allows the user to
+                                        directly understand the tutorial choice without additional confusion
+                                    </li>
+                                </Col>
+                                <Col>
+                                    <li>
+                                        Skimmable helper text - readily allows the user to understand
+                                        more about the tutorial without creating assumptions by the application designer
+                                    </li>
+                                </Col>
+                                <Col >
+                                    <li>
+                                        Simple directions - consistently allows the user to make quick decisions without
+                                        overwhelming the user in the onboarding process
+                                    </li>
+                                </Col>
+                            </Row>
+                        </Container>
+                  </ol>
                         <br />
                     </div>
                 </div>
 
-                <h4 className="rowTitle">Let's checkout the Create a Contribution tutorial</h4>
+                <h4 className="rowTitle">Let's check out the Create a Contribution tutorial</h4>
 
-                {/* <div className="box"> */}
-                    {/* <div > */}
-                        {/* <section className="leftHandSide"> */}
-                            <br />
-                            <Container>
-                                <Row className="justify-content-md-center">
-                                        <img className="directionFrames" src="/tutorialPhotos/directionFrames.png" />
-                                </Row>
-                            </Container>
-                            <br />
-                        {/* </section> */}
-                    {/* </div> */}
-                {/* </div> */}
+            
+                <br />
+                <Container>
+                    <Row className="justify-content-md-center">
+                        <img className="directionFrames" src="/tutorialPhotos/directionFrames.png" />
+                    </Row>
+                </Container>
+                <br />
+            
 
 
                 <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Thought Process</h3>
-                        <Row className="justify-content-md-center">
-                            <Col xs={12} lg={9}>
+                       
+                    
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col md lg={9}>
                                 <p>
-                                    <br />
-                                    A user persona was created to further empathize and
-                                    understand with those identifying with a mobility disability.
-                                </p>
-                                <br />
-                                <p>
-                                    Meet Natasha, a mobility disabled undergraduate student
-                                    who oftentimes finds themself having a hard time planning
-                                    their trip to class because they don’t know which path will take her to
-                                    the accessible entrance.
-                                </p>
-                            </Col>
-                            <Col xs={12} lg={3}>
-                                <img className="tutorialBubbles" src="/tutorialPhotos/annotatedDirections.png" />
-                            </Col>
-                        </Row>
-                    </div>
+                            <br />
+                            Straightforward. Skimmable. Simple.
+                        </p>
 
+                        <p>
+                            <br />
+                            These descriptions are consistently key to creating the in-depth tutorial.
+                        </p>
+                            <br />
+                                    <ol>
+                                    <li><p>
+                                        Straightforward action words - Straightforward action words help user intuitvness by
+                                        directly telling the user what they can do without hesitation. Create, Search and
+                                        tap are all key verbs that the user can follow without confusion, creating application
+                                        accessibility.
+                                    </p></li>
+                                    <li> <p>
+                                        Skimmable instructions - Skimmable instructions prevents information overload as
+                                        the user has a longer list of directions to walkthrough.
+                                    </p></li>
+                                    <li><p>
+                                        Simple forwarding directions - Simple directions maintains consistency for users as they
+                                        learn new information, we want to keep some information the same to help the user focus
+                                        on what they need to learn.
+                                    </p></li>
+                                    </ol>
+                                </Col>
+                                <Col xs={12} lg={3}>
+                                    <img className="tutorialBubbles" src="/tutorialPhotos/annotatedDirections.png" />
+                                </Col>
+                                
+                            </Row>
+
+                        </Container>
+                    </div>
                 </div>
 
-              
-                    {/* <br /> */}
-
-                  
-                 
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <Container>
                     <Row>
                         <Col xs={12} lg={6}>
                             <br />
                             <p >
-                                Disability is on a spectrum. This entails that making a digital
-                                application to capture all aspects of the spectrum will be very
-                                difficult and could still leave people unintentionally excluded.
+                                Tutorials can be hard however keeping communication clear and simple allows complexity to
+                                be broken down into bite-sized comprehensible chunks. Intructions are oftentimes skipped,
+                                however when needed, they are vital to setting up user intuitvness for the whole application.
+                                I’m very proud to have created a tutorial that our team could showcase.
                             </p>
                             <p >
-                                If I were to continue this project, I would perform user testing
-                                with those who identify having a mobility disability and use physical technologies
-                                to examine the relationship between our application and the physical space.
+                                I would do more research on tutorial punctution. Throughout the tutorial I used exclamation points,
+                                however looking back I am not certain that using exclamation points communicates the correct tone
+                                I want to give to the user.
                             </p>
                         </Col>
                         <Col lg={6}>
