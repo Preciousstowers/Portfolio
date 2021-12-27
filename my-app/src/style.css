@@ -386,18 +386,18 @@ a.nav-link:first-of-type {
 }
 /* ----------------- */
 .directionFrames {
-  width: max-content;
+  /* width: max-content; */
   height: 29vw;
 }
 
 .tutorialBubbles {
-  width: max-content;
+  /* width: max-content; */
   height: 35vw;
 }
 
 .gridTutorialCards {
   width: 70vw;
-  height: max-content;
+  /* height: max-content; */
 }
 
 .illustration {
@@ -618,7 +618,7 @@ img.longImage {
 
    img.linkedIn {
      height: 10vw;
-     /* width: max-content; */
+     width: 4.2rem;
      padding-right: 5vw;
    }
 
@@ -644,7 +644,7 @@ img.longImage {
   }
 
   .initialImageOne {
-    height: max-content;
+    /* height: max-content; */
     width: 85vw;
   }
   .miroBoard {
@@ -685,12 +685,12 @@ img.longImage {
   }
 
   .discoveryHubMockUps, .evenbiggerfeaturedImage, .initialdiscoveryHubMockUps, .biggerfeaturedImage {
-    height: max-content;
+    /* height: max-content; */
     width: 85vw;
   }
 
   img.researchPicture{
-    height: max-content;
+    /* height: max-content; */
     width: 80vw;
   }
 
