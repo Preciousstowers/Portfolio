@@ -22,7 +22,7 @@ export function DiscoveryHub() {
                     <div className="box">
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col md lg={7}>
+                                <Col md={10} lg={7}>
                                     <h2 className="rowTitle">Project Overview</h2>
 
                                     <p > Socioeconomic innequalities are still prevelant among
@@ -48,7 +48,7 @@ export function DiscoveryHub() {
                                         <p>  view full slide deck here </p>
                                     </a>
                                 </Col>
-                                <Col md lg={5}>
+                                <Col md={10} lg={5}>
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
                                     <p className="detail">  My Role: Product Designer, assistant developer </p>
@@ -73,7 +73,7 @@ export function DiscoveryHub() {
                         <ol>  
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col md lg={4}>
+                                    <Col md={10} lg={4}>
                              
                                       <li><p> Information from <b> word of mouth,</b>
                                             can oftentimes be <b>hard to remember</b> without documentation
@@ -82,12 +82,12 @@ export function DiscoveryHub() {
                                         {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center> */}
                                         {/* </Row> */}
                                     </Col>
-                                    <Col md lg={4}>
+                                    <Col md={10} lg={4}>
                                     <li><p>Educational information distributed via  <b>physical advertisements</b>, such as
                                             flyers and signs can <b> easily become destroyed</b></p></li> 
                                         {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-53 (1).png" /></center> */}
                                     </Col>
-                                    <Col md lg={4}>
+                                    <Col md={10} lg={4}>
                                     <li> <p> <b>Social media platforms</b> encompas a mass amount of educational
                                             information that can be <b> overwhelming for the user</b> </p></li> 
                                   
@@ -151,16 +151,16 @@ export function DiscoveryHub() {
                             <ol>
                                 <Container>
                                     <Row className="justify-content-md-center">
-                                        <Col md lg={4}>
+                                        <Col md={10} lg={4}>
                                         <li><p><b>Provides a shared privatized platform </b> for students/parents to directly meet
                                                 organizations who offer mentors/tutors in their community without potentially distracting information
                                             </p></li>
                                         </Col>
-                                        <Col md lg={4}>
+                                        <Col md={10}  lg={4}>
                                         <li> <p><b>Online and offline education support services</b>
                                                 allows greater accessibility for those who need educational resources</p></li>
                                         </Col>
-                                        <Col md lg={4}>
+                                        <Col md={10}  lg={4}>
                                         <li><p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
                                                 lower-income communities to have a chance at having a more prosperoruos future</p></li> 
                                         </Col>
@@ -177,7 +177,7 @@ export function DiscoveryHub() {
                         <h3 className="rowTitle">Our Initial Mockup</h3>
                         <Container> 
                             <Row >
-                            <Col xs md lg={3}>
+                            <Col xs md={11}  lg={3} xl={4}>
                                     <p>
                                         From our initial iteration to our final product, we
                                         changed:
@@ -191,7 +191,7 @@ export function DiscoveryHub() {
                                         </ol>
                                     </p>
                                 </Col>
-                                <Col md lg={6}>
+                                <Col md={10} lg={6} xl={8}>
                                     <img className="initialdiscoveryHubMockUps" src="/discoveryHubPhotos/Homepage (6).jpg" />
                                 </Col>
                             </Row>
@@ -215,7 +215,7 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={9}>
+                                <Col xs md={10} lg={9} xl={10}>
                                     <img className="discoveryHubMockUps" src="/discoveryHubPhotos/joinCommunity.png" />
                                 </Col>
                             </Row>
@@ -234,7 +234,7 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={9}>
+                                <Col xs md={10} lg={9} xl={10}>
                                     <img className="discoveryHubMockUps" src="/discoveryHubPhotos/filterOrg.png" />
                                 </Col>
                             </Row>
@@ -253,7 +253,7 @@ export function DiscoveryHub() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={9}>
+                                <Col xs md={10} lg={9} xl={10}>
                                     <img className="discoveryHubMockUps" src="/discoveryHubPhotos/favoriteOrg.png" />
                                 </Col>
                             </Row>
@@ -266,7 +266,7 @@ export function DiscoveryHub() {
                         <h4 className="rowTitle">register your organization form</h4>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={6}>
+                                <Col xs md={6} lg={6}>
                                     <p>organizations can become registered in discoveryHub by filling out
                                         the form and they can soon view their registered org on the homescreen
                                     </p>
@@ -285,7 +285,7 @@ export function DiscoveryHub() {
          
                 <Container>
                     <Row className="justify-content-md-center">
-                        <Col md lg={6}>
+                        <Col  md={4} lg={6}>
                             <p>
                                 Designing a website based on the skill level of the developers was a crucial skill I learned.
                                 As someone who assisted in developing, I was able to understand where my design could succeed and fail
@@ -296,7 +296,7 @@ export function DiscoveryHub() {
                                 allow specific mentors and tutors to have a platform to share singular voices along with voices of the organizations.
                                 See mockup on the right.  </p>
                         </Col>
-                        <Col md lg={6}>
+                        <Col  md={8} lg={6}>
                             <img className="biggerfeaturedImage" src="/discoveryHubPhotos/Organization Profile (2).jpg" />
                         </Col>
                     </Row>

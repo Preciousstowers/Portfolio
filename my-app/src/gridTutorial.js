@@ -161,7 +161,7 @@ export function GridTutorial() {
                     
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col md lg={9}>
+                                <Col md  md={6} lg={9}>
                                 <p>
                             <br />
                             Straightforward. Skimmable. Simple.
@@ -190,7 +190,7 @@ export function GridTutorial() {
                                     </p></li>
                                     </ol>
                                 </Col>
-                                <Col xs={12} lg={3}>
+                                <Col xs={12}  md={6} lg={3}>
                                     <img className="tutorialBubbles" src="/tutorialPhotos/annotatedDirections.png" />
                                 </Col>
                                 
@@ -203,7 +203,7 @@ export function GridTutorial() {
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <Container>
                     <Row>
-                        <Col xs={12} lg={6}>
+                        <Col xs={12}  md={6} lg={6}>
                             <br />
                             <p >
                                 Tutorials can be hard however keeping communication clear and simple allows complexity to
@@ -217,7 +217,7 @@ export function GridTutorial() {
                                 I want to give to the user.
                             </p>
                         </Col>
-                        <Col lg={6}>
+                        <Col  md={6} lg={6}>
                             <img className="featuredImage smallerScreenSizeClassLastImage" src="/Frame 8 (2).png" />
                         </Col>
                     </Row>

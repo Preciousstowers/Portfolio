@@ -26,7 +26,7 @@ export function RhetoricalAnalysis() {
                 <div className="initialImages">
                     <Container>
                         <Row className="justify-content-md-center">
-                            <Col lg={9}>
+                            <Col md={12} lg={9}>
                                 <div>
                                     <Document
                                         file="/ThePerfectMoment.pdf"
@@ -41,7 +41,7 @@ export function RhetoricalAnalysis() {
                                         </Col>
                                     </Row>
                                     <Row className="justify-content-md-center">
-                                        <Col lg={4}>
+                                        <Col lg={4} xl={2}>
                                             <Link to="/ThePerfectMoment.pdf" target="_blank" download>
                                                 <button className="rhetoricalButton">download</button>
                                             </Link>
@@ -58,7 +58,7 @@ export function RhetoricalAnalysis() {
                     <div className="box">
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col md lg={7}>
+                                <Col md={12} lg={7}>
                                     <h2 className="rowTitle">Prompt Overview</h2>
 
                                     <b><p>Rhetoric - goal-oriented communication</p></b>
@@ -94,7 +94,7 @@ export function RhetoricalAnalysis() {
 
 
                                 </Col>
-                                <Col md lg={5}>
+                                <Col md={12}  lg={5}>
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
                                     <p className="detail">  My Role: sole writer and presenter </p>
@@ -122,7 +122,7 @@ export function RhetoricalAnalysis() {
                         </p>
                         <Container>
                             <Row>
-                                <Col md lg={6}>
+                                <Col md lg={6} xl={6}>
                                     <img className="novemberfeaturedImage" src="/november-2021-printable-calendar-1 2.jpg" />
                                 </Col>
                                 <Col md lg={6}>
@@ -213,7 +213,7 @@ export function RhetoricalAnalysis() {
                         </p>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs md lg={3}>
+                                <Col xs md lg={3} xl={4}>
                                     <p >
                                         <ol>
                                             <br />
@@ -225,7 +225,7 @@ export function RhetoricalAnalysis() {
                                         </ol>
                                     </p>
                                 </Col>
-                                <Col lg={9}>
+                                <Col lg={9} xl={8}>
                                     <img className="featuredImage" src="/rhetoricalPaper.png" />
                                 </Col>
                             </Row>
@@ -242,7 +242,7 @@ export function RhetoricalAnalysis() {
                         </p>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col md lg={6}>
+                                <Col md lg={7}>
                                     <p > Time-sensative design - A key aspect of my learning is understanding more about time-sensative design.
                                         The idea of time existing and a whole culture has adapted to creating their whole life around time
                                         I think is absolutely fascinating. Incorporating how time can affect and/or alter this time was a topic that I enjoyed researching.
@@ -252,7 +252,7 @@ export function RhetoricalAnalysis() {
                                         standard english paper. This would include researching how magazines/editorals are
                                         written to imitate the tone as if my peice was in a published magazine. </p>
                                 </Col>
-                                <Col md lg={6}>
+                                <Col md lg={6} xl={5}>
                                     <img className="featuredImage" src="/A4 Portrait.png" />
                                 </Col>
                             </Row>

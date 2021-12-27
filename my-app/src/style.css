@@ -708,6 +708,14 @@ img.longImage {
   .illustration{ 
     display: none;
   }
+
+  div div.react-pdf__Document {
+    width: 350px;
+    height: 400px;
+  }
+  canvas.react-pdf__Page__canvas {
+    display: none;
+  }
 }
 
 /* iphone 6 styling */
@@ -717,12 +725,158 @@ img.longImage {
   .normalNavBar {
     display: none;
   }
+
 }
 
 @media (min-width: 550px) {
   .hamburgerNav {
     display: none;
   }
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .hamburgerNav {
+    display: none;
+  }
+
+  body {
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+   }
+
+   .homepageBody {
+    padding-left: .25vw;
+    padding-right: .25vw;
+  }
+
+  .col-lg-1 {
+    display: none;
+  }
+
+  .linkedIn {
+    height: 5.5vw;
+    width: 5.5vw;
+  }
+
+  /* .personalPhoto {
+    margin-top: 5vw;
+  } */
+  .card {
+    width: 19rem;
+    height: 34rem;
+  }
+
+  .miroBoard {
+    /* height: 50vw; */
+    width: 60vw;
+  }
+
+  img.featuredImage {
+    height: 40vw;
+  }
+
+  .gridpersonaOne {
+    height: 44vw;
+  }
+
+  img.gridFeaturedImage {
+    height: 90vw;
+  }
+
+  img.gridFeaturedImageTwo {
+    height: 80vw;
+  }
+
+  img.biggerfeaturedImage {
+    height: 60vw;
+  }
+
+  img.smallerScreenSizeClass {
+    height: 50vw;
+  }
+
+  img.tutelaBiggerFeaturedImage {
+    height: 38vw;
+  }
+
+  img.longImage {
+    height: 70vw;
+    width: 70vw;
+  }
+  
+  canvas.react-pdf__Page__canvas {
+    height: 500px;
+    width: 400px;
+  }
+
+  img.tutorialBubbles {
+    height: 75vw;
+  }
+
+  .gridTutorialCards {
+    height: 30vw;
+    width: max-content;
+  }
+
+  /* .homepagerowDescriptionLong {
+
+  } */
+}
+
+@media (min-width: 1500px) {
+ 
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 500;
+ }
+
+ p {
+  font-size: 16px;
+  margin-bottom: .5rem;
+}
+
+.gridpersonaOne {
+  height: 30vw;
+}
+
+.miroBoard {
+  width: 53vw;
+  height: max-content;
+}
+
+.personaOne {
+  width: 40vw;
+}
+ 
+/* img.biggerfeaturedImage {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.initialdiscoveryHubMockUps {
+  height: 37vw;
+}
+
+ .homepageBody {
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+
+ .initialImages {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.decemberfeaturedImage, .novemberfeaturedImage {
+  height: 30vw;
+}
+
 }
 
 /* @media (min-width: 1023px) {

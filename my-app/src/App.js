@@ -1,6 +1,8 @@
 import './style.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Navbar, Container, Nav, NavDropdown, Center, NavLink, Col, Row, Form, Offcanvas, FormControl} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from 'react-dom';
@@ -28,10 +30,13 @@ import Homepage from './homepage';
 function App() {
   return (
     <div >
+   
       <NavigationBar />
       <HamburgerMenu />
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
+      
           <Route exact path="/" element={<Homepage />} />
           {/* <Route path="/aboutme" /> */}
           <Route path="Resume" element={<Resume />} />
@@ -80,6 +85,8 @@ function App() {
   );
 }
 
+{/* nav bar on all regular screens */}
+
 function NavigationBar() {
   return (
     <div className="normalNavBar">
@@ -99,6 +106,8 @@ function NavigationBar() {
     </div>
   )
 }
+
+{/* hamburger menu on smaller screens */}
 
 function HamburgerMenu() {
   return (
@@ -127,6 +136,18 @@ function HamburgerMenu() {
 </Navbar>
 </div>
   )
+}
+
+{/* Added automatic top scroll when clicking on different page */}
+
+export function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
 }
 
 export default App;

@@ -369,7 +369,7 @@ export function Grid() {
                             </Col>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col xs={12} lg={10}> <img className="biggerfeaturedImage smallerScreenSizeClass" src="/gridPhotos/handsFree.png" /></Col>
+                                    <Col xs={12} lg={10} xl={9}> <img className="biggerfeaturedImage smallerScreenSizeClass" src="/gridPhotos/handsFree.png" /></Col>
                                 </Row>
                             </Container>
 
@@ -382,7 +382,7 @@ export function Grid() {
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <Container>
                     <Row>
-                        <Col xs={12} lg={6}>
+                        <Col xs={12} md={6} lg={6} xl={6}>
 
                             <br />
                             <p >
@@ -396,7 +396,7 @@ export function Grid() {
                                 to examine the relationship between our application and the physical space.
                             </p>
                         </Col>
-                        <Col lg={6}>
+                        <Col md={6} lg={6}>
                             <img className="featuredImage smallerScreenSizeClassLastImage" src="/Frame 7 (10).png" />
                         </Col>
                     </Row>

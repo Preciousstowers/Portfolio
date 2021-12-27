@@ -186,7 +186,7 @@ export function Tutela() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={8}>
+                                <Col xs md={10} lg={8} xl={8}>
                                     <img className="featuredImage" src="/tutelaPhotos/onBoarding.png" />
                                 </Col>
                             </Row>
@@ -205,7 +205,7 @@ export function Tutela() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={8}>
+                                <Col xs lg={8} xl={8}>
                                     <img className="longImage" src="/tutelaPhotos/createACall.png" />
                                 </Col>
                             </Row>
@@ -222,8 +222,8 @@ export function Tutela() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg="12">
-                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 3 (2).png" />
+                                <Col xs lg={12} xl={12}>
+                                    <img className="biggerfeaturedImage tutelaBiggerFeaturedImage" src="/tutelaPhotos/Frame 3 (2).png" />
                                 </Col>
                             </Row>
                         </Container>
@@ -240,8 +240,8 @@ export function Tutela() {
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={9}>
-                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
+                                <Col xs md={10} lg={9} xl={10}>
+                                    <img className="biggerfeaturedImage tutelaBiggerFeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
                                 </Col>
                             </Row>
                         </Container>
@@ -250,16 +250,16 @@ export function Tutela() {
                 <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">pair with alexa</h4>
-                        <Col>
+                        {/* <Col> */}
                             <p> Jenna sometimes feels unsafe at home. She can address potential at-home saftey
                                 by accessing the connect to Alexa feature is added by saying a key word/sentence and the application
                                 will call a friend or 911.
                             </p>
-                        </Col>
+                        {/* </Col> */}
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs lg={7}>
-                                    <img className="biggerfeaturedImage" src="/tutelaPhotos/saveAlexa.png" />
+                                <Col xs md={11} lg={7} xl={7}>
+                                    <img className="biggerfeaturedImage " src="/tutelaPhotos/saveAlexa.png" />
                                 </Col>
                             </Row>
                         </Container>

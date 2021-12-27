@@ -24,7 +24,7 @@ export function Homepage() {
                         <Container>
 
                             <Row>
-                                <Col md lg={11}>
+                                <Col md={10} lg={11}>
                                     <div className="rowTitle">
                                         <h4 className="rowTitle">Welcome, make yourself at home</h4>
                                     </div>
@@ -55,7 +55,7 @@ export function Homepage() {
 
 
                                 </Col>
-                                <Col md lg={1} >
+                                <Col md={2} lg={1} >
                                     <br />
                                     <img className="personalPhoto" src="/IMG_9570_Original.jpg" />
                                 </Col>
