@@ -618,7 +618,7 @@ img.longImage {
 
    img.linkedIn {
      height: 10vw;
-     width: max-content;
+     /* width: max-content; */
      padding-right: 5vw;
    }
 
