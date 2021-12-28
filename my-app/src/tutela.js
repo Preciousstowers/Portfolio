@@ -156,15 +156,15 @@ export function Tutela() {
                                 <Container>
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
-                                            <li>Reassures users by providing companionship through
+                                           <li><b>Reassures users by providing companionship </b> through
                                                 playback audio and video calls to mimic live conversations </li>
                                         </Col>
                                         <Col md lg={4}>
-                                            <li>Delivers more detailed and holistic information for institutions
+                                         <li> <b> Delivers more detailed and holistic information to institutions </b> 
                                                 when/if a Human-Trafficking case/rape-related case happens</li>
                                         </Col>
                                         <Col md lg={4}>
-                                            <li>Maintains optional in-home security for domestic violence situations
+                                          <li>  <b> Maintains optional in-home security for domestic violence situations </b> 
                                                 by connecting to Alexa/Google Home feature </li>
                                         </Col>
                                     </Row>

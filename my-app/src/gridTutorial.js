@@ -24,7 +24,7 @@ export function GridTutorial() {
                             <Row className="justify-content-md-center">
                                 <Col xs={12} lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
-                                    <p>
+                                    {/* <p> */}
                                         <p>
                                             This tutorial was made for the project Grid, an application
                                             that allow users to identify, rate and contribute to the knowledge
@@ -36,11 +36,11 @@ export function GridTutorial() {
                                         </p>
 
 
-                                        <p>
-                                            Our goal with the tutorial is for our suers to gain a better understanding of the
+                                     <b>   <p>
+                                            Our goal with the tutorial is for our users to gain a better understanding of the
                                             application and an added layer of confidence knowing that they can successful use
-                                            the application to the fullest.
-                                        </p>
+                                            the application to its fullest.
+                                        </p> </b> 
 
                                        
                                         <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=311%3A8754&scaling=scale-down&page-id=16%3A158&starting-point-node-id=311%3A8754" target="_blank" >
@@ -54,7 +54,7 @@ export function GridTutorial() {
                                         <a href="https://drive.google.com/file/d/1UYOE-vx9Kz_yZSSNZU7jj2SjKxdky9w6/view?usp=sharing" target="_blank" >
                                             <p>view product video</p>
                                         </a>
-                                    </p>
+                                    {/* </p> */}
                                 </Col>
                                 <Col xs={12} md lg={5}>
                                     <br />
@@ -78,8 +78,8 @@ export function GridTutorial() {
                     <div className="box">
                         <h3 className="rowTitle">Thought Process</h3>
                         <p >
-                            Users are unlikely to read a long list of instructions to learn how to use an application,
-                            therefore, our application tutorial needed to be simple, quick, and easy to increase application
+                        <b> Users are unlikely to read a long list of instructions to learn how to use an application, </b>
+                            therefore, our application tutorial needed to be  <b> simple, quick, and easy</b> to increase application
                             comprehension in a short period of time.
 
                         </p>
@@ -101,10 +101,10 @@ export function GridTutorial() {
 
                         </p>
 
-                        <p >
+                        <b>  <p >
                             We need our application tutorial writing to be straightforward, skimmable and simple.
 
-                        </p>
+                        </p></b> 
 
                         <br />
                   
@@ -118,19 +118,19 @@ export function GridTutorial() {
                             <Row className="justify-content-md-center">
                                 <Col >
                                     <li>
-                                        Straightforward title - easily allows the user to
+                                        <b> Straightforward title </b> - easily allows the user to
                                         directly understand the tutorial choice without additional confusion
                                     </li>
                                 </Col>
                                 <Col>
                                     <li>
-                                        Skimmable helper text - readily allows the user to understand
+                                    <b>Skimmable helper text </b> - readily allows the user to understand
                                         more about the tutorial without creating assumptions by the application designer
                                     </li>
                                 </Col>
                                 <Col >
                                     <li>
-                                        Simple directions - consistently allows the user to make quick decisions without
+                                    <b>Simple directions</b> - consistently allows the user to make quick decisions without
                                         overwhelming the user in the onboarding process
                                     </li>
                                 </Col>
@@ -172,18 +172,18 @@ export function GridTutorial() {
                             These descriptions are consistently key to creating the in-depth tutorial.
                         </p>
                             <br />
-                                    <ol>
+                            <ol>
                                     <li><p>
-                                        Straightforward action words - Straightforward action words help user intuitiveness by
+                                    <b> Straightforward action words</b> - Straightforward action words help user intuitiveness by
                                         directly telling the user what they can do without hesitation. Create, Search and
                                         tap are all key verbs that the user can follow without confusion.
                                     </p></li>
                                     <li> <p>
-                                        Skimmable instructions - Skimmable instructions prevents information overload as
+                                    <b>  Skimmable instructions </b>- Skimmable instructions prevents information overload as
                                         the user has a longer list of directions to walkthrough.
                                     </p></li>
                                     <li><p>
-                                        Simple forwarding directions - Simple directions maintains consistency for users as they
+                                    <b> Simple forwarding directions</b> - Simple directions maintains consistency for users as they
                                         learn new information, we want to keep some information the same to help the user focus
                                         on what they need to learn.
                                     </p></li>

@@ -24,7 +24,7 @@ export function Grid() {
                             <Row className="justify-content-md-center">
                                 <Col xs={12} lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
-                                    <p>
+                                    {/* <p> */}
                                         <p>
                                             In today’s physical architecture, there lacks
                                             inclusiveness for those who identify with a disability.
@@ -42,11 +42,11 @@ export function Grid() {
                                             University of Washington campus.
                                         </p>
 
-                                        <p>  Our application allows those who identify with a
+                                      <b>  <p>  Our application allows those who identify with a
                                             mobility disability to better plan out their day by understanding
                                             where accessible features are, and encourages those who do
                                             not have a disability to join the conversation surrounding
-                                            inclusive spaces.  </p>
+                                            inclusive spaces.  </p></b>
 
                                         <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=311%3A8754&scaling=scale-down&page-id=16%3A158&starting-point-node-id=311%3A8754" target="_blank" >
                                             <p>view full interactive application</p>
@@ -59,7 +59,7 @@ export function Grid() {
                                         <a href="https://drive.google.com/file/d/1UYOE-vx9Kz_yZSSNZU7jj2SjKxdky9w6/view?usp=sharing" target="_blank" >
                                             <p>view product video</p>
                                         </a>
-                                    </p>
+                                    {/* </p> */}
                                 </Col>
                                 <Col xs={12} md lg={5}>
                                     <br />

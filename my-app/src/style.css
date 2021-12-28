@@ -269,6 +269,16 @@ a.nav-link:first-of-type {
   /* box-shadow: 10px 5px 5px gray; */
 }
 
+.tutelaprojectRowOne p{
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+
+.tutelaprojectRowTwo p{
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+
 .tutelaButton {
   background: linear-gradient(90deg, hsla(83, 59%, 65%, 0.6) 0%, hsla(188, 67%, 75%, 0.7) 0%);
   border: none;
@@ -312,7 +322,18 @@ a.nav-link:first-of-type {
 
 .novemberfeaturedImage {
   height: 25vw; 
-  /* margin-top: 1.2vw;  */
+  /* mar
+  gin-top: 1.2vw;  */
+}
+
+.rAprojectRowOne p{
+  margin-left: 1vw;
+  margin-right: 3vw;
+}
+
+.rAprojectRowTwo p{
+  margin-left: 1vw;
+  margin-right: 3vw;
 }
 
 .rhetoricalButton {

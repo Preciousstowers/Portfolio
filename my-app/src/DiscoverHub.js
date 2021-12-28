@@ -183,11 +183,11 @@ export function DiscoveryHub() {
                                         changed:
                                         <ol>
                                             <br />
-                                           <li>changed the color scheme for the UI</li>
+                                            <b>  <li>changed the color scheme for the UI</li> </b>
                                             <br />
-                                             <li>changed the subjects/services/platform attribute styling on the organization cards </li>
+                                            <b>   <li>changed the subjects/services/platform attribute styling on the organization cards </li></b>
                                             <br />
-                                          <li>included sign-in alerts to notify the user to sign-up in order to use the application to its fullest potential </li>
+                                            <b>    <li>included sign-in alerts to notify the user to sign-up in order to use the application to its fullest potential </li></b>
                                         </ol>
                                     </p>
                                 </Col>

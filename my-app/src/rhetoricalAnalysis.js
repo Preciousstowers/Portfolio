@@ -140,13 +140,13 @@ export function RhetoricalAnalysis() {
                         <h3 className="rowTitle">Research Questions</h3>
                         <p >
                             <ol>
-                                <p>
+                                {/* <p> */}
                                     <li>What is Kairos and why is it important within rhetoric?</li>
                                     <li> How does Kairos affect digital rhetoric?</li>
                                     <li>What is digital rhetoric and why is it important?</li>
                                     <li>How can digital rhetoric amplify and silence different narratives in society?</li>
                                     <li>How does digital rhetoric affect physical spaces for different audiences? (Comparing the impact on generational difference and racial differences) </li>
-                                </p>
+                                {/* </p> */}
                             </ol>
                         </p>
                     </div>
@@ -243,7 +243,7 @@ export function RhetoricalAnalysis() {
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
-                                    <p > Time-sensitive design - A key aspect of my learning is understanding more about time-sensitive design.
+                                    <p >Time-sensitive design - A key aspect of my learning is understanding more about time-sensitive design.
                                         The idea of time existing and a whole culture has adapted to creating their whole life around time
                                         I think is absolutely fascinating. Incorporating how time can affect and/or alter this time was a topic that I enjoyed researching.
                                         This is genuinely one of my favorite pieces that I have completed within undergrad. </p>
