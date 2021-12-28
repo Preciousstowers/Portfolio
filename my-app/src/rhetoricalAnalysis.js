@@ -97,7 +97,7 @@ export function RhetoricalAnalysis() {
                                 <Col md={12}  lg={5}>
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
-                                    <p className="detail">  My Role: sole writer and presenter </p>
+                                    <p className="detail">  My Role: Sole Writer and Presenter </p>
                                     <p className="detail">  Time Frame: 4 weeks (including a presentation)</p>
                                     <p className="detail">  Tools: Google Docs and Canva</p>
                                 </Col>
