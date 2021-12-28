@@ -66,7 +66,7 @@ export function Grid() {
                                     <br />
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
-                                    <p className="detail">  My Role: Lead Speaker,  Product Designer  </p>
+                                    <p className="detail">  My Role: Lead Spokesperson and Product Designer  </p>
                                     <p className="detail">  Team size: 5 total people</p>
                                     <p className="detail">  Time Frame: 11 weeks </p>
                                     <p className="detail">  Tools: Figma and Miro</p>

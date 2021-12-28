@@ -51,7 +51,7 @@ export function Tutela() {
                                 <Col md lg={5}>
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
-                                    <p className="detail">  My Role: Lead Spokesperson,  Product Designer  </p>
+                                    <p className="detail">  My Role: Lead Spokesperson and  Product Designer  </p>
                                     <p className="detail">  Team size: 4 total people</p>
                                     <p className="detail">  Time Frame: ~30 Hours </p>
                                     <p className="detail">  Tools: Figma, Canva</p>
