@@ -21,7 +21,7 @@ export function RhetoricalAnalysis() {
     return (
         <div >
             <body >
-                <h1 className="rowTitle">the perfect moment</h1>
+                <h1 className="rowTitle">The Perfect Moment</h1>
                 <p className="rowDescription">examining how social media platforms rhetorically design time using Kairos</p>
                 <div className="initialImages">
                     <Container>

@@ -126,7 +126,7 @@ export function Homepage() {
                             <Card className="homepageCard" >
                                 <Card.Img variant="top" src="/A4 Portrait.png" />
                                 <Card.Body>
-                                    <Card.Title>the perfect moment </Card.Title>
+                                    <Card.Title>The Perfect Moment </Card.Title>
                                     <Card.Text>
                                         a rhetorical analysis on how using time as a design tool for social
                                         media platforms can alter digital rhetorics
