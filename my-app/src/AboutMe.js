@@ -11,10 +11,10 @@ export function AboutMe() {
     return (
         <div >
             <body >
-                <h1 className="rowTitle">I hope you are enjoying your stay!</h1>
+                <h3 className="rowTitle">I hope you are enjoying your stay!</h3>
                 {/* <p className="rowDescription"> An easy and simple walkthrough to learn how to use Grid</p> */}
                 <div className="initialImages">
-                    <img className="initialImageOne" src="/tutorialPhotos/Frame 180.png" />
+             <img className="aboutMeHorizontal" src="/IMG_9122 2.JPG" />
                 </div>
                 <br />
                 <div className="aboutMeProjectRowOne">
@@ -23,8 +23,8 @@ export function AboutMe() {
                         I’m Precious a third year attending the University of Washington majoring in 
                         Informatics with a double concentration in Data Science and Human-Computer Interaction with a minor in writing. 
                         Being an Informatics major allows me to take the necessary string of tools to analyze complex intersections 
-                        and weave together the perfect solution. My love of learning technical and non-technical skills inhibts 
-                        me to be cross-functional and communicate key details among a variety of audiences and in a miltitude of scenarios. 
+                        and weave together the perfect solution. My love of learning technical and non-technical skills inhibits 
+                        me to be cross-functional and communicate key details among a variety of audiences and in a multitude of scenarios. 
                         </h6>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export function AboutMe() {
                         </button>    
                     </Link>
 
-                    <Link to="/PreciousStowers.pdf" target="_blank" download>
+                    <Link to="/PreciousStowersResume.pdf" target="_blank" download>
                         <button className="downloadResume">
                             download Resume
                         </button>

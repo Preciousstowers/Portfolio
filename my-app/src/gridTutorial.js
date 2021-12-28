@@ -12,7 +12,7 @@ export function GridTutorial() {
         <div >
             <body >
                 <h1 className="rowTitle">Grid Tutorial</h1>
-                <p className="rowDescription"> An easy and simple walkthrough to learn how to use Grid</p>
+                <p className="rowDescription"> an easy and simple walkthrough to learn how to use Grid</p>
                 <div className="initialImages">
                     <img className="initialImageOne" src="/tutorialPhotos/Frame 180.png" />
                 </div>
@@ -29,7 +29,7 @@ export function GridTutorial() {
                                             This tutorial was made for the project Grid, an application
                                             that allow users to identify, rate and contribute to the knowledge
                                             of physical accessibility features in and around the University of
-                                            Washington Campus. This overarching tutorial is broken up in tutorial sections
+                                            Washington campus. This overarching tutorial is broken up in tutorial sections
                                             which the user can select from. We will be focusing on the writing for the
                                             tutorial sections and the “Create a Contribution” tutorial.
 
@@ -174,10 +174,9 @@ export function GridTutorial() {
                             <br />
                                     <ol>
                                     <li><p>
-                                        Straightforward action words - Straightforward action words help user intuitvness by
+                                        Straightforward action words - Straightforward action words help user intuitiveness by
                                         directly telling the user what they can do without hesitation. Create, Search and
-                                        tap are all key verbs that the user can follow without confusion, creating application
-                                        accessibility.
+                                        tap are all key verbs that the user can follow without confusion.
                                     </p></li>
                                     <li> <p>
                                         Skimmable instructions - Skimmable instructions prevents information overload as
@@ -207,12 +206,12 @@ export function GridTutorial() {
                             <br />
                             <p >
                                 Tutorials can be hard however keeping communication clear and simple allows complexity to
-                                be broken down into bite-sized comprehensible chunks. Intructions are oftentimes skipped,
-                                however when needed, they are vital to setting up user intuitvness for the whole application.
+                                be broken down into bite-sized comprehensible chunks. Instructions are oftentimes skipped,
+                                however when needed, they are vital to setting up user intuitiveness for the whole application.
                                 I’m very proud to have created a tutorial that our team could showcase.
                             </p>
                             <p >
-                                I would do more research on tutorial punctution. Throughout the tutorial I used exclamation points,
+                                I would do more research on tutorial punctuation. Throughout the tutorial I used exclamation points,
                                 however looking back I am not certain that using exclamation points communicates the correct tone
                                 I want to give to the user.
                             </p>

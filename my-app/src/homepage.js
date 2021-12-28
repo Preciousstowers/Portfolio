@@ -30,12 +30,12 @@ export function Homepage() {
                                     </div>
                                     <div className="homepagerowDescriptionLong">
                                         <p>
-                                            I'm glad you are here! I'm Precious, a third year at the University of Washington majoring in
+                                            I'm Precious, a third year at the University of Washington majoring in
                                             Informatics with a double concentration in Data Science and Human-Computer Interaction
-                                            with a minor in writing. I strive to communicate intersections that lack the clear bridges to the solutions
-                                            people need and help empower others.
+                                            with a minor in writing. I strive to analyze intersections that lack clear bridges to connect 
+                                            people and businesses to the solutions they need. Here are some of the solutions I created through
+                                            UX/UI design and writing!
                                         </p>
-
                                         <p>
                                             Take your time and look around. It's cold outside anyway.
                                         </p>
@@ -79,8 +79,8 @@ export function Homepage() {
                                 <Card.Body>
                                     <Card.Title>Meet Grid</Card.Title>
                                     <Card.Text>
-                                        an interactive map and accessability rating application design that
-                                        encourages awareness about accessbility options on campus and empowers
+                                        an interactive map and accessibility rating application design that
+                                        encourages awareness about accessibility options on campus and empowers
                                         those who identify having a disability
                                     </Card.Text>
                                 </Card.Body>
@@ -108,7 +108,7 @@ export function Homepage() {
                                     <Card.Title>Meet Tutela</Card.Title>
                                     <Card.Text>
                                         the application that provides the partner when you are alone and
-                                        unable to contact anyone while your saftey is compromised in rape-related or sex trafficing situations
+                                        unable to contact anyone while your safety is compromised in a rape-related or sex trafficking situation
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

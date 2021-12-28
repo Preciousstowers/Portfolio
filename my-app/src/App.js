@@ -73,8 +73,8 @@ function App() {
             </Col>
 
             <Col lg={4}>
-            <a href="Resume" target="_blank" >
-              View my Resume
+            <a className="footerLink"href="PreciousStowersResume.pdf" target="_blank" download>
+              download resume
               </a>
             </Col>
           </Row>

@@ -25,15 +25,15 @@ export function DiscoveryHub() {
                                 <Col md={10} lg={7}>
                                     <h2 className="rowTitle">Project Overview</h2>
 
-                                    <p > Socioeconomic innequalities are still prevelant among
-                                        many communities accross the United States. The long history of these innequalities has created
-                                        collateral damage in the U.S educational system, where students in impoverished areas do not recieve
+                                    <p > Socioeconomic inequalities are still prevalent among
+                                        many communities across the United States. The long history of these inequalities has created
+                                        collateral damage in the U.S educational system, where students in impoverished areas do not receive
                                         equal amounts educational resources. Information systems to distribute these educational resources lack
                                         vital features to help their students long-term.
                                     </p>
 
                                     <p >
-                                        In our INFO442 Cooperative Software Development class, we created DiscoveryHub,
+                                        In my INFO442 Cooperative Software Development class, we created DiscoveryHub,
                                         a product to connect local organizations who offer tutoring and mentoring services
                                         to students within their community.
                                     </p>
@@ -75,7 +75,7 @@ export function DiscoveryHub() {
                                 <Row className="justify-content-md-center">
                                     <Col md={10} lg={4}>
                              
-                                      <li><p> Information from <b> word of mouth,</b>
+                                      <li><p> Information from <b> word of mouth, </b>
                                             can oftentimes be <b>hard to remember</b> without documentation
                                         </p></li> 
                                         {/* <Row className="img-fluid w-100"> */}
@@ -88,7 +88,7 @@ export function DiscoveryHub() {
                                         {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-53 (1).png" /></center> */}
                                     </Col>
                                     <Col md={10} lg={4}>
-                                    <li> <p> <b>Social media platforms</b> encompas a mass amount of educational
+                                    <li> <p> <b>Social media platforms</b> encompass a mass amount of educational
                                             information that can be <b> overwhelming for the user</b> </p></li> 
                                   
                                         {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-log-out (1).png" /></center> */}
@@ -110,12 +110,12 @@ export function DiscoveryHub() {
 
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                <center><p > Meet Melissa, a busy 34 year old mother of two children.</p></center>
+                                <center><p > Meet Melissa, a busy 34 year old mother of two children</p></center>
 
                                 </Col>
 
                                 <Col md lg={6} >
-                                <center><p > Meet Winfo, sn RSO at the University of Washington who wants
+                                <center><p > Meet Winfo, an RSO at the University of Washington who wants
                                         to help students in the surrounding community</p></center>
                                 </Col>
                             </Row>
@@ -183,11 +183,11 @@ export function DiscoveryHub() {
                                         changed:
                                         <ol>
                                             <br />
-                                           <li>incorporated the color scheme/UI</li>
+                                           <li>changed the color scheme for the UI</li>
                                             <br />
                                              <li>changed the subjects/services/platform attribute styling on the organization cards </li>
                                             <br />
-                                          <li>included alerts if the user wanted to use a favorite feature and they're not logged in</li>
+                                          <li>included sign-in alerts to notify the user to sign-up in order to use the application to its fullest potential </li>
                                         </ol>
                                     </p>
                                 </Col>
@@ -209,8 +209,9 @@ export function DiscoveryHub() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">join our academic community popup</h4>
                         <Col>
-                            <p>a users and organizations are quickly welcomed by offering
-                                to join the community using a pop-up to register.
+                            <p> 
+                                users and organizations are quickly welcomed by offering
+                                to join the community using a pop-up to register
                             </p>
                         </Col>
                         <Container>
@@ -228,8 +229,9 @@ export function DiscoveryHub() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">filter for organizations</h4>
                         <Col>
-                            <p>users can filter for organizations based on
-                                their wanted criteria
+                            <p>
+                                users can filter for organizations based on
+                                the criteria: Geographic location, Mentor or Tutor, Subjects, and Platforms
                             </p>
                         </Col>
                         <Container>
@@ -245,8 +247,9 @@ export function DiscoveryHub() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">favorite organization handling</h4>
                         <Col>
-                            <p>logged in users can favorite an organization and it is
-                                saved to their profile. if the user is not signed in, they will be notified to join the academic community
+                            <p>
+                                logged in users can favorite an organization and is shown on the users' Favorites page.
+                                if the user is not signed in, they will be notified to join the academic community
                                 before using the feature
                                 <br />
                             </p>
@@ -268,7 +271,7 @@ export function DiscoveryHub() {
                             <Row className="justify-content-md-center">
                                 <Col xs md={6} lg={6}>
                                     <p>organizations can become registered in discoveryHub by filling out
-                                        the form and they can soon view their registered org on the homescreen
+                                        a form and they can soon view their registered organization on the home screen
                                     </p>
                                 </Col>
                                 <Col xs lg={6}>

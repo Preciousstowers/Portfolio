@@ -1,9 +1,14 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   font-weight: 500;
+ }
+
+ .footerLink{
+   text-emphasis: none;
+   color: black;
  }
 
  .homepageBody {
@@ -371,7 +376,7 @@ a.nav-link:first-of-type {
 }
 
 .emailMe {
-  background: linear-gradient(90deg, hsla(195, 100%, 44%, 1) 100%, hsla(197, 100%, 37%, 0.5) 100%);  
+  background-color: #80CCD7;
   padding: 2vw;
   border: none;
   color: white;
@@ -550,8 +555,20 @@ img.longImage {
 .footer {
   border-top: 2pt solid black;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
+
+
+img.aboutMeHorizontal {
+  height: 20vw;
+  display: flex;
+  border-radius: .5vw;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 
 @media (max-width: 415px) {
@@ -716,6 +733,16 @@ img.longImage {
   canvas.react-pdf__Page__canvas {
     display: none;
   }
+
+  img.aboutMeHorizontal {
+    height: 50vw;
+    display: flex;
+    border-radius: .5vw;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
 }
 
 /* iphone 6 styling */
@@ -826,6 +853,14 @@ img.longImage {
 }
 
 @media (min-width: 1500px) {
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-weight: 500;
+ }
+}
+@media (min-width: 1500px) {
  
 body {
   font-family: 'Quicksand', sans-serif;
@@ -851,6 +886,7 @@ body {
 .personaOne {
   width: 40vw;
 }
+
  
 /* img.biggerfeaturedImage {
     width: 80%;

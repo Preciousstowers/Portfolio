@@ -41,7 +41,7 @@ export function RhetoricalAnalysis() {
                                         </Col>
                                     </Row>
                                     <Row className="justify-content-md-center">
-                                        <Col lg={4} xl={2}>
+                                        <Col lg={4} xl={4}>
                                             <Link to="/ThePerfectMoment.pdf" target="_blank" download>
                                                 <button className="rhetoricalButton">download</button>
                                             </Link>
@@ -66,7 +66,7 @@ export function RhetoricalAnalysis() {
 
                                     <p >
                                         Rhetoric can be seen and heard everywhere.
-                                        Rhetoric can be the design on of the chair for which the
+                                        Rhetoric can be the design of a chair for which the
                                         entirety of society agreed as humans that we should be sitting upright.
                                         Rhetoric can be seen as a stylistic choice, as if a car salesman was
                                         using a tone to try to convince their customer to purchase the car.
@@ -194,7 +194,7 @@ export function RhetoricalAnalysis() {
                                         <Col md lg={4}>
                                         <li><p>Potential “dark patterns” can be observed within styling platforms based on time,
                                              such consistently disrupting the user in the physical space to address the digital space 
-                                             or making the user take various more steps to reach their goal on the platform than nessecary</p></li> 
+                                             or making the user take various more steps to reach their goal on the platform than necessary</p></li> 
                                         </Col>
                                     </Row>
                                 </Container> 
@@ -243,14 +243,14 @@ export function RhetoricalAnalysis() {
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
-                                    <p > Time-sensative design - A key aspect of my learning is understanding more about time-sensative design.
+                                    <p > Time-sensitive design - A key aspect of my learning is understanding more about time-sensitive design.
                                         The idea of time existing and a whole culture has adapted to creating their whole life around time
                                         I think is absolutely fascinating. Incorporating how time can affect and/or alter this time was a topic that I enjoyed researching.
                                         This is genuinely one of my favorite pieces that I have completed within undergrad. </p>
                                     <p > Designing Language - If I had more time or the opportunity to revise my final draft,
                                         I would change the language of my paper to fit an editorial context rather than a
-                                        standard english paper. This would include researching how magazines/editorals are
-                                        written to imitate the tone as if my peice was in a published magazine. </p>
+                                        standard english paper. This would include researching how magazines/editorials are
+                                        written to imitate the tone as if my piece was in a published magazine. </p>
                                 </Col>
                                 <Col md lg={6} xl={5}>
                                     <img className="featuredImage" src="/A4 Portrait.png" />

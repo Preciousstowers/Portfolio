@@ -34,17 +34,17 @@ export function Grid() {
                                         </p>
 
 
-                                        <p>  Created in the INFO360 Design Methods class,
+                                        <p>  Created in my INFO360 Design Methods class,
                                             our application Grid, addresses the accessibility
                                             information gap by allowing users to identify,
                                             rate and contribute knowledge about physical
                                             accessibility features in and around the
-                                            University of Washington Campus.
+                                            University of Washington campus.
                                         </p>
 
                                         <p>  Our application allows those who identify with a
-                                            disability to better plan out their day by understanding
-                                            where accessible features are and encourages those who do
+                                            mobility disability to better plan out their day by understanding
+                                            where accessible features are, and encourages those who do
                                             not have a disability to join the conversation surrounding
                                             inclusive spaces.  </p>
 
@@ -128,7 +128,7 @@ export function Grid() {
                     <div className="box">
                         <h3 className="rowTitle">Research</h3>
                         <p >
-                            Our team performed interviews to gain an understanding of
+                            Our team performed interviews to gain an understanding about
                             how people around the University of Washington gain insights
                             about accessibility features around campus.
                         </p>
@@ -142,9 +142,9 @@ export function Grid() {
                                 <ol>
                                     <b><li>finding accessible building entrances could result in circling a building more than 3 times</li></b>
                                     <br />
-                                    <b> <li>there is a lack of detail about specific accesibility features in buildings</li></b>
+                                    <b> <li>there is a lack of detail about specific accessibility features in buildings</li></b>
                                     <br />
-                                    <b> <li>we need to be able to notify users if an accesible entrance/path/feature is blocked</li></b>
+                                    <b> <li>we need to be able to notify users if an accessible entrance/path/feature is blocked</li></b>
                                 </ol>
                                 <br />
                             </Col>
@@ -160,7 +160,7 @@ export function Grid() {
                                 <ol>
                                     <b><li>we should take into account the caregivers helping those with a disability</li></b>
                                     <br />
-                                    <b> <li>we need to research how we can keep information about accesibility up to date</li></b>
+                                    <b> <li>we need to research how we can keep accessibility information up to date</li></b>
                                     <br />
                                     <b> <li>we need to create a collaborative enviroment where different communities can empower and help
                                         each other</li></b>
@@ -185,7 +185,7 @@ export function Grid() {
                                     <Col xs={12} lg={5}>
                                         <p >
                                             A market analysis allowed us to understand current products
-                                            that helped address our problem as many current solutions
+                                            that address our problem, however current solutions
                                             still lacked vital features.
                                         </p>
                                     </Col>
@@ -213,8 +213,8 @@ export function Grid() {
                                 <br />
                                 <p>
                                     Meet Natasha, a mobility disabled undergraduate student
-                                    who oftentimes finds themself having a hard time planning
-                                    their trip to class because they don’t know which path will take her to
+                                    who oftentimes find themself having a hard time planning
+                                    their trip to class because they don’t know which path will take them to
                                     the accessible entrance.
                                 </p>
                             </Col>
@@ -236,14 +236,14 @@ export function Grid() {
                                 <Container>
                                     <Row className="justify-content-md-center">
                                         <Col xs={12} lg={4}>
-                                            <li><b>  Provides information</b>  about accessibility features about indoor buildings, outdoor architecture and on travel paths </li>
+                                            <li><b>  Provides information</b>  about accessibility features inside of buildings, outside architecture and on travel paths </li>
                                         </Col>
                                         <Col xs={12} lg={4}>
                                             <li><b> Empowers users </b> who identify having a mobility disability by reassuring self-sufficiency through
-                                                understanding current accesibility features for future travels </li>
+                                                understanding current accessibility features for future travels </li>
                                         </Col>
                                         <Col xs={12} lg={4}>
-                                            <li> <b> De-stigmatizes conversations </b> about disabilities and accesibility features in society </li>
+                                            <li> <b> De-stigmatizes conversations </b> about disabilities, accessibility features, and inclusive spaces in society </li>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -294,8 +294,8 @@ export function Grid() {
                             <h4 className="rowTitle">building and room accessibility rating</h4>
                             <Col>
                                 <p>
-                                    Easily view building, path and room accessibility ratings
-                                    based on current contributions
+                                    easily view building, path and room accessibility ratings
+                                    based on contributions from current users 
                                 </p>
                             </Col>
                             <Container>
@@ -312,8 +312,8 @@ export function Grid() {
                             <h4 className="rowTitle">incentivized contribution</h4>
                             <Col>
                                 <p>
-                                    Users can create a contribution and earn more stickers
-                                    the user makes more contributions to the application
+                                    as the users creates more contributions, they can also earn stickers
+                                    as a way to thank the user for their knowledge
                                     <br />
                                 </p>
                             </Col>
@@ -329,8 +329,8 @@ export function Grid() {
                         <section className="leftHandSide">
                             <h4 className="rowTitle">indoor accessibility and map features</h4>
                             <Col>
-                                <p>Indoor map design allows additional holistic
-                                    information about accessibility features within the UW campus
+                                <p>indoor maps allows holistic
+                                    information about accessibility features within the University of Washington campus
                                 </p>
                             </Col>
                             <Container>
@@ -343,10 +343,10 @@ export function Grid() {
 
                     <div className="GridProjectRowOne">
                         <section className="leftHandSide">
-                            <h4 className="rowTitle">consistent accesibility alerts</h4>
+                            <h4 className="rowTitle">consistent accessibility alerts</h4>
                             <Col>
-                                <p >Become more aware about what might be blocking the
-                                    accessible path by using the application while traveling.
+                                <p>become more prepared about what might be blocking the
+                                    accessible path by using the application while traveling
                                 </p>
                             </Col>
                             <Container>
@@ -362,8 +362,8 @@ export function Grid() {
                             <h4 className="rowTitle">hands-free interaction</h4>
                             <Col>
                                 <p>
-                                    Hands-free interaction allows those who are consistently using
-                                    their hands (such as wheelchair users) to be able to be guided
+                                    hands-free interaction allows those who are consistently using
+                                    their hands, such as wheelchair users, to be able to be guided
                                     throughout their route using voice mode
                                 </p>
                             </Col>

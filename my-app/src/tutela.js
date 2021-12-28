@@ -25,17 +25,19 @@ export function Tutela() {
                                     <h2 className="rowTitle">Overview</h2>
                                     <p>  Tutela is latin for protection and guardianship. </p>
 
-                                    <p> Our application was inspired by a tiktok trend that included users uploading
+                                    <p> Our application was inspired by a TikTok trend that included users uploading
                                         videos of fake video/phone conversations to mimic an active conversation when
-                                        other users have no one to call and are the passanger seat of a car and/or in a potentially
-                                        threatening situation.  </p>
+                                        other users have no one to call. These conversations can be played in 
+                                        the passenger seat of a car and/or in a potentially
+                                        threatening situation.  
+                                        </p>
 
                                     <p>
                                         In the WINFO 9th annual Hackathon, my team and I decided to take
                                         this trend and design an application because as women-identifying individuals,
                                         myself and many others are oftentimes seen as potential targets for rape-related
-                                        and Human-trafficking related crimes that continue to persist as higher-institutions lack accountability
-                                        help end these issues. </p>
+                                        and Human-trafficking related crimes. 
+                                        </p>
 
                                     <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
                                     <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
@@ -49,7 +51,7 @@ export function Tutela() {
                                 <Col md lg={5}>
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
-                                    <p className="detail">  My Role: Lead Spokespearson,  Product Designer  </p>
+                                    <p className="detail">  My Role: Lead Spokesperson,  Product Designer  </p>
                                     <p className="detail">  Team size: 4 total people</p>
                                     <p className="detail">  Time Frame: ~30 Hours </p>
                                     <p className="detail">  Tools: Figma, Canva</p>
@@ -64,7 +66,7 @@ export function Tutela() {
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
                         <b><p>Higher institutions lack the accountability that Human Trafficking and Rape
-                            related cases are consistently making women (and others) feel unsafe in society,
+                            related cases are consistently making women-identifying and others feel unsafe in society,
                             both in home and in public spaces. </p></b>
                         <p>
                             <ol>
@@ -72,16 +74,16 @@ export function Tutela() {
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
                                             <li>Human trafficking cases lack equitable data recordings in comparison
-                                                to other criminal cases, such as burglary.</li>
+                                                to other criminal cases, such as burglary</li>
                                         </Col>
                                         <Col md lg={4}>
                                             <li>The criminal justice system lacks equal investigation
                                                 qualities and
-                                                motivation when crimes involve female-dominated victims.</li>
+                                                motivation when crimes involve female-dominated victims</li>
                                         </Col>
                                         <Col md lg={4}>
-                                            <li>Thousands of U.S rape cases are recorded and there has yet to be accountability
-                                                to the perpetrators and liability to these victims, specifically women.</li>
+                                            <li>Thousands of U.S rape cases are recorded and there has yet place accountability
+                                                on perpetrators and liability for victims, specifically women-identifying</li>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -118,7 +120,7 @@ export function Tutela() {
                 <div className="tutelaprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Personas</h3>
-                        <p> Two user persona's were created to further empathize with women identifying who could potnetially
+                        <p> Two user personas were created to further empathize with women identifying who could potentially
                             need bystander intervention.</p>
                         <br />
                         <Container>
@@ -126,13 +128,13 @@ export function Tutela() {
 
                                 <Col md lg={6}>
                                     <p> Meet Hannah, a 21 year old college student who does not have a reliable
-                                        support system and oftentimes find herself walking alone.</p>
+                                        support system and oftentimes find herself walking alone</p>
                                     <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                                 </Col>
 
                                 <Col md lg={6} >
                                     <p>  Meet Jenna, a 25 year old transgender woman
-                                        who finds herself walking alone thoughout her daily errands. </p>
+                                        who finds herself walking alone though out her daily errands </p>
                                     <img className="personaOne" src="tutelaPhotos/Jenna's User Persona.png" />
                                 </Col>
                             </Row>
@@ -154,16 +156,16 @@ export function Tutela() {
                                 <Container>
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
-                                            <li>Reassures users by providing companionship for users through
+                                            <li>Reassures users by providing companionship through
                                                 playback audio and video calls to mimic live conversations </li>
                                         </Col>
                                         <Col md lg={4}>
-                                            <li>Provides more detailed and holistic information for institutions
+                                            <li>Delivers more detailed and holistic information for institutions
                                                 when/if a Human-Trafficking case/rape-related case happens</li>
                                         </Col>
                                         <Col md lg={4}>
                                             <li>Maintains optional in-home security for domestic violence situations
-                                                by implementing Connect to Alexa/Google Home feature </li>
+                                                by connecting to Alexa/Google Home feature </li>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -173,15 +175,13 @@ export function Tutela() {
                     </div>
                 </div>
                 <br />
-                <h3 className="rowTitle">Jenna's Favorite Application Features</h3>
+                <h3 className="rowTitle">Main Application Features</h3>
                 <br />
                 <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
                         <h4 className="rowTitle">easy onboarding process</h4>
                         <Col>
-                            <p>Jenna easily follows the instructions to guide her
-                                through their first recording. She can also add an shortcut widget to her dashboard at anytime
-                                through the add a shortcut feature.
+                            <p>easily start with adding a recording and/or shortcut widget at the begining of onboarding or start with a pre-customized dashboard
                             </p>
                         </Col>
                         <Container>
@@ -197,9 +197,9 @@ export function Tutela() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">add an automated phone/voice recording</h4>
                         <Col>
-                            <p>Jenna doesn't have any recordings, but that's okay!
-                                She can easily create a recording by answering the list of questions
-                                and an automated call will be created and added to her saved recordings.
+                            <p>don't have any recordings? that's okay!
+                                simply create a recording by answering a list of questions
+                                and an automated call will be created and added to the saved recordings page
                                 <br />
                             </p>
                         </Col>
@@ -216,8 +216,8 @@ export function Tutela() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">access saved phone/voice recordings</h4>
                         <Col>
-                            <p>She can easily view her saved recordings privatley or search the
-                                most popular public recordings that other users are currenly using.
+                            <p>view all saved recordings privately or search the
+                                most popular public recordings that are published by other users
                             </p>
                         </Col>
                         <Container>
@@ -233,9 +233,9 @@ export function Tutela() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">an on-the-go partner</h4>
                         <Col>
-                            <p>Jenna feels safe as she can access her tutela partner at any time and any location.
-                                All location information will be submitted to emergency services if the user dials 911
-                                via application.
+                            <p>feel safer as the user can access their tutela partner at any time and any location.
+                                all location information will be submitted to emergency services if the user dials 911
+                                via application
                             </p>
                         </Col>
                         <Container>
@@ -249,11 +249,12 @@ export function Tutela() {
                 </div>
                 <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">pair with alexa</h4>
+                        <h4 className="rowTitle">pair with Alexa</h4>
                         {/* <Col> */}
-                            <p> Jenna sometimes feels unsafe at home. She can address potential at-home saftey
-                                by accessing the connect to Alexa feature is added by saying a key word/sentence and the application
-                                will call a friend or 911.
+                            <p> 
+                                address potential at-home saftey
+                                by accessing the "pair to Alexa" feature and entering a key word/sentence to have the application 
+                                dial a friend or 911
                             </p>
                         {/* </Col> */}
                         <Container>
@@ -274,17 +275,17 @@ export function Tutela() {
                             <p className="rowDescriptionLong">
                             <br />
                                 I'm proud that my team and I were able to create an application that
-                                addressed a sensative yet important topic that affects at least half of
-                                population. As mentors visited our (virtual) table, it was motiviating to
-                                see their positive facial expressions about our application and recieve feedback
+                                addressed a sensitive yet important topic that affects at least half of
+                                population. As mentors visited our (virtual) table, it was motivating to
+                                see their positive facial expressions about our application and receive feedback
                                 that helped us think more critically about both the topic and design functionality.
                             </p>
                             <p className="rowDescriptionLong">
-                                Accomodating and learning about digital privacy was especially valuable.
+                            Accommodating and learning about digital privacy was especially valuable.
                                 When mentors would arrive at our table, we would be asked about user privacy when
                                 addressing public voice memos and/or Alexa listening to users when they speak. Our team
-                                answered these questions through the best of our ability, however privacy laws are involve many
-                                details and layers that we would have thoroughly researched if we had adequate time.
+                                answered these questions through the best of our ability, however privacy laws involve many
+                                details and layers that we would thoroughly researched if we had adequate time.
                             </p>
                         </Col>
                 

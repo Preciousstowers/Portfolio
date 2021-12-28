@@ -23,13 +23,13 @@ export function Resume() {
   return (
     <Container>
       <h1 className="rowTitle">Resume</h1>
-      <p className="rowDescription">Take a look at my expirence :)</p>
+      <p className="rowDescription">Take a look at my expirence!</p>
 
       <Row className="justify-content-md-center">
         <Col lg={6}>
           {/* <div>   */}
           <Document
-            file="PreciousStowers.pdf"
+            file="PreciousStowersResume.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             <Page pageNumber={pageNumber} />
@@ -40,18 +40,19 @@ export function Resume() {
       </Row >
       <center>
 
-          <Link to="PreciousStowers.pdf" target="_blank" download>
+          <Link to="/PreciousStowersResume.pdf" target="_blank" download>
             <button className="gridButton">
               download resume
               </button>
           </Link>
 
-        <Link exact to="/Resume">
-         
+        {/* <Link exact to="/Resume"> */}
+        <a href="mailto:Precious.Stowers2@gmail.com">
           <button className="emailMe">
             email me
           </button>
-        </Link>
+          </a>
+        {/* </Link> */}
       </center>
     </Container>
   )
