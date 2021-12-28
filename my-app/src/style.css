@@ -132,7 +132,7 @@ a.nav-link:first-of-type {
 .homepagerowDescriptionLong {
   position: relative;
   margin-left: 4vw;
-  margin-right: 8vw;
+  margin-right: 13vw;
   padding: .5vw;
   padding-left: 1vw;
   background: rgba(233, 233, 233, 0.747);
@@ -140,8 +140,9 @@ a.nav-link:first-of-type {
 }
 
 .personalPhoto {
+  margin-top: 1vw;
   height: 20vw;
-  margin-left: -12vw;
+  margin-left: -14vw;
   border-radius: .5vw;
 }
 

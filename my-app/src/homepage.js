@@ -32,7 +32,7 @@ export function Homepage() {
                                         <p>
                                             I'm Precious, a third year at the University of Washington majoring in
                                             Informatics with a double concentration in Data Science and Human-Computer Interaction
-                                            with a minor in writing. I strive to analyze intersections that lack clear bridges to connect 
+                                            and a minor in writing. I strive to analyze intersections that lack clear bridges to connect 
                                             people and businesses to the solutions they need. Here are some of the solutions I created through
                                             UX/UI design and writing!
                                         </p>
@@ -68,6 +68,7 @@ export function Homepage() {
 
                     <div className="rowTitle">
                         <h4 className="rowTitle">UX/UI Design</h4>
+                        <br />
                     </div>
 
                     <section className="homepageDesignWork">
@@ -118,6 +119,7 @@ export function Homepage() {
                     </section>
                     <div className="rowTitle">
                         <h4 className="rowTitle">Writing</h4>
+                        <br />
                     </div>
                     <section className="homepageDesignWork">
                         <Link className="cardLink" to="/RhetoricalAnalysis">
@@ -126,9 +128,9 @@ export function Homepage() {
                                 <Card.Body>
                                     <Card.Title>the perfect moment </Card.Title>
                                     <Card.Text>
-                                        a rhetorical analysis about how using time as a design tool for social
-                                        media platform communication can forward digital rhetorics
-                                        and alter how users engage between physical and digital
+                                        a rhetorical analysis on how using time as a design tool for social
+                                        media platforms can alter digital rhetorics
+                                        and change how users engage between physical and digital
                                         spaces
                                     </Card.Text>
                                 </Card.Body>

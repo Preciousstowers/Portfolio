@@ -51,7 +51,7 @@ export function DiscoveryHub() {
                                 <Col md={10} lg={5}>
                                     <br />
                                     <h5 className="detail">Project Specifics  </h5>
-                                    <p className="detail">  My Role: Product Designer, assistant developer </p>
+                                    <p className="detail">  My Role: Product Designer and Assistant Developer </p>
                                     <p className="detail">  Team size: 4 total people</p>
                                     <p className="detail">  Time Frame: 12 weeks (including a 3 week development sprint)</p>
                                     <p className="detail">  Tools: HTML, CSS, Javascript, React, Firebase Figma and Canva</p>

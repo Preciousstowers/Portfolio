@@ -23,7 +23,7 @@ export function AboutMe() {
                         I’m Precious a third year attending the University of Washington majoring in 
                         Informatics with a double concentration in Data Science and Human-Computer Interaction with a minor in writing. 
                         Being an Informatics major allows me to take the necessary string of tools to analyze complex intersections 
-                        and weave together the perfect solution. My love of learning technical and non-technical skills inhibits 
+                        and weave together the perfect solution. My love of learning technical and non-technical skills enables 
                         me to be cross-functional and communicate key details among a variety of audiences and in a multitude of scenarios. 
                         </h6>
                     </div>
