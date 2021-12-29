@@ -401,8 +401,12 @@ export function Grid() {
                             </p>
                         </Col>
                         <Col md={6} lg={6}>
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" 
-                        height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZgU5j6JsZB7pB6NpJk45cD%2FINFO-360%3Fnode-id%3D311%253A8754%26scaling%3Dscale-down%26page-id%3D16%253A158%26starting-point-node-id%3D311%253A8754" allowfullscreen></iframe>                        </Col>
+                        {/* <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" 
+                        height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZgU5j6JsZB7pB6NpJk45cD%2FINFO-360%3Fnode-id%3D311%253A8754%26scaling%3Dscale-down%26page-id%3D16%253A158%26starting-point-node-id%3D311%253A8754" allowfullscreen>
+                            </iframe>                   */}
+                        <img className="featuredImage" src="/Frame 7 (10).png" />
+
+                         </Col>
                     </Row>
                 </Container>
                 <center>
