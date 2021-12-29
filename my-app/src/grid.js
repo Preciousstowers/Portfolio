@@ -25,6 +25,9 @@ export function Grid() {
                                 <Col xs={12} lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
                                     {/* <p> */}
+
+                                      {/* Notes From Feedback: first paragraph is a bit run on, 
+                                      second and third paragraph can be combined */}
                                         <p>
                                             In today’s physical architecture, there lacks
                                             inclusiveness for those who identify with a disability.
@@ -34,19 +37,19 @@ export function Grid() {
                                         </p>
 
 
-                                        <p>  Created in my INFO360 Design Methods class,
+                                        <b>  <p>  Created in my INFO360 Design Methods class,
                                             our application Grid, addresses the accessibility
                                             information gap by allowing users to identify,
                                             rate and contribute knowledge about physical
                                             accessibility features in and around the
                                             University of Washington campus.
-                                        </p>
+                                        </p></b>
 
-                                      <b>  <p>  Our application allows those who identify with a
+                                      {/* <b>  <p>  Our application allows those who identify with a
                                             mobility disability to better plan out their day by understanding
                                             where accessible features are, and encourages those who do
                                             not have a disability to join the conversation surrounding
-                                            inclusive spaces.  </p></b>
+                                            inclusive spaces.  </p></b> */}
 
                                         <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=311%3A8754&scaling=scale-down&page-id=16%3A158&starting-point-node-id=311%3A8754" target="_blank" >
                                             <p>view full interactive application</p>
@@ -253,11 +256,12 @@ export function Grid() {
                     </div>
 
                 </div>
-
+      {/* Feedback Notes: Put side by side wireframes to show how each bullet point together  
+      - think "how does this look like?"*/}
                 <div className="GridProjectRowOne">
                     <div className="box">
                         <br />
-                        <h3 className="rowTitle">initial iteration</h3>
+                        <h3 className="rowTitle">Initial Wireframe</h3>
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col xs={12} lg={3}>
@@ -397,8 +401,8 @@ export function Grid() {
                             </p>
                         </Col>
                         <Col md={6} lg={6}>
-                            <img className="featuredImage smallerScreenSizeClassLastImage" src="/Frame 7 (10).png" />
-                        </Col>
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" 
+                        height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZgU5j6JsZB7pB6NpJk45cD%2FINFO-360%3Fnode-id%3D311%253A8754%26scaling%3Dscale-down%26page-id%3D16%253A158%26starting-point-node-id%3D311%253A8754" allowfullscreen></iframe>                        </Col>
                     </Row>
                 </Container>
                 <center>

@@ -14,6 +14,15 @@ import SimpleReactFooter from "simple-react-footer";
 
 export function Homepage() {
 
+ {/* 
+    Notes From Feedback: 
+       -> Might want to shorten descriptions about each product, a little wordy if reading fast
+       -> Add arrows to go to the next project
+       -> embed live figma/video into project using embed codes
+       -> likes bolded words
+       -> consider puting the favicons next to my name? (very optional)
+*/}
+
     return (
         <div>
             <body className='homepageBody'>
@@ -65,6 +74,10 @@ export function Homepage() {
 
                     </section>
 
+ {/* 
+    Notes From Feedback: 
+                -> Fix run on descriptions !!!
+*/}
 
                     <div className="rowTitle">
                         <h4 className="rowTitle">UX/UI Design</h4>
@@ -82,7 +95,7 @@ export function Homepage() {
                                     <Card.Text>
                                         an interactive map and accessibility rating application design that
                                         encourages awareness about accessibility options on campus and empowers
-                                        those who identify having a disability
+                                        those who identify as having a disability
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -136,6 +149,8 @@ export function Homepage() {
                                 </Card.Body>
                             </Card>
                         </Link >
+
+
 
                         <Link className="cardLink" to="/GridTutorial">
                             <Card className="homepageCard" >

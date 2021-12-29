@@ -174,7 +174,7 @@ export function DiscoveryHub() {
 
                 <div className="discoveryHubprojectRowOne">
                     <div className="box">
-                        <h3 className="rowTitle">Our Initial Mockup</h3>
+                        <h3 className="rowTitle">Initial Wireframe</h3>
                         <Container> 
                             <Row >
                             <Col xs md={11}  lg={3} xl={4}>
@@ -185,7 +185,7 @@ export function DiscoveryHub() {
                                             <br />
                                             <b>  <li>changed the color scheme for the UI</li> </b>
                                             <br />
-                                            <b>   <li>changed the subjects/services/platform attribute styling on the organization cards </li></b>
+                                            <b>  <li>changed the subjects/services/platform attribute styling on the organization cards </li></b>
                                             <br />
                                             <b>    <li>included sign-in alerts to notify the user to sign-up in order to use the application to its fullest potential </li></b>
                                         </ol>

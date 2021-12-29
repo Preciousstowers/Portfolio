@@ -25,13 +25,14 @@ export function GridTutorial() {
                                 <Col xs={12} lg={7}>
                                     <h2 className="rowTitle">Overview</h2>
                                     {/* <p> */}
+
                                         <p>
                                             This tutorial was made for the project Grid, an application
                                             that allow users to identify, rate and contribute to the knowledge
                                             of physical accessibility features in and around the University of
                                             Washington campus. This overarching tutorial is broken up in tutorial sections
-                                            which the user can select from. We will be focusing on the writing for the
-                                            tutorial sections and the “Create a Contribution” tutorial.
+                                            which the user can select from. We will be focusing on the writing of the 
+                                            “Create a Contribution” tutorial.
 
                                         </p>
 
@@ -88,17 +89,18 @@ export function GridTutorial() {
                 </div>
 
 
-
+               {/* Main Feature: 
+                        -> likes that things are bolded
+               */}
 
                 <div className="GridProjectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Grid Tutorial Selections</h3>
                         <p >
-                            Our team agreed to break the tutorial sections into their main features
+                            Our team agreed to break the tutorial into sections for each feature
                             where users can choose to walk through a tutorial if needed.
                             This allows the users to choose a tutorial or skip to the next tutorial until
-                            they are finished viewing the main four features.
-
+                            they are finished viewing the main features.
                         </p>
 
                         <b>  <p >
@@ -167,10 +169,9 @@ export function GridTutorial() {
                             Straightforward. Skimmable. Simple.
                         </p>
 
-                        <p>
-                            <br />
-                            These descriptions are consistently key to creating the in-depth tutorial.
-                        </p>
+                          {/* Main Feature: 
+                                     -> Red markings are not as noticable 
+               */}
                             <br />
                             <ol>
                                     <li><p>
@@ -199,6 +200,10 @@ export function GridTutorial() {
                     </div>
                 </div>
 
+  {/* Main Feature: 
+                                     -> Heading for what I would do next "as for next steps"
+
+               */}
                 <h3 className="rowTitle">Closing Thoughts</h3>
                 <Container>
                     <Row>
