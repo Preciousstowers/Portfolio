@@ -93,7 +93,7 @@ export function Homepage() {
                                 <Card.Body>
                                     <Card.Title>Meet Grid</Card.Title>
                                     <Card.Text>
-                                        an interactive map and accessibility rating application design that
+                                        a map and accessibility rating application design that
                                         encourages awareness about accessibility options on campus and empowers
                                         those who identify as having a disability
                                     </Card.Text>
@@ -107,7 +107,7 @@ export function Homepage() {
                                 <Card.Body>
                                     <Card.Title>Meet DiscoveryHub</Card.Title>
                                     <Card.Text>
-                                        an interactive web application that bridges the gap between tutors/mentors and community
+                                        a web application that bridges the gap between tutors/mentors and community
                                         organizations to help advocate information about after-school educational resources
                                     </Card.Text>
                                 </Card.Body>
@@ -159,8 +159,8 @@ export function Homepage() {
                                     <Card.Title>Grid Tutorial
                                     </Card.Title>
                                     <Card.Text>
-                                        a tutorial on how to create your first Grid contribution and an explained thought process
-                                        on how I went about designing UX writing for an application tutorial
+                                        a tutorial on how to create your first Grid contribution and a thought process
+                                        on how I went about designing UX writing
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
