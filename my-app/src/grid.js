@@ -394,10 +394,13 @@ export function Grid() {
                                 application to capture all aspects of the spectrum will be very
                                 difficult and could still leave people unintentionally excluded.
                             </p>
+                            <br />
+                            <h5> If I were to work on this project in the future,</h5>
+
                             <p >
-                                If I were to continue this project, I would perform user testing
+                            <b>I would perform user testing
                                 with those who identify having a mobility disability and use physical technologies
-                                to examine the relationship between our application and the physical space.
+                                to examine the relationship between our application and the physical space.</b>
                             </p>
                         </Col>
                         <Col md={6} lg={6}>

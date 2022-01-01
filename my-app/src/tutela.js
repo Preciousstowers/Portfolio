@@ -280,11 +280,15 @@ export function Tutela() {
                                 see their positive facial expressions about our application and receive feedback
                                 that helped us think more critically about both the topic and design functionality.
                             </p>
+                            <br />
                             <p className="rowDescriptionLong">
-                            Accommodating and learning about digital privacy was especially valuable.
+                          <b><h5>Accommodating and learning about digital privacy was especially valuable.</h5></b>  
+
                                 When mentors would arrive at our table, we would be asked about user privacy when
-                                addressing public voice memos and/or Alexa listening to users when they speak. Our team
-                                answered these questions through the best of our ability, however privacy laws involve many
+                                addressing public voice memos and/or Alexa listening to users when they speak. 
+                                
+                                Our team
+                                answered these questions through the best of our ability,  however privacy laws involve many
                                 details and layers that we would thoroughly researched if we had adequate time.
                             </p>
                         </Col>

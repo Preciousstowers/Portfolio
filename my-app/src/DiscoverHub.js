@@ -294,8 +294,11 @@ export function DiscoveryHub() {
                                 As someone who assisted in developing, I was able to understand where my design could succeed and fail
                                 faster than if I had not understood/helped with the development. I was also able to empathize with my developers
                                 if they could not finish a task due to the technicality of the design and functionality. </p>
+                                <br />
                             <p>
-                                If I were to work on this project in the future, I would implement a view mentor/tutor feature. This would
+                            
+                                <h5> If I were to work on this project in the future,</h5>
+                                <b>I would implement a view mentor/tutor feature.</b>  This would
                                 allow specific mentors and tutors to have a platform to share singular voices along with voices of the organizations.
                                 See mockup on the right.  </p>
                         </Col>

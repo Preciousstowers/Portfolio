@@ -211,12 +211,15 @@ export function GridTutorial() {
                             <br />
                             <p >
                                 Tutorials can be hard however keeping communication clear and simple allows complexity to
-                                be broken down into bite-sized comprehensible chunks. Instructions are oftentimes skipped,
+                                be broken down into bite-sized chunks. Instructions are oftentimes skipped,
                                 however when needed, they are vital to setting up user intuitiveness for the whole application.
                                 I’m very proud to have created a tutorial that our team could showcase.
                             </p>
+                            <br />
+                            <h5 className="rowTitle"> If I were to work on this project in the future,</h5>
+
                             <p >
-                                I would do more research on tutorial punctuation. Throughout the tutorial I used exclamation points,
+                               <b> I would do more research on tutorial punctuation.</b> Throughout the tutorial I used exclamation points,
                                 however looking back I am not certain that using exclamation points communicates the correct tone
                                 I want to give to the user.
                             </p>

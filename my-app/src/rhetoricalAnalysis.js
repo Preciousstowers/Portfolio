@@ -247,9 +247,11 @@ export function RhetoricalAnalysis() {
                                         The idea of time existing and a whole culture has adapted to creating their whole life around time
                                         I think is absolutely fascinating. Incorporating how time can affect and/or alter this time was a topic that I enjoyed researching.
                                         This is genuinely one of my favorite pieces that I have completed within undergrad. </p>
-                                    <p > Designing Language - If I had more time or the opportunity to revise my final draft,
-                                        I would change the language of my paper to fit an editorial context rather than a
-                                        standard english paper. This would include researching how magazines/editorials are
+                                        <br />
+                                     <h5> If I were to work on this project in the future,</h5>
+                                    <p >
+                                    <b> I would change the language of my paper to fit an editorial context rather than a
+                                        standard english paper.</b>  This would include researching how magazines/editorials are
                                         written to imitate the tone as if my piece was in a published magazine. </p>
                                 </Col>
                                 <Col md lg={6} xl={5}>
