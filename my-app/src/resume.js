@@ -28,12 +28,15 @@ export function Resume() {
       <Row className="justify-content-md-center">
         <Col lg={6}>
           {/* <div>   */}
-          <Document
+          {/* <Document
             file="PreciousStowersResume.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             <Page pageNumber={pageNumber} />
-          </Document>
+          </Document> */}
+           <img className="frontPageRA" src="/resumePicture.png" />
+           <br />
+
         </Col>
         {/* 
         </div> */}

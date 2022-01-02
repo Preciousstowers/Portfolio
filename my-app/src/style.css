@@ -349,6 +349,15 @@ a.nav-link:first-of-type {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.frontPageRA {
+display: block;
+width: 85%;
+border-width: 2rem;
+border-width: thin;
+border-style: solid;
+
+}
 /* ----------------- */
 
 /* -------rhetorical analysis styling---------- */
@@ -591,6 +600,7 @@ img.aboutMeHorizontal {
   margin-right: auto;
 
 }
+
 
 
 @media (max-width: 415px) {

@@ -28,16 +28,18 @@ export function RhetoricalAnalysis() {
                         <Row className="justify-content-md-center">
                             <Col md={12} lg={9}>
                                 <div>
-                                    <Document
+                                    {/* <Document
                                         file="/ThePerfectMoment.pdf"
                                         onLoadSuccess={onDocumentLoadSuccess}
                                     >
                                         <Page pageNumber={pageNumber} />
-                                    </Document>
+                                    </Document> */}
 
                                     <Row className="justify-content-md-center">
-                                        <Col lg={4.5}>
-                                            <p>Page {pageNumber} of {numPages}</p>
+                                        <Col lg={11}>
+                                        <img className="frontPageRA"src="ENGL306 - Final Project (1).jpg" />
+                                            <p>Page 1 of 6</p>
+                                            {/* <p>Page {pageNumber} of {numPages}</p> */}
                                         </Col>
                                     </Row>
                                     <Row className="justify-content-md-center">
