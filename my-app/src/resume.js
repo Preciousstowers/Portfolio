@@ -24,38 +24,22 @@ export function Resume() {
     <Container>
       <h1 className="rowTitle">Resume</h1>
       <p className="rowDescription">Take a look at my expirence!</p>
-
       <Row className="justify-content-md-center">
         <Col lg={6}>
-          {/* <div>   */}
-          {/* <Document
-            file="PreciousStowersResume.pdf"
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
-            <Page pageNumber={pageNumber} />
-          </Document> */}
-           <img className="frontPageRA" src="/resumePicture.png" />
-           <br />
-
+          <img className="ResumePicture" src="/resumePicture.png" />
+          <br />
         </Col>
-        {/* 
-        </div> */}
       </Row >
       <center>
-
-          <Link to="/PreciousStowersResume.pdf" target="_blank" download>
-            <button className="gridButton">
-              download resume
-              </button>
-          </Link>
-
-        {/* <Link exact to="/Resume"> */}
-        <a href="mailto:Precious.Stowers2@gmail.com">
-          <button className="emailMe">
-            email me
-          </button>
-          </a>
-        {/* </Link> */}
+        <Container>
+          <Row className="justify-content-md-center">
+              <Link to="/PreciousStowersResume.pdf" target="_blank" download>
+                <button className="gridButton">
+                  download resume
+                </button>
+              </Link>
+          </Row >
+        </Container>
       </center>
     </Container>
   )

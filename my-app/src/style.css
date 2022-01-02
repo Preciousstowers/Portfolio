@@ -359,7 +359,14 @@ border-style: solid;
 
 }
 /* ----------------- */
-
+ .ResumePicture {
+  display: block;
+  width: 95%;
+  border-width: 2rem;
+  border-width: thin;
+  border-style: solid;
+  
+ }
 /* -------rhetorical analysis styling---------- */
 
 .aboutMeProjectRowOne {
