@@ -198,6 +198,16 @@ a.nav-link:first-of-type {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.initalOne {
+  display: flex;
+  height: 25vw;
+}
+
+.initalTwo, .initalThree {
+  display: flex;
+  height: 40vw;
+}
 /* ----------------- */
 
 /* -------DiscoveryHub Styling---------- */

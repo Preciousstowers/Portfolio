@@ -93,9 +93,9 @@ export function Homepage() {
                                 <Card.Body>
                                     <Card.Title>Meet Grid</Card.Title>
                                     <Card.Text>
-                                        a map and accessibility rating application design that
-                                        encourages awareness about accessibility options on campus and empowers
-                                        those who identify as having a disability
+                                        an accessibility rating application that
+                                        encourages awareness about accessibility features on the UW campus and empowers
+                                        those who identify as having a mobility disability
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -108,7 +108,7 @@ export function Homepage() {
                                     <Card.Title>Meet DiscoveryHub</Card.Title>
                                     <Card.Text>
                                         a web application that bridges the gap between tutors/mentors and community
-                                        organizations to help advocate information about after-school educational resources
+                                        organizations to help advocate information about after-school resources
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -122,7 +122,7 @@ export function Homepage() {
                                     <Card.Title>Meet Tutela</Card.Title>
                                     <Card.Text>
                                         the application that provides the partner when you are alone and
-                                        unable to contact anyone while your safety is compromised in a rape-related or sex trafficking situation
+                                        unable to contact anyone, while your safety is compromised in a rape-related or sex trafficking situation
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

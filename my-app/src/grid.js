@@ -26,42 +26,42 @@ export function Grid() {
                                     <h2 className="rowTitle">Overview</h2>
                                     {/* <p> */}
 
-                                      {/* Notes From Feedback: first paragraph is a bit run on, 
+                                    {/* Notes From Feedback: first paragraph is a bit run on, 
                                       second and third paragraph can be combined */}
-                                        <p>
-                                            In today’s physical architecture, there lacks
-                                            inclusiveness for those who identify with a disability.
-                                            This can include outside physical barriers such as not
-                                            including an accessible entrance to a building to indoor
-                                            physical barriers such as not including an accessible bathroom.
-                                        </p>
+                                    <p>
+                                        In today’s physical architecture, there lacks
+                                        inclusiveness for those who identify with a disability.
+                                        This can include outside physical barriers such as not
+                                        including an accessible entrance to a building to indoor
+                                        physical barriers such as not including an accessible bathroom.
+                                    </p>
 
 
-                                        <b>  <p>  Created in my INFO360 Design Methods class,
-                                            our application Grid, addresses the accessibility
-                                            information gap by allowing users to identify,
-                                            rate and contribute knowledge about physical
-                                            accessibility features in and around the
-                                            University of Washington campus.
-                                        </p></b>
+                                    <b>  <p>  Created in my INFO360 Design Methods class,
+                                        our application Grid, addresses the accessibility
+                                        information gap by allowing users to identify,
+                                        rate and contribute knowledge about physical
+                                        accessibility features in and around the
+                                        University of Washington campus.
+                                    </p></b>
 
-                                      {/* <b>  <p>  Our application allows those who identify with a
+                                    {/* <b>  <p>  Our application allows those who identify with a
                                             mobility disability to better plan out their day by understanding
                                             where accessible features are, and encourages those who do
                                             not have a disability to join the conversation surrounding
                                             inclusive spaces.  </p></b> */}
 
-                                        <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=311%3A8754&scaling=scale-down&page-id=16%3A158&starting-point-node-id=311%3A8754" target="_blank" >
-                                            <p>view full interactive application</p>
-                                        </a>
+                                    <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=311%3A8754&scaling=scale-down&page-id=16%3A158&starting-point-node-id=311%3A8754" target="_blank" >
+                                        <p>view full interactive application</p>
+                                    </a>
 
-                                        <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=359%3A10285&scaling=scale-down&page-id=359%3A8889&starting-point-node-id=359%3A10285" target="_blank" >
-                                            <p>view full slide deck</p>
-                                        </a>
+                                    <a href="https://www.figma.com/proto/ZgU5j6JsZB7pB6NpJk45cD/INFO-360?node-id=359%3A10285&scaling=scale-down&page-id=359%3A8889&starting-point-node-id=359%3A10285" target="_blank" >
+                                        <p>view full slide deck</p>
+                                    </a>
 
-                                        <a href="https://drive.google.com/file/d/1UYOE-vx9Kz_yZSSNZU7jj2SjKxdky9w6/view?usp=sharing" target="_blank" >
-                                            <p>view product video</p>
-                                        </a>
+                                    <a href="https://drive.google.com/file/d/1UYOE-vx9Kz_yZSSNZU7jj2SjKxdky9w6/view?usp=sharing" target="_blank" >
+                                        <p>view product video</p>
+                                    </a>
                                     {/* </p> */}
                                 </Col>
                                 <Col xs={12} md lg={5}>
@@ -256,33 +256,57 @@ export function Grid() {
                     </div>
 
                 </div>
-      {/* Feedback Notes: Put side by side wireframes to show how each bullet point together  
+                {/* Feedback Notes: Put side by side wireframes to show how each bullet point together  
       - think "how does this look like?"*/}
                 <div className="GridProjectRowOne">
                     <div className="box">
                         <br />
-                        <h3 className="rowTitle">Initial Wireframe</h3>
+                        <h3 className="rowTitle">Initial to Final Wireframes</h3>
+                        <p>
+                            From our initial wireframe to our final product, we
+                            changed:
+                        </p>
+
+                        <ol>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col xs={12} lg={4}>
+                                        <b><li> the color scheme and button placements of the UI</li></b>
+                                    </Col>
+                                    <Col xs={12} lg={4}>
+                                        <b> <li> the centrality of information about building/room accessibility </li></b>
+
+                                    </Col>
+                                    <Col xs={12} lg={4}>
+                                        <b> <li> included optional flagging of misinformation</li></b>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </ol>
+                        {/* <ol> */}
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs={12} lg={3}>
-                                    <p>
-                                        From our initial iteration to our final product, we
-                                        changed:
-                                        <ol>
-                                            <br />
-                                            <b><li> changed the color scheme/UI</li></b>
-                                            <br />
-                                            <b> <li> changed the centrality of information</li></b>
-                                            <br />
-                                            <b> <li> included optional flagging of misinformation</li></b>
-                                        </ol>
-                                    </p>
+                                <Col xs={12} lg={4}>
+                                    {/* <b><li> changed the color scheme and button placement of the UI</li></b> */}
+                                    <img className="initalOne" src="/gridPhotos/BA1.png" />
                                 </Col>
-                                <Col xs={12} lg={9}>
-                                    <img className="miroBoard" src="/gridPhotos/Group 197 2.png" />
+
+                                <Col xs={12} lg={4}>
+                                    {/* <b> <li> changed the centrality of information</li></b> */}
+                                    <img className="initalTwo" src="/gridPhotos/BA3.png" />
+
+                                </Col>
+
+                                <Col xs={12} lg={4}>
+                                    {/* <b> <li> included optional flagging of misinformation</li></b> */}
+                                    <img className="initalThree" src="/gridPhotos/BA2.png" />
+
                                 </Col>
                             </Row>
                         </Container>
+                        {/* </ol> */}
+                        {/* </Row> */}
+                        {/* </Container> */}
                         <br />
                     </div>
                 </div>
@@ -292,25 +316,25 @@ export function Grid() {
                 <h3 className="rowTitle">Final Application Features</h3>
                 <div className="box">
                     <br />
-                
+
                     <div className="GridProjectRowTwo">
                         <section className="leftHandSide">
                             <h4 className="rowTitle">building and room accessibility rating</h4>
                             <Col>
                                 <p>
                                     easily view building, path and room accessibility ratings
-                                    based on contributions from current users 
+                                    based on contributions from current users
                                 </p>
                             </Col>
                             <Container>
                                 <Row className="justify-content-md-center">
-                                    <Col xs={12} lg={2}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
+                                    <Col xs={12} lg={3}><img className="gridFeaturedImage" src="/gridPhotos/Frame 170 (2).png" /> </Col>
                                 </Row>
                             </Container>
                         </section>
                     </div>
                     {/* <br /> */}
-                 
+
                     <div className="GridProjectRowOne">
                         <section className="leftHandSide">
                             <h4 className="rowTitle">incentivized contribution</h4>
@@ -398,18 +422,18 @@ export function Grid() {
                             <h5> If I were to work on this project in the future,</h5>
 
                             <p >
-                            <b>I would perform user testing
-                                with those who identify having a mobility disability and use physical technologies
-                                to examine the relationship between our application and the physical space.</b>
+                                <b>I would perform user testing
+                                    with those who identify having a mobility disability and use physical technologies
+                                    to examine the relationship between our application and the physical space.</b>
                             </p>
                         </Col>
                         <Col md={6} lg={6}>
-                        {/* <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" 
+                            {/* <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" 
                         height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZgU5j6JsZB7pB6NpJk45cD%2FINFO-360%3Fnode-id%3D311%253A8754%26scaling%3Dscale-down%26page-id%3D16%253A158%26starting-point-node-id%3D311%253A8754" allowfullscreen>
                             </iframe>                   */}
-                        <img className="featuredImage" src="/Frame 7 (10).png" />
+                            <img className="featuredImage" src="/Frame 7 (10).png" />
 
-                         </Col>
+                        </Col>
                     </Row>
                 </Container>
                 <center>

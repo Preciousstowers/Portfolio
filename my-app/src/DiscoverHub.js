@@ -187,7 +187,7 @@ export function DiscoveryHub() {
                                             <br />
                                             <b>  <li>changed the subjects/services/platform attribute styling on the organization cards </li></b>
                                             <br />
-                                            <b>    <li>included sign-in alerts to notify the user to sign-up in order to use the application to its fullest potential </li></b>
+                                            <b>    <li>included sign-in alerts to notify the user to sign-up in order to use all application features</li></b>
                                         </ol>
                                     </p>
                                 </Col>
