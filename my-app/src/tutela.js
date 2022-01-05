@@ -132,9 +132,10 @@ export function Tutela() {
                                     <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                                 </Col>
 
-                                <Col md lg={6} >
+                                <Col md lg={6}>
                                     <p>  Meet Jenna, a 25 year old transgender woman
-                                        who finds herself walking alone though out her daily errands </p>
+                                        who finds herself walking alone though out her daily errands and only
+                                        has a two close friends</p>
                                     <img className="personaOne" src="tutelaPhotos/Jenna's User Persona.png" />
                                 </Col>
                             </Row>
