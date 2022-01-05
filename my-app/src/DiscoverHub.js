@@ -176,7 +176,7 @@ export function DiscoveryHub() {
                     <div className="box">
                       
                         <br />
-                        <h3 className="rowTitle">Initial to Final Wireframes</h3>
+                        <h3 className="rowTitle">Initial Wireframes to Final Product</h3>
                         <p>
                             From our initial wireframe to our final product, we
                             changed:
@@ -186,10 +186,10 @@ export function DiscoveryHub() {
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col xs={12} lg={4}>
-                                    <b>  <li>changed the color scheme for the UI</li> </b>
+                                    <b>  <li>the color scheme for the UI</li> </b>
                                     </Col>
                                     <Col xs={12} lg={4}>
-                                    <b>  <li>changed the subjects/services/platform attribute styling on the organization cards </li></b>
+                                    <b>  <li> the subjects/services/platform attribute styling on the organization cards </li></b>
 
                                     </Col>
                                     <Col xs={12} lg={4}>
