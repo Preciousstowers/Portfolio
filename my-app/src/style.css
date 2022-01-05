@@ -907,9 +907,29 @@ img.aboutMeHorizontal {
     width: max-content;
   }
 
+  .DiscoveryHubWireFrames {
+    display: flex;
+    height: 90vw;
+    padding: 1rem;
+  }
+
   /* .homepagerowDescriptionLong {
 
   } */
+}
+
+@media (min-width: 900px) and (max-width: 999px)  {
+  .DiscoveryHubWireFrames {
+    display: flex;
+    height: 80vw;
+  }
+}
+
+@media (min-width: 1000px) and  (max-width: 1350px) {
+  .DiscoveryHubWireFrames {
+    display: flex;
+    height: 30vw;
+  }
 }
 
 @media (min-width: 1500px) {
