@@ -191,7 +191,7 @@ export function GridTutorial() {
                                     </ol>
                                 </Col>
                                 <Col xs={12}  md={6} lg={3}>
-                                    <img className="tutorialBubbles" src="/tutorialPhotos/annotatedDirections.png" />
+                                    <img className="tutorialBubbles" src="/Frame 178 (2).png" />
                                 </Col>
                                 
                             </Row>

@@ -174,25 +174,44 @@ export function DiscoveryHub() {
 
                 <div className="discoveryHubprojectRowOne">
                     <div className="box">
-                        <h3 className="rowTitle">Initial Wireframe</h3>
-                        <Container> 
-                            <Row >
-                            <Col xs md={11}  lg={3} xl={4}>
-                                    <p>
-                                        From our initial iteration to our final product, we
-                                        changed:
-                                        <ol>
-                                            <br />
-                                            <b>  <li>changed the color scheme for the UI</li> </b>
-                                            <br />
-                                            <b>  <li>changed the subjects/services/platform attribute styling on the organization cards </li></b>
-                                            <br />
-                                            <b>    <li>included sign-in alerts to notify the user to sign-up in order to use all application features</li></b>
-                                        </ol>
-                                    </p>
+                      
+                        <br />
+                        <h3 className="rowTitle">Initial to Final Wireframes</h3>
+                        <p>
+                            From our initial wireframe to our final product, we
+                            changed:
+                        </p>
+
+                        <ol>
+                            <Container>
+                                <Row className="justify-content-md-center">
+                                    <Col xs={12} lg={4}>
+                                    <b>  <li>changed the color scheme for the UI</li> </b>
+                                    </Col>
+                                    <Col xs={12} lg={4}>
+                                    <b>  <li>changed the subjects/services/platform attribute styling on the organization cards </li></b>
+
+                                    </Col>
+                                    <Col xs={12} lg={4}>
+                                    <b>    <li>included sign-in alerts to notify the user to sign-up in order to use all application features</li></b>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </ol>
+                        {/* <ol> */}
+                        <Container>
+                            <Row className="justify-content-md-center">
+                                <Col xs={12} lg={4}>
+                                    <img className="DiscoveryHubWireFrames" src="/discoveryHubPhotos/BA1.png" />
                                 </Col>
-                                <Col md={10} lg={6} xl={8}>
-                                    <img className="initialdiscoveryHubMockUps" src="/discoveryHubPhotos/Homepage (6).jpg" />
+
+                                <Col xs={12} lg={4}>
+                                    <img className="DiscoveryHubWireFrames" src="/discoveryHubPhotos/BA2.png" />
+
+                                </Col>
+
+                                <Col xs={12} lg={4}>
+                                    <img className="DiscoveryHubWireFrames" src="/discoveryHubPhotos/BA3.png" />
                                 </Col>
                             </Row>
                         </Container>

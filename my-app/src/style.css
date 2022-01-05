@@ -252,6 +252,10 @@ a.nav-link:first-of-type {
   cursor: pointer;
 }
 
+.DiscoveryHubWireFrames {
+  display: flex;
+  height: 31.5vw;
+}
 
 /* -------tutela Styling---------- */
 

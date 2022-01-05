@@ -287,26 +287,19 @@ export function Grid() {
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col xs={12} lg={4}>
-                                    {/* <b><li> changed the color scheme and button placement of the UI</li></b> */}
                                     <img className="initalOne" src="/gridPhotos/BA1.png" />
                                 </Col>
 
                                 <Col xs={12} lg={4}>
-                                    {/* <b> <li> changed the centrality of information</li></b> */}
                                     <img className="initalTwo" src="/gridPhotos/BA3.png" />
 
                                 </Col>
 
                                 <Col xs={12} lg={4}>
-                                    {/* <b> <li> included optional flagging of misinformation</li></b> */}
                                     <img className="initalThree" src="/gridPhotos/BA2.png" />
-
                                 </Col>
                             </Row>
                         </Container>
-                        {/* </ol> */}
-                        {/* </Row> */}
-                        {/* </Container> */}
                         <br />
                     </div>
                 </div>
