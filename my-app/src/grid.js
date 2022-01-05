@@ -12,7 +12,7 @@ export function Grid() {
         <div >
             <body >
                 <h1 className="rowTitle">Grid</h1>
-                <p className="rowDescription"> Increasing travel accessibility one direction at a time </p>
+                <p className="rowDescription"> increasing travel accessibility one direction at a time </p>
                 <div className="initialImages">
                     <img className="initialImageOne" src="/gridPhotos/initialPhotoGrid.png" />
                 </div>
