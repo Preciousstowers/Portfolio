@@ -798,6 +798,17 @@ img.aboutMeHorizontal {
     display: none;
   }
 
+  .initalOne {
+    display: flex;
+    height: 50vw;
+  }
+  
+  .initalTwo, .initalThree {
+    display: flex;
+    height: 90vw;
+    margin-top: 1rem;
+  }
+
 }
 
 @media (min-width: 550px) {
