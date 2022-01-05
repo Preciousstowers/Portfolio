@@ -11,7 +11,7 @@ export function GridTutorial() {
     return (
         <div >
             <body >
-                <h1 className="rowTitle">Grid Tutorial</h1>
+                <h1 className="rowTitle">Grid - Tutorial</h1>
                 <p className="rowDescription"> an easy and simple walkthrough to learn how to use Grid</p>
                 <div className="initialImages">
                     <img className="initialImageOne" src="/tutorialPhotos/Frame 180.png" />
@@ -27,7 +27,7 @@ export function GridTutorial() {
                                     {/* <p> */}
 
                                         <p>
-                                            This tutorial was made for the project Grid, an application
+                                            This tutorial was made for the previous project Grid, an application
                                             that allow users to identify, rate and contribute to the knowledge
                                             of physical accessibility features in and around the University of
                                             Washington campus. This overarching tutorial is broken up in tutorial sections
@@ -39,7 +39,7 @@ export function GridTutorial() {
 
                                      <b>   <p>
                                             Our goal with the tutorial is for our users to gain a better understanding of the
-                                            application and an added layer of confidence knowing that they can successful use
+                                            application and an added layer of confidence knowing that they can successfully use
                                             the application to its fullest.
                                         </p> </b> 
 
@@ -100,7 +100,7 @@ export function GridTutorial() {
                             Our team agreed to break the tutorial into sections for each feature
                             where users can choose to walk through a tutorial if needed.
                             This allows the users to choose a tutorial or skip to the next tutorial until
-                            they are finished viewing the main features.
+                            they are finished viewing the all features.
                         </p>
 
                         <b>  <p >
@@ -166,7 +166,7 @@ export function GridTutorial() {
                                 <Col md  md={6} lg={9}>
                                 <p>
                             <br />
-                            Straightforward. Skimmable. Simple.
+                          <b> Straightforward. Skimmable. Simple.</b> 
                         </p>
 
                           {/* Main Feature: 
@@ -176,7 +176,7 @@ export function GridTutorial() {
                             <ol>
                                     <li><p>
                                     <b> Straightforward action words</b> - Straightforward action words help user intuitiveness by
-                                        directly telling the user what they can do without hesitation. Create, Search and
+                                        directly telling the user what they can do without hesitation. Create, search and
                                         tap are all key verbs that the user can follow without confusion.
                                     </p></li>
                                     <li> <p>
@@ -186,7 +186,7 @@ export function GridTutorial() {
                                     <li><p>
                                     <b> Simple forwarding directions</b> - Simple directions maintains consistency for users as they
                                         learn new information, we want to keep some information the same to help the user focus
-                                        on what they need to learn.
+                                        on what is new.
                                     </p></li>
                                     </ol>
                                 </Col>

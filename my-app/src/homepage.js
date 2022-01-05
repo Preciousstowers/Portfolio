@@ -156,11 +156,14 @@ export function Homepage() {
                             <Card className="homepageCard" >
                                 <Card.Img variant="top" src="/Frame 8 (2).png" />
                                 <Card.Body>
-                                    <Card.Title>Grid Tutorial
+                                    <Card.Title>Grid - Tutorial
                                     </Card.Title>
                                     <Card.Text>
-                                        a tutorial on how to create your first Grid contribution and a thought process
-                                        on how I went about designing UX writing
+                                        {/* an easy walkthough on how to use Grid tutorial on how to create your first Grid contribution and a thought process
+                                        on how I went about designing UX writing */}
+
+                                        a walkthrough on how I went about designing UX writing for an application tutorial to aid my 
+                                        above project, Grid
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

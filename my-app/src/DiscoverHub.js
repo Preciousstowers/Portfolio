@@ -33,9 +33,9 @@ export function DiscoveryHub() {
                                     </p>
 
                                     <p >
-                                        In my INFO442 Cooperative Software Development class, we created DiscoveryHub,
-                                        a product to connect local organizations who offer tutoring and mentoring services
-                                        to students within their community.
+                                      <b>  In my INFO442 Cooperative Software Development class, we created DiscoveryHub,
+                                        a product to connect local organizations who offer tutoring/mentoring services
+                                        to students and parents within their community.</b>
                                     </p>
 
                                     <b><p >For students, by students. </p></b>
@@ -78,21 +78,16 @@ export function DiscoveryHub() {
                                       <li><p> Information from <b> word of mouth, </b>
                                             can oftentimes be <b>hard to remember</b> without documentation
                                         </p></li> 
-                                        {/* <Row className="img-fluid w-100"> */}
-                                        {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-the-beginning-of-a-family (1).png" /></center> */}
-                                        {/* </Row> */}
+                                      
                                     </Col>
                                     <Col md={10} lg={4}>
                                     <li><p>Educational information distributed via  <b>physical advertisements</b>, such as
                                             flyers and signs can <b> easily become destroyed</b></p></li> 
-                                        {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-53 (1).png" /></center> */}
                                     </Col>
                                     <Col md={10} lg={4}>
                                     <li> <p> <b>Social media platforms</b> encompass a mass amount of educational
                                             information that can be <b> overwhelming for the user</b> </p></li> 
-                                  
-                                        {/* <center><img className="illustration" src="/discoveryHubPhotos/mellow-log-out (1).png" /></center> */}
-                                    </Col>
+                                   </Col>
                                 </Row>
                             </Container>
                             </ol>
@@ -104,7 +99,7 @@ export function DiscoveryHub() {
                 <div className="discoveryHubprojectRowOne">
                     <div className="box">
                         <h3 className="rowTitle">Our Personas</h3>
-                        <p> Two of our potential users who could utilize DiscoveryHub</p>
+                        <p> Two of potential users who could utilize DiscoveryHub</p>
                         <br />
                         <Container>
 
@@ -131,13 +126,13 @@ export function DiscoveryHub() {
 
                             <Row className="justify-content-md-center">
                                 <Col md lg={6}>
-                                <center><p > Melissa needs an easy way to search and learn about educational
-                                        programs outside of school hours for her children</p></center>  
+                               <b> <center><p > Melissa needs an easy way to search and learn about educational
+                                        programs outside of school hours for her children</p></center>  </b>
                                 </Col>
 
                                 <Col md lg={6}>
-                                <center><p > WINFO needs an easy platform where they can showcase their
-                                        organization if parents or students are in need of a mentor/tutor</p>    </center>                                      </Col>
+                             <b>  <center><p > WINFO needs an easy platform where they can showcase their
+                                        organization if parents or students are in need of a mentor/tutor</p></center> </b>                                   </Col>
                             </Row>
                         </Container>
                     </div>
@@ -157,12 +152,12 @@ export function DiscoveryHub() {
                                             </p></li>
                                         </Col>
                                         <Col md={10}  lg={4}>
-                                        <li> <p><b>Online and offline education support services</b>
+                                        <li> <p><b>Online and offline education support services </b>
                                                 allows greater accessibility for those who need educational resources</p></li>
                                         </Col>
                                         <Col md={10}  lg={4}>
                                         <li><p><b>Live tutoring/mentoring without the expensive costs</b> allows more people in
-                                                lower-income communities to have a chance at having a more prosperoruos future</p></li> 
+                                                lower-income communities to have a chance at having a more prosperous future</p></li> 
                                         </Col>
                                     </Row>
                                 </Container>
@@ -229,8 +224,8 @@ export function DiscoveryHub() {
                         <h4 className="rowTitle">join our academic community popup</h4>
                         <Col>
                             <p> 
-                                users and organizations are quickly welcomed by offering
-                                to join the community using a pop-up to register
+                                users and organizations are quickly welcomed 
+                                to join the community via pop-up
                             </p>
                         </Col>
                         <Container>
@@ -267,9 +262,9 @@ export function DiscoveryHub() {
                         <h4 className="rowTitle">favorite organization handling</h4>
                         <Col>
                             <p>
-                                logged in users can favorite an organization and is shown on the users' Favorites page.
-                                if the user is not signed in, they will be notified to join the academic community
-                                before using the feature
+                                logged in users can favorite an organization and is shown on their Favorites page
+                                <p> if the user is not signed in, they will be notified to sign up
+                                before using the feature</p>
                                 <br />
                             </p>
                         </Col>
@@ -290,7 +285,7 @@ export function DiscoveryHub() {
                             <Row className="justify-content-md-center">
                                 <Col xs md={6} lg={6}>
                                     <p>organizations can become registered in discoveryHub by filling out
-                                        a form and they can soon view their registered organization on the home screen
+                                        a form, which includes input validation to handle user errors
                                     </p>
                                 </Col>
                                 <Col xs lg={6}>
@@ -309,7 +304,7 @@ export function DiscoveryHub() {
                     <Row className="justify-content-md-center">
                         <Col  md={4} lg={6}>
                             <p>
-                                Designing a website based on the skill level of the developers was a crucial skill I learned.
+                            <b> Designing a website based on the skill level of the developers was a crucial skill I learned. </b>
                                 As someone who assisted in developing, I was able to understand where my design could succeed and fail
                                 faster than if I had not understood/helped with the development. I was also able to empathize with my developers
                                 if they could not finish a task due to the technicality of the design and functionality. </p>
@@ -319,7 +314,7 @@ export function DiscoveryHub() {
                                 <h5> If I were to work on this project in the future,</h5>
                                 <b>I would implement a view mentor/tutor feature.</b>  This would
                                 allow specific mentors and tutors to have a platform to share singular voices along with voices of the organizations.
-                                See mockup on the right.  </p>
+                                <b> See mockup on the right.</b>   </p>
                         </Col>
                         <Col  md={8} lg={6}>
                             <img className="biggerfeaturedImage" src="/discoveryHubPhotos/Organization Profile (2).jpg" />

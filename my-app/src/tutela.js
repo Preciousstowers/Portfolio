@@ -33,13 +33,13 @@ export function Tutela() {
                                         </p>
 
                                     <p>
-                                        In the WINFO 9th annual Hackathon, my team and I decided to take
+                                    <b> In the 2021 WINFO  Hackathon, my team and I decided to take
                                         this trend and design an application because as women-identifying individuals,
                                         myself and many others are oftentimes seen as potential targets for rape-related
-                                        and Human-trafficking related crimes. 
-                                        </p>
+                                        and human-trafficking related crimes. 
+                                        </b>  </p>
 
-                                    <p>  This application won "Best Overall" in the 9th Annual WINFO Hackathon. </p>
+                                    <p> <b>This application won "Best Overall" in the 9th Annual WINFO Hackathon.</b>  </p>
                                     <a href="https://www.figma.com/proto/FdjP3QHiSXLWg45xKmXVIt/Tutela%3A-Connecting-Safely%2C-Together.?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" >
                                         <p>  view full interactive application here </p>
                                     </a>
@@ -65,7 +65,7 @@ export function Tutela() {
                 <div className="tutelaprojectRowTwo">
                     <div className="box">
                         <h3 className="rowTitle">Problem</h3>
-                        <b><p>Higher institutions lack the accountability that Human Trafficking and Rape
+                        <b><p>Higher institutions lack accountability that Human Trafficking and Rape
                             related cases are consistently making women-identifying and others feel unsafe in society,
                             both in home and in public spaces. </p></b>
                         <p>
@@ -82,8 +82,8 @@ export function Tutela() {
                                                 motivation when crimes involve female-dominated victims</li>
                                         </Col>
                                         <Col md lg={4}>
-                                            <li>Thousands of U.S rape cases are recorded and there has yet place accountability
-                                                on perpetrators and liability for victims, specifically women-identifying</li>
+                                            <li>Thousands of U.S rape cases are recorded each year and there has yet accountability placed
+                                                on the perpetrators and liability for victims</li>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -127,15 +127,15 @@ export function Tutela() {
                             <Row className="justify-content-md-center">
 
                                 <Col md lg={6}>
-                                    <p> Meet Hannah, a 21 year old college student who does not have a reliable
-                                        support system and oftentimes find herself walking alone</p>
+                                <b>    <p> Meet Hannah, a 21 year old college student who does not have a reliable
+                                        support system and oftentimes find herself walking alone</p></b>
                                     <img className="personaOne" src="tutelaPhotos/Hannah's User Persona.jpg" />
                                 </Col>
 
                                 <Col md lg={6}>
-                                    <p>  Meet Jenna, a 25 year old transgender woman
+                                <b>  <p>  Meet Jenna, a 25 year old transgender woman
                                         who finds herself walking alone though out her daily errands and only
-                                        has a two close friends</p>
+                                        has a two close friends</p></b>
                                     <img className="personaOne" src="tutelaPhotos/Jenna's User Persona.png" />
                                 </Col>
                             </Row>
@@ -166,7 +166,7 @@ export function Tutela() {
                                         </Col>
                                         <Col md lg={4}>
                                           <li>  <b> Maintains optional in-home security for domestic violence situations </b> 
-                                                by connecting to Alexa/Google Home feature </li>
+                                                by connecting to Alexa/Google Home </li>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -234,14 +234,14 @@ export function Tutela() {
                     <section className="leftHandSide">
                         <h4 className="rowTitle">an on-the-go partner</h4>
                         <Col>
-                            <p>feel safer as the user can access their tutela partner at any time and any location.
-                                all location information will be submitted to emergency services if the user dials 911
-                                via application
+                            <p>feel safer as the user can access their tutela partner at any time and any location
+                            <p> all location information will be submitted to emergency services if the user dials 911
+                                via application </p>
                             </p>
                         </Col>
                         <Container>
                             <Row className="justify-content-md-center">
-                                <Col xs md={10} lg={9} xl={10}>
+                                <Col xs md={10} lg={9} xl={9}>
                                     <img className="biggerfeaturedImage tutelaBiggerFeaturedImage" src="/tutelaPhotos/Frame 2 (2).png" />
                                 </Col>
                             </Row>
@@ -250,11 +250,10 @@ export function Tutela() {
                 </div>
                 <div className="tutelaprojectRowTwo">
                     <section className="leftHandSide">
-                        <h4 className="rowTitle">pair with Alexa</h4>
+                        <h4 className="rowTitle">pair with Alexa or Google Home</h4>
                         {/* <Col> */}
                             <p> 
-                                address potential at-home saftey
-                                by accessing the "pair to Alexa" feature and entering a key word/sentence to have the application 
+                                address potential at-home saftey by pairing with Alexa or Google Home and entering a key word/sentence to have the application 
                                 dial a friend or 911
                             </p>
                         {/* </Col> */}
@@ -286,10 +285,10 @@ export function Tutela() {
                           <b><h5>Accommodating and learning about digital privacy was especially valuable.</h5></b>  
 
                                 When mentors would arrive at our table, we would be asked about user privacy when
-                                addressing public voice memos and/or Alexa listening to users when they speak. 
+                                addressing public voice memos and/or Alexa/Google Home listening to users when they speak. 
                                 
                                 Our team
-                                answered these questions through the best of our ability,  however privacy laws involve many
+                                answered these questions with the best of our ability,  however privacy laws involve many
                                 details and layers that we would thoroughly researched if we had adequate time.
                             </p>
                         </Col>

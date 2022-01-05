@@ -71,9 +71,9 @@ export function RhetoricalAnalysis() {
                                         Rhetoric can be the design of a chair for which the
                                         entirety of society agreed as humans that we should be sitting upright.
                                         Rhetoric can be seen as a stylistic choice, as if a car salesman was
-                                        using a tone to try to convince their customer to purchase the car.
+                                        using a tone to try to convince their customer to purchase a car.
                                         Rhetoric can be seen within the words themselves such as if politicians
-                                        speaking their opinions to gain a reaction from their audience.
+                                        spoke controversial opinions to win a reaction from their audience.
                                     </p>
 
                                     <p>
@@ -82,16 +82,16 @@ export function RhetoricalAnalysis() {
 
                                     </p>
                                     <p>
+                                    <b>
                                         In my ENGL306 Introduction to Rhetoric class, I researched how an
-                                        ancient greek word called Kairos, helps describe how social media
-                                        platforms rhetorically design their platforms to fit the perfect timing.
+                                        Ancient Greek word called Kairos, helps describe how social media
+                                        platforms rhetorically design their platforms to create the perfect timing.
                                         Over ~4 weeks I learned that social media platforms using time is a
                                         powerful tool because it is indivisible. Along with digital rhetoric
                                         created by users of the platform and other various interaction designs,
                                         social media companies design their platforms to create continuously active
                                         perfect moments for users to interact with their platform.
-
-
+                                        </b>
                                     </p>
 
 
@@ -115,7 +115,7 @@ export function RhetoricalAnalysis() {
                     <div className="box">
                         <h3 className="rowTitle">Planning</h3>
                         <p>
-                            I divided my 4-5 weeks into various task sprints that include
+                        <b> I divided my 4-5 weeks into various task sprints </b>that include
                             researching information about classical greek history and methodologies,
                             examining social media design as a rhetorical artifact, writing the
                             “standard version” draft of my paper, researching editorial designs and
@@ -162,10 +162,10 @@ export function RhetoricalAnalysis() {
                             <ol>
                                 <li>Classical Usages of Kairos - I examined how Kairos was viewed in the classical time period. I also examined
                                     Kairos within in classical/historical pieces of rhetoric throughout history. This will allow me to gain a
-                                    better understanding of when/how Kairos was used before the digital age</li>
+                                    better understanding of when/how Kairos was used before the digital age.</li>
                                 <li>Social Media - I examined different social media posts on platforms such as twitter, Facebook and
-                                    tik tok. This will allow me to look for patterns of rhetoric and if digital rhetoric and/or UX/UI
-                                    design is stylistically changing as we progress to further adopt social media usage</li>
+                                    Tik Tok. This will allow me to look for patterns of rhetoric and if digital rhetoric and/or UX/UI
+                                    design is stylistically changing as we progress to further adopt social media usage.</li>
                             </ol>
                         </p>
                         <br />
@@ -184,19 +184,18 @@ export function RhetoricalAnalysis() {
                                 <Container>
                                     <Row className="justify-content-md-center">
                                         <Col md lg={4}>
-                                        <li><p>Gorgias, a famous rhetor in Ancient Greece, was known for his teachings and usage of Kairos. 
-                                            He discovered that Kairos was a key aspect to discourse because it allows two contrasting 
-                                            idea to be met at one point in time before an audience’s decision is made and/or before an opinion is formed
-                                            </p></li>
+                                        <li><p><b>Gorgias, a famous rhetor in Ancient Greece, discovered that Kairos was a key aspect to discourse because it allows two contrasting 
+                                            ideas to be met at one point in time before an audience’s decision is made and/or before an opinion is formed
+                                            </b> </p></li>
                                         </Col>
                                         <Col md lg={4}>
-                                        <li> <p>Digital rhetoric takes all previous stylistic forms of rhetoric and adds the 
-                                            following styles: interactivity, speed, anonymity and Kairos (time)</p></li>
+                                        <li> <p><b>Digital rhetoric takes all previous stylistic forms of rhetoric and adds the 
+                                            following styles: interactivity, speed, anonymity and Kairos (time)</b></p></li>
                                         </Col>
                                         <Col md lg={4}>
-                                        <li><p>Potential “dark patterns” can be observed within styling platforms based on time,
+                                        <li><p><b>Potential “dark patterns” can be observed within styling platforms based on time,
                                              such consistently disrupting the user in the physical space to address the digital space 
-                                             or making the user take various more steps to reach their goal on the platform than necessary</p></li> 
+                                             or making the user take more steps to reach their goal on the platform than necessary</b></p></li> 
                                         </Col>
                                     </Row>
                                 </Container> 
@@ -245,9 +244,9 @@ export function RhetoricalAnalysis() {
                         <Container>
                             <Row className="justify-content-md-center">
                                 <Col md lg={7}>
-                                    <p >Time-sensitive design - A key aspect of my learning is understanding more about time-sensitive design.
-                                        The idea of time existing and a whole culture has adapted to creating their whole life around time
-                                        I think is absolutely fascinating. Incorporating how time can affect and/or alter this time was a topic that I enjoyed researching.
+                                    <p ><b>A key aspect of my learning is understanding more about time-sensitive design. </b>
+                                         The idea of time existing and a whole culture has adapted to creating their whole life around time
+                                        I think is absolutely fascinating. 
                                         This is genuinely one of my favorite pieces that I have completed within undergrad. </p>
                                         <br />
                                      <h5> If I were to work on this project in the future,</h5>

@@ -383,9 +383,8 @@ export function Grid() {
                             <h4 className="rowTitle">hands-free interaction</h4>
                             <Col>
                                 <p>
-                                    hands-free interaction allows those who are consistently using
-                                    their hands, such as wheelchair users, to be able to be guided
-                                    throughout their route using voice mode
+                                    voice mode allows hands-free interaction for those who are consistently using
+                                    their hands, such as wheelchair users
                                 </p>
                             </Col>
                             <Container>
@@ -407,17 +406,19 @@ export function Grid() {
 
                             <br />
                             <p >
-                                Disability is on a spectrum. This entails that making a digital
-                                application to capture all aspects of the spectrum will be very
+                             <b>  Disability is on a spectrum.</b>  This entails that making a digital
+                                application to capture all aspects of a spectrum will be very
                                 difficult and could still leave people unintentionally excluded.
                             </p>
                             <br />
                             <h5> If I were to work on this project in the future,</h5>
 
                             <p >
-                                <b>I would perform user testing
-                                    with those who identify having a mobility disability and use physical technologies
-                                    to examine the relationship between our application and the physical space.</b>
+                                <b>I would perform user testing on the final product
+                                    with those who identify as having a mobility disability, and
+                                    use a variety of digital/physical technologies to aid their travels.</b>
+                                    This would help us determine the relationship between our application and
+                                    other physical tools. 
                             </p>
                         </Col>
                         <Col md={6} lg={6}>
