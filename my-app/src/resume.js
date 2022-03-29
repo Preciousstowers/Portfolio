@@ -26,7 +26,7 @@ export function Resume() {
       <p className="rowDescription">Take a look at my expirence!</p>
       <Row className="justify-content-md-center">
         <Col lg={6}>
-          <img className="ResumePicture" src="/Screen Shot 2022-01-05 at 11.59.21 AM.png" />
+          <img className="ResumePicture" src="/Screen Shot 2022-03-29 at 4.25.18 PM.png" />
           <br />
         </Col>
       </Row >

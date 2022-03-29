@@ -40,7 +40,7 @@ export function Homepage() {
                                     <div className="homepagerowDescriptionLong">
                                         <p>
                                             I'm Precious, a third year at the University of Washington majoring in
-                                            Informatics with a concentration and Human-Computer Interaction
+                                            Informatics with a concentration in Human-Computer Interaction
                                             and a minor in English. Here are some of the solutions I created through
                                             UX/UI design and writing!
                                         </p>
