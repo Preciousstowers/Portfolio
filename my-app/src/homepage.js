@@ -40,13 +40,12 @@ export function Homepage() {
                                     <div className="homepagerowDescriptionLong">
                                         <p>
                                             I'm Precious, a third year at the University of Washington majoring in
-                                            Informatics with a double concentration in Data Science and Human-Computer Interaction
-                                            and a minor in writing. I strive to analyze intersections that lack clear bridges to connect 
-                                            people and businesses to the solutions they need. Here are some of the solutions I created through
+                                            Informatics with a concentration and Human-Computer Interaction
+                                            and a minor in English. Here are some of the solutions I created through
                                             UX/UI design and writing!
                                         </p>
                                         <p>
-                                            Take your time and look around. It's cold outside anyway.
+                                            Take your time and look around!
                                         </p>
 
                                     </div>

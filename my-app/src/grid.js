@@ -263,15 +263,14 @@ export function Grid() {
                         <br />
                         <h3 className="rowTitle">Initial to Final Wireframes</h3>
                         <p>
-                            From our initial wireframe to our final product, we
-                            changed:
+                            Through usability testing, we changed:
                         </p>
 
                         <ol>
                             <Container>
                                 <Row className="justify-content-md-center">
                                     <Col xs={12} lg={4}>
-                                        <b><li> the color scheme and button placements of the UI</li></b>
+                                        <b><li> the color scheme and button placements of the UI to increase discoverability</li></b>
                                     </Col>
                                     <Col xs={12} lg={4}>
                                         <b> <li> the centrality of information about building/room accessibility </li></b>
@@ -296,7 +295,7 @@ export function Grid() {
                                 </Col>
 
                                 <Col xs={12} lg={4}>
-                                    <img className="initalThree" src="/gridPhotos/BA2.png" />
+                                    <img className="initalThree" src="/gridPhotos/Group 296 (1).png" />
                                 </Col>
                             </Row>
                         </Container>
